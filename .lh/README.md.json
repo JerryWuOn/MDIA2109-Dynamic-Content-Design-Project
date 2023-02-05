@@ -6,17 +6,17 @@
             "activePatchIndex": 1,
             "patches": [
                 {
-                    "date": 1675362543979,
+                    "date": 1675633041244,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
                 },
                 {
-                    "date": 1675362660039,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,12 @@\n # Group Members Names\n-\n -Jerry Wu Yong On\n *Takami Inagaki\n-+Khalil Olaes \n\\ No newline at end of file\n++Khalil Olaes \n+\n+\n+# Description\n+\n+\n+# Tools/Technology\n+\n+# Command Lines\n"
+                    "date": 1675633426408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n # Group Members Names\n--Jerry Wu Yong On\n-*Takami Inagaki\n-+Khalil Olaes \n+- Jerry Wu Yong On\n+* Takami Inagaki\n++ Khalil Olaes \n \n \n # Description\n  Our website will help our users to find what kind of illuness they possibly have and how to approach them. \n@@ -10,9 +10,12 @@\n  Important: Once users open our webpage, they will get a warning saying we are not medical professionals.\n \n \n # Tools/Technology\n--next.js\n-*javascript\n-+css\n+- next.js\n+* javascript\n++ css\n \n # Command Lines\n+- npx-create-next-app\n+* node\n++ npm run dev\n"
                 }
             ],
-            "date": 1675362543979,
+            "date": 1675633041244,
             "name": "Commit-0",
-            "content": "# Group Members Names\n\n-Jerry Wu Yong On\n*Takami Inagaki\n+Khalil Olaes "
+            "content": "# Group Members Names\n-Jerry Wu Yong On\n*Takami Inagaki\n+Khalil Olaes \n\n\n# Description\n Our website will help our users to find what kind of illuness they possibly have and how to approach them. \n The user will get a result once they finish answering multiple questions that asks about symptoms they have. \n Important: Once users open our webpage, they will get a warning saying we are not medical professionals.\n\n\n# Tools/Technology\n-next.js\n*javascript\n+css\n\n# Command Lines\n"
         }
     ]
 }

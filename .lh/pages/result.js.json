@@ -1,0 +1,22 @@
+{
+    "sourceFile": "pages/result.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1675631990561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675631998922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import styles from '../styles/Result.module.css'\n \n \n \n-export default function Home() {\n+export default function Result() {\n     return (\n     <>Result Page</>\n     )\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1675631990561,
+            "name": "Commit-0",
+            "content": "import styles from '../styles/Result.module.css'\n\n\n\nexport default function Home() {\n    return (\n    <>Result Page</>\n    )\n}"
+        }
+    ]
+}
