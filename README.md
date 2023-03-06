@@ -16,9 +16,11 @@ mdia-2109-dynamic-content-design-project.vercel.app
 # Tools/Technology
 - next.js
 * javascript
-+ css
++ CSS
+
 
 # Command Lines
 - npx-create-next-app
 * node
 + npm run dev
+
