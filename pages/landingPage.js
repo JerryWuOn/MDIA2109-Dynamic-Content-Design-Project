@@ -2,8 +2,8 @@ import styles from '../styles/Warning.module.css'
 
 
 
-export default function Warning() {
+export default function landing() {
     return (
-    <>Warning Page</>
+    <>landing Page</>
     )
 }
