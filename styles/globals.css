@@ -1,9 +1,9 @@
 :root {
 
   /* Designing Colours*/
-  --primary-colour: rgb(146, 179, 255);
-  --secondary-colour: rgb(253, 255, 236);
-  --ternary-colour: rgb(30, 29, 46);
-  
-
+  --blue-colour: rgb(183, 215, 244);
+  --red-colour: rgb(238, 193, 170);
+  --white-colour: white;
+  --gray-colour: rgb(239, 239, 239);
+  --green-colour: rgb(169, 231, 168);
 }

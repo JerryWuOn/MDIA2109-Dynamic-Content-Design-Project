@@ -1,6 +1,6 @@
 import styles from '../navbar/navbar.module.css'
 
-export default function navbar() {
+export default function Navbar() {
     return (
     <>
     <main className={styles.main}>
@@ -9,32 +9,29 @@ export default function navbar() {
     <Image
             src={"/icons/down.jpeg"}
             alt=""
-            href=""
             width={30}
             height={30}
-            onClick={()=> changeImage("backward")}
+            onClick="history.back()"
             />
     </div> 
 
     <div>    
     <Image
-            src={"/icons/.png"}
-            alt={"/icons/leftArrow.png"}
-            href="/"
+            src={"/icons/homee.png"}
+            alt=""
             width={30}
             height={30}
-            onClick={()=> changeImage("backward")}
+            onClick="location.href='/'"
             />
     </div> 
 
     <div>    
     <Image
-            src={"/icons/leftArrow.png"}
-            alt={"/icons/leftArrow.png"}
-            href="/"
+            src={"/icons/book.png"}
+            alt=""
             width={30}
             height={30}
-            onClick={()=> changeImage("backward")}
+            onClick="location.href='/References'"
             />
     </div> 
 

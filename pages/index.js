@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
+import navbar from '../components/counter/index.js';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,9 @@ export default function disclaimer() {
             We advise users to consult a medical professional or healthcare provider if they're seeking medical advice, diagnoses, or treatment.
             We are not liable for risks or issues associated with using or acting upon the information on this site.
         </h1>
+
+
+        <Navbar/>
       </main>
     </>
   )
