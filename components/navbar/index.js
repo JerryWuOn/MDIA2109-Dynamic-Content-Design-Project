@@ -1,37 +1,41 @@
 import styles from '../navbar/navbar.module.css'
+import Image from 'next/image'
+
 
 export default function Navbar() {
     return (
     <>
     <main className={styles.main}>
 
-    <div>    
+    <div className={styles.icons}>    
     <Image
             src={"/icons/down.jpeg"}
             alt=""
-            width={30}
-            height={30}
-            onClick="history.back()"
+            href="history.back()"
+            width={80}
+            height={80}
+            onClick=""
             />
     </div> 
 
-    <div>    
+    <div className={styles.icons}>    
     <Image
             src={"/icons/homee.png"}
             alt=""
-            width={30}
-            height={30}
-            onClick="location.href='/'"
+            href=""
+            width={80}
+            height={80}
+            onClick=""
             />
     </div> 
 
-    <div>    
+    <div className={styles.icons}>    
     <Image
             src={"/icons/book.png"}
             alt=""
-            width={30}
-            height={30}
-            onClick="location.href='/References'"
+            width={80}
+            height={80}
+            onClick=""
             />
     </div> 
 
