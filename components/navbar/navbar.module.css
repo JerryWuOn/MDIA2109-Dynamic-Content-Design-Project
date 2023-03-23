@@ -4,3 +4,7 @@
     grid-template-rows: auto auto auto;
     background-color: var(--red-colour);
 }
+.navContainer{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
