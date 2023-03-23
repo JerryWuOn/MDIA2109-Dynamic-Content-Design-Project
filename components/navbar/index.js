@@ -9,7 +9,7 @@ export default function Navbar() {
 
     <div className={styles.icons}>    
     <Image
-            src={"/icons/down.jpeg"}
+            src={"/icons/down.png"}
             alt=""
             href="history.back()"
             width={80}
