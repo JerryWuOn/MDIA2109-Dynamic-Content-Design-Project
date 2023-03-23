@@ -2,9 +2,9 @@ import styles from '../navbar/navbar.module.css'
 
 export default function Navbar() {
     return (
+        /** Navigation Bar */
     <>
     <main className={styles.main}>
-
     <div>    
     <Image
             src={"/icons/down.jpeg"}
@@ -34,8 +34,8 @@ export default function Navbar() {
             onClick="location.href='/References'"
             />
     </div> 
-
     </main>
     </>
+     /** Navigation Bar End*/
     )
 }
