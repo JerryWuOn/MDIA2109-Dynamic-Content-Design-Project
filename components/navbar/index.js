@@ -1,9 +1,9 @@
 import styles from '../navbar/navbar.module.css'
 import Image from 'next/image'
 
-
 export default function Navbar() {
     return (
+        /** Navigation Bar */
     <>
     <main className={styles.main}>
 
@@ -41,5 +41,6 @@ export default function Navbar() {
 
     </main>
     </>
+     /** Navigation Bar End*/
     )
 }
