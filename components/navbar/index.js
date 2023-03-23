@@ -1,4 +1,5 @@
 import styles from '../navbar/navbar.module.css'
+import Image from 'next/image'
 
 export default function Navbar() {
     return (
@@ -7,7 +8,7 @@ export default function Navbar() {
     <main className={styles.main}>
     <div>    
     <Image
-            src={"/icons/down.jpeg"}
+            src={"/icons/down.png"}
             alt=""
             width={30}
             height={30}
