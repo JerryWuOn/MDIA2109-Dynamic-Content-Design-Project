@@ -16,13 +16,23 @@ export default function disclaimer() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1> Warning, we are not doctors, These are only recommendations for common over the counter drugs based on labels
-            We advise users to consult a medical professional or healthcare provider if they're seeking medical advice, diagnoses, or treatment.
-            We are not liable for risks or issues associated with using or acting upon the information on this site.
-        </h1>
+
+        <Image
+        />
 
 
-        <Navbar/>
+        <div>
+        <h3>Take a short assessment</h3>
+        <h3>To Find out results for:</h3>
+        <h3> --Possible causes of symptoms</h3>
+        <h3> -- Recommendations on what tot</h3>  
+        <h3>do next, medication or reach out for assistance.</h3>
+        </div>
+
+
+       <button 
+       href=""
+       className={styles.understand_button}>I understand</button>
       </main>
     </>
   )
