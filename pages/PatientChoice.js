@@ -14,15 +14,20 @@ export default function Intro() {
        <h1>Who is this Checkup For?</h1>
 
 
-        <Link href="/Warning">
+<section className={styles.patient_choices_buttons}>
+        <Link href="/EnterName2">
         <button className={styles.intro__understand_button} onclick="">Myself</button>
        </Link>
 
 
 
-       <Link href="/Warning">
+       <Link href="/EnterName1">
         <button className={styles.intro__understand_button} onclick="">Someone Else</button>
        </Link>
+
+       </section>
+
+       <Navbar/>
 
 
       </main>
