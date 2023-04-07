@@ -41,6 +41,6 @@ export default function Navbar() {
 
     </main>
     </>
-     /** Navigation Bar End*/
+     /** Navigation Bar Ended*/
     )
 }
