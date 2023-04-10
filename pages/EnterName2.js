@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/EnterName.module.css'
 import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
 
@@ -11,15 +11,15 @@ export default function EnterYourName() {
 
       <main className={styles.main}>
        
-       <h1>Enter Your Name Here:</h1>
+       <h1 className={styles.enter_yourname_header}>Enter Your Details Here:</h1>
 
-       <p>First Name:</p>
+       <p className={styles.input_first_name}>First Name:</p>
        <input 
        type="text" 
        placeholder="First Name">
        </input>
 
-       <p>User Name:</p>
+       <p className={styles.input_user_name}>User Name:</p>
        <input 
        type="text" 
        placeholder="User Name">

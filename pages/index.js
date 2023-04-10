@@ -25,11 +25,20 @@ export default function disclaimer() {
         height = {200}
         />
 
-       <h1>Welcome to Meddy</h1>
+       <div
+       className={styles.welcome_page__texts}>
+       <h1
+       className={styles.welcome_page_header}>Welcome to Meddy</h1>
+       <p
+       className={styles.welcome_page_slogan}>Meddy provides you with a fast assessment of your current symptoms you may be feeling</p>
+       </div>
 
+       <div
+       className={styles.welcome_page_button_section}>
        <Link href="/Intro">
-        <button className={styles.homepage__begin_button} onclick="">Begin!!</button>
+        <button className={styles.welcome_page_button} onclick="">Begin!!</button>
        </Link>
+       </div>
       </main>
     </>
   )

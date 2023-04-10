@@ -1,0 +1,31 @@
+.welcome_page__texts{
+    text-align: center;
+}
+
+.welcome_page_header{
+    font-size: var(--Header-34px);
+}
+
+.welcome_page_slogan{
+    font-size: var(--font-15px);
+}
+
+.main{
+    padding: 0 var(--side-margin);
+}
+
+.welcome_page_button{
+    text-align: center;
+    border-radius: var(--border-radius-80px);
+    width: var(--width-140px);
+    height: var(--height-40px);
+    font-size: var(--font-18px);
+    border: var(--border-none);
+    background-color: var(--blue-colour);
+}
+
+.welcome_page_button_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

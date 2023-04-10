@@ -6,7 +6,30 @@
   --white-colour: white;
   --gray-colour: rgb(239, 239, 239);
   --green-colour: rgb(169, 231, 168);
+  --button-hovers: "#A1BEDA";
 
   /* Font sizes*/
-  
+  --Header-34px: 34px;
+  --font-24px: 24px;
+  --font-18px: 18px;
+  --font-16px: 16px;
+  --font-15px: 15px;
+
+
+  /* Margins*/
+  --side-margin: 30px;
+
+    /* Button size*/
+  --width-140px: 140px;
+  --width-160px: 160px;
+  --width-290px: 290px;
+  --width-330px: 330px;
+  --height-40px: 40px;
+  --height-180px: 180px;
+
+
+      /* Button border radius*/
+      --border-radius-80px: 80px;
+      --border-radius-20px: 20px;
+      --border-none: none;
 }

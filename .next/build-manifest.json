@@ -15,6 +15,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/EnterName2": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/EnterName2.js"
+    ],
     "/PatientChoice": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
