@@ -1,0 +1,14 @@
+.enter_yourname_header{
+    font-size: var(--font-24px);
+}
+
+.main{
+    padding: 0 var(--side-margin);
+    display: flex;
+    flex-direction: column;
+}
+
+.input_first_name{
+    width: var(--width-330px);
+}
+
