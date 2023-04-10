@@ -19,11 +19,13 @@ export default function Intro() {
 
         <div>
           <h1 className={styles.intro_page_header}>Check your Symptoms</h1>
-        <h3 className={styles.intro_page_description}>Take a short assessment</h3>
-        <h3 className={styles.intro_page_description}>To Find out results for:</h3>
-        <h3 className={styles.intro_page_description}> --Possible causes of symptoms</h3>
-        <h3 className={styles.intro_page_description}> -- Recommendations on what tot</h3>  
-        <h3 className={styles.intro_page_description}>do next, medication or reach out for assistance.</h3>
+        <h2 className={styles.intro_page_description}>Take a short assessment to get results for</h2>
+        <ul className={styles.intro_page_list}> 
+          <li>Symptoms</li>
+          <li>Recommendations for treatments</li>
+          <li>Medications</li>
+          <li>Tips to keep your body healthy</li>
+        </ul>
         </div>
 
 
@@ -32,7 +34,7 @@ export default function Intro() {
         <button className={styles.intro_decline_button} onclick="">Decline</button>
        </Link>
 
-       <Link href="/Warning">
+       <Link href="/TermsAndService">
         <button className={styles.intro_start_button} onclick="">Start</button>
        </Link>
 

@@ -15,17 +15,11 @@ export default function disclaimer() {
 
 
        <h1>Term of Service</h1>
-       <p> We are not doctors.
-These are only recommendations 
-for common over the counter drugs
-based on labels
-We advise users to consult a 
-medical professional or healthcare 
-provider if they are seeking medical 
-advice, diagnoses, or treatment.
-We are not liable for risks or issues 
-associated with using or acting upon the 
-information on this site.</p>
+       <b> Caution: We are not doctors</b>
+       <p>The information displayed on this website are only recommendations for common over the counter drugs.
+Information displayed are based on the labels from the specific medication.
+We advise users to consult a medical professional or healthcare provider if they're seeking medical advice, diagnoses, or treatment.
+We are not liable for risks or issues associated with using or acting upon the information on this site.</p>
 
        <Link href="/PatientChoice">
         <button className={styles.warningpage__understand_button} onclick="">I Understand</button>
