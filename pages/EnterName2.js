@@ -19,8 +19,9 @@ export default function EnterYourName() {
        placeholder="First Name">
        </input>
 
-       <p className={styles.input_user_name}>User Name:</p>
+       <p className={styles.user_name}>User Name:</p>
        <input 
+       className={styles.input_user_name}
        type="text" 
        placeholder="User Name">
        </input>
