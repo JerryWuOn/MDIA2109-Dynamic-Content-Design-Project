@@ -24,3 +24,18 @@ mdia-2109-dynamic-content-design-project.vercel.app
 * node
 + npm run dev
 
+# SiteMap
++ Loading Screen (index)
++ StartPage
++ TermsAndService
++ Identify
++ Enter You
++ Enter Their
++ Category
++ Symptoms
++ Results
++ Access
++ Stores
++ HealthTips
++ Reference
+
