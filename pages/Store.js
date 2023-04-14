@@ -9,6 +9,8 @@ export default function Store() {
     <>
     <title>Store</title>
 
+    <main className={styles.main}>
+
     <h1>Hello,</h1>
     <p>Your medication can be access through these stores:</p>
 
@@ -24,7 +26,7 @@ export default function Store() {
         href="tel: +16044484806">(604) 448 - 4806</a>
 
 <section className={styles.stores_buttons}>
-        <Link href="https://www.londondrugs.com/london-drugs-store-006-burnaby/kingsway-plaza-006.html">
+        <Link href="/ChooseSymptoms">
         <button className={styles.store_button} onclick="">More Info</button>
        </Link>
 
@@ -123,6 +125,9 @@ export default function Store() {
 
     <Navbar
    className={styles.navbar} />
+   </main>
     </>
+
+    
     )
 }

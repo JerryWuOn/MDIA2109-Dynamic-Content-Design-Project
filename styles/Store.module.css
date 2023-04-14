@@ -1,3 +1,7 @@
+.main{
+    max-height: 1000vh;
+}
+
 .store1{
     padding: var(--padding-30px);
     border-radius: var(--border-radius-20px);
