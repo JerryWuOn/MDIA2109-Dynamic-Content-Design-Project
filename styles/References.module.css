@@ -1,0 +1,20 @@
+.main {
+
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    margin-right: 30px ;
+
+    justify-content: center;
+    text-align: center;
+
+}
+
+.nav {
+    justify-content: center;
+}
+
+.box {
+    width: 329;
+    height: 538;
+}

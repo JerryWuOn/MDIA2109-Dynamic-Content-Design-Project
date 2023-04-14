@@ -14,7 +14,7 @@ export default function disclaimer() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1> Warning, we are not doctors, These are only recommendations for common over the counter drugs based on labels
+        <h1 className={styles.text}> Warning, we are not doctors, These are only recommendations for common over the counter drugs based on labels
             We advise users to consult a medical professional or healthcare provider if they're seeking medical advice, diagnoses, or treatment.
             We are not liable for risks or issues associated with using or acting upon the information on this site.
         </h1>
