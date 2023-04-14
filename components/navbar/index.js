@@ -44,7 +44,7 @@ export default function Navbar() {
             />
                <p className={styles.navbar_text}>Reference</p>
     </div> 
-
+    
     </main>
     </>
     )
