@@ -15,6 +15,7 @@
   ],
   "rootMainFiles": [],
   "pages": {
+<<<<<<< HEAD
     "/EnterName2": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -24,6 +25,12 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/PatientChoice.js"
+=======
+    "/References": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/References.js"
+>>>>>>> Khalil
     ],
     "/_app": [
       "static/chunks/webpack.js",

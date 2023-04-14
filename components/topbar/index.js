@@ -1,5 +1,5 @@
 import Image from "next/image"
-export default function topbar(){
+export default function Topbar(){
     return(
         <>
         <main>
