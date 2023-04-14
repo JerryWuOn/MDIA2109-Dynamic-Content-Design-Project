@@ -18,3 +18,10 @@
     width: 329;
     height: 538;
 }
+
+.cards {
+    width: 25em;
+    border: solid;
+    border-radius: 1em;
+    border-spacing: 0em 1rem;
+}

@@ -12,25 +12,35 @@ export default function References() {
     <title>References</title>
     <div className={styles.box}>
         <Topbar/>
-        <h1>References</h1>
-        <p>Quick links to the primary medication for each category:</p>
 
-        <div className={styles.cards}>
-            <h2>Eye medication</h2>
-            <p>Advil</p>
-            <a className={styles.link}>Learn more</a>
-        </div>
-        
-        <div className={styles.cards}>
-            <h2>Head medication</h2>
-            <p>Advil</p>
-            <a className={styles.link}>Learn more</a>
-        </div>
-        
-        <div className={styles.cards}>
-            <h2>Nose medication</h2>
-            <p>Advil</p>
-            <a className={styles.link}>Learn more</a>
+            <div>
+            <h1>References</h1>
+            <p>Quick links to the primary medication for each category:</p>
+
+            <div className={styles.cards}>
+                <h2>
+                    Eye medication
+                </h2>
+                
+                <p>
+                    Advil
+                </p>
+                <a className={styles.link}>Learn more</a>
+                
+            </div>
+
+            <div className={styles.cards}>
+                <h2>Head medication</h2>
+                <p>Advil</p>
+                <a className={styles.link}>Learn more</a>
+            </div>
+
+            <div className={styles.cards}>
+                <h2>Nose medication</h2>
+                <p>Advil</p>
+                <a className={styles.link}>Learn more</a>
+            </div>
+
         </div>
         
         <Navbar className={styles.nav}/>
