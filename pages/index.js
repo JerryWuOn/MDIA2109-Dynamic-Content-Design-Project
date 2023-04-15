@@ -5,7 +5,7 @@ import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
 
 
-export default function disclaimer() {
+export default function Welcome() {
   return (
     <>
       <Head>

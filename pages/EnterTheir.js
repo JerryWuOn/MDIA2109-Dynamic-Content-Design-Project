@@ -5,7 +5,7 @@ import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
 
 
-export default function EnterYourName() {
+export default function EnterTheirName() {
   return (
     <>
 

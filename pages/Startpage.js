@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Intro.module.css'
+import styles from '../styles/Startpage.module.css'
 import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
 
 
-export default function Intro() {
+export default function Startpage() {
   return (
     <>
 
