@@ -16,6 +16,7 @@
   "rootMainFiles": [],
   "pages": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/EnterName2": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -36,6 +37,12 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/Results.js"
+=======
+    "/Category": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Category.js"
+>>>>>>> Takami
     ],
     "/_app": [
       "static/chunks/webpack.js",

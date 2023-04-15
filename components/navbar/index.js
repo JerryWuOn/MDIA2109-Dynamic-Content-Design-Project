@@ -25,7 +25,7 @@ export default function Navbar() {
     <Image
             src={"/icons/homee.png"}
             alt=""
-            href=""
+            href="/"
             width={50}
             height={50}
             onClick=""
@@ -37,13 +37,14 @@ export default function Navbar() {
     <Image
             src={"/icons/book.png"}
             alt=""
+            href="/References"
             width={50}
             height={50}
             onClick=""
             />
                <p className={styles.navbar_text}>Reference</p>
     </div> 
-
+    
     </main>
     </>
      /** Navigation Bar Ended*/

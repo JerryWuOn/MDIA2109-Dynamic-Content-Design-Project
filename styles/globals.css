@@ -14,6 +14,8 @@
   --font-18px: 18px;
   --font-16px: 16px;
   --font-15px: 15px;
+  --font-12px: 12px;
+  --font-10px: 10px;
 
 
   /* Margins*/
@@ -24,6 +26,8 @@
   --width-160px: 160px;
   --width-290px: 290px;
   --width-330px: 330px;
+  --width-80px: 80px;
+  --height-20px: 20px;
   --height-40px: 40px;
   --height-180px: 180px;
 
@@ -32,4 +36,15 @@
       --border-radius-80px: 80px;
       --border-radius-20px: 20px;
       --border-none: none;
+
+           /* padding*/ 
+           --padding-30px: 30px;
+           --padding-15px: 15px;
+
+           /* padding*/ 
+           --text-aling-center: center;
+           --text-aling-left: left;
+
+           /* Sentence height*/
+
 }

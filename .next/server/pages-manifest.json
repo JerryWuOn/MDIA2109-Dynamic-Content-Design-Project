@@ -4,6 +4,7 @@
   "/_document": "pages/_document.js",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "/EnterName2": "pages/EnterName2.js",
   "/PatientChoice": "pages/PatientChoice.js"
 =======
@@ -12,4 +13,7 @@
 >>>>>>> Khalil
   "/References": "pages/References.js"
 >>>>>>> Khalil
+=======
+  "/Category": "pages/Category.js"
+>>>>>>> Takami
 }
