@@ -9,7 +9,7 @@ export default function Category() {
 
     <main className={styles.main}>
     
-    <h1>Hello, </h1>
+    <h1>Hello, How are you doing lately?</h1>
 
     <p className={styles.categoryPage_question}>Where are you experiencing discomfortable today?</p>
 
