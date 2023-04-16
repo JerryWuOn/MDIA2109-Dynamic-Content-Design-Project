@@ -4,6 +4,8 @@ export default function Symptoms() {
     return (
     <>
     <title>Symptoms</title>
+
+    
     </>
     )
 }
