@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "/EnterName2": "pages/EnterName2.js",
   "/PatientChoice": "pages/PatientChoice.js"
 =======
@@ -16,4 +17,8 @@
 =======
   "/Category": "pages/Category.js"
 >>>>>>> Takami
+=======
+  "/": "pages/index.js",
+  "/Intro": "pages/Intro.js"
+>>>>>>> takami
 }

@@ -135,6 +135,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /******/ 		__webpack_require__.h = function() { return "326d5ff15770e34e"; }
 =======
 /******/ 		__webpack_require__.h = function() { return "99109e2bdd1672d6"; }
@@ -148,6 +149,9 @@
 =======
 /******/ 		__webpack_require__.h = function() { return "257ad7e500c0ca3c"; }
 >>>>>>> Takami
+=======
+/******/ 		__webpack_require__.h = function() { return "5a8f80b134201aa6"; }
+>>>>>>> takami
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

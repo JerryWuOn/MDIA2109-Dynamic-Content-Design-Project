@@ -15,34 +15,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "/EnterName2": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/EnterName2.js"
-    ],
-    "/PatientChoice": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/PatientChoice.js"
-=======
-    "/References": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/References.js"
->>>>>>> Khalil
-    ],
-    "/Results": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Results.js"
-=======
     "/Category": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/Category.js"
->>>>>>> Takami
     ],
     "/_app": [
       "static/chunks/webpack.js",

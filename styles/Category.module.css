@@ -1,0 +1,26 @@
+.category_buttons{
+    display: grid;
+    grid-template-columns: 165px 165px;
+    grid-template-rows: auto auto auto;
+}
+
+.category_button_inside{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    background-color: white;
+}
+
+.category_buttons{
+    border-color: var(--blue-colour);
+}
+
+.category_head{
+    font-size: var(--font-16px);
+}
+
+.category_symptoms{
+    font-size: var(--font-8px); 
+    line-height: 0.3;
+    text-align: var(--text-aling-left);
+}
