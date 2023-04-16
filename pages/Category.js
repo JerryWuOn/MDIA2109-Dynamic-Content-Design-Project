@@ -9,19 +9,21 @@ export default function Category() {
 
     <main className={styles.main}>
     
-    <h1>Hello, How are you doing lately?</h1>
+    <h1>Hello, ?</h1>
 
     <p className={styles.categoryPage_question}>Where are you experiencing discomfortable today?</p>
 
 <section className={styles.category_buttons}>
+
+<section className={styles.button_shape}>
     <Link href="/ChooseSymptom">
     <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>   
          <Image
-                    src = "/icons/head.png"
+                    src = "/icons/headIcon.png"
                     alt =""
-                    width = {50}
-                    height = {50}
+                    width = {60}
+                    height = {60}
             />
             <div className={styles.category_button_texts}>
             <h3 className={styles.category_head}>Head</h3>
@@ -32,15 +34,17 @@ export default function Category() {
             </div>
             </div></button>
        </Link>
+       </section>
 
        <Link href="">
+        
        <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>   
          <Image
-                    src = "/icons/head.png"
+                    src = "/icons/noseIcon.png"
                     alt =""
-                    width = {50}
-                    height = {50}
+                    width = {60}
+                    height = {60}
             />
             <div className={styles.category_button_texts}>
             <h3 className={styles.category_head}>Nose</h3>
@@ -56,10 +60,10 @@ export default function Category() {
        <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>   
          <Image
-                    src = "/icons/head.png"
+                    src = "/icons/stomachIcon.png"
                     alt =""
-                    width = {50}
-                    height = {50}
+                    width = {60}
+                    height = {60}
             />
             <div className={styles.category_button_texts}>
             <h3 className={styles.category_head}>Stomach</h3>
@@ -76,10 +80,10 @@ export default function Category() {
        <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>   
          <Image
-                    src = "/icons/head.png"
+                    src = "/icons/eyesIcon.png"
                     alt =""
-                    width = {50}
-                    height = {50}
+                    width = {60}
+                    height = {17}
             />
             <div className={styles.category_button_texts}>
             <h3 className={styles.category_head}>Eyes</h3>
@@ -96,10 +100,10 @@ export default function Category() {
         <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>   
          <Image
-                    src = "/icons/head.png"
+                    src = "/icons/Component7.png"
                     alt =""
-                    width = {50}
-                    height = {50}
+                    width = {29}
+                    height = {45}
             />
             <div className={styles.category_button_texts}>
             <h3 className={styles.category_head}>Muscles</h3>
@@ -114,12 +118,12 @@ export default function Category() {
 
        <Link href="">
        <button className={styles.category_button} onclick="">    
-        <div className={styles.category_button_inside}>   
+        <div className={styles.category_button_inside_other}>   
          <Image
-                    src = "/icons/head.png"
+                    src = "/icons/otherIcon.png"
                     alt =""
-                    width = {100}
-                    height = {100}
+                    width = {46}
+                    height = {46}
             />
 <div className={styles.category_button}>
         <h1>Other</h1>
