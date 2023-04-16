@@ -50,6 +50,9 @@
     justify-content: space-between;
     display: flex;
 }
+.intro_page_list {
+    padding-bottom:8em;
+}
 .intro_page_list li{
     margin: .5em;
 }
