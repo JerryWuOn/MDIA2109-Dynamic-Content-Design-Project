@@ -1,7 +1,11 @@
+.main{
+    padding: 0 var( --side-margin);
+}
+
 .category_buttons{
     display: grid;
     grid-template-columns: 165px 165px;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 120px 120px 120px;
 }
 
 .category_button_inside{
@@ -23,4 +27,8 @@
     font-size: var(--font-8px); 
     line-height: 0.3;
     text-align: var(--text-aling-left);
+}
+
+.categoryPage_question{
+    font-size: var(--font-18px);
 }

@@ -1,17 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-self.__BUILD_MANIFEST = {__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/EnterName2":["static\u002Fchunks\u002Fpages\u002FEnterName2.js"],"/PatientChoice":["static\u002Fchunks\u002Fpages\u002FPatientChoice.js"],"/_error":["static\u002Fchunks\u002Fpages\u002F_error.js"],sortedPages:["\u002FEnterName2","\u002FPatientChoice","\u002F_app","\u002F_error"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
-=======
-self.__BUILD_MANIFEST = {__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/References":["static\u002Fchunks\u002Fpages\u002FReferences.js"],"/_error":["static\u002Fchunks\u002Fpages\u002F_error.js"],sortedPages:["\u002FReferences","\u002F_app","\u002F_error"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
->>>>>>> Khalil
-=======
-self.__BUILD_MANIFEST = {__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/References":["static\u002Fchunks\u002Fpages\u002FReferences.js"],"/Results":["static\u002Fchunks\u002Fpages\u002FResults.js"],"/_error":["static\u002Fchunks\u002Fpages\u002F_error.js"],sortedPages:["\u002FReferences","\u002FResults","\u002F_app","\u002F_error"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
->>>>>>> Khalil
-=======
-self.__BUILD_MANIFEST = {__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/Category":["static\u002Fchunks\u002Fpages\u002FCategory.js"],"/_error":["static\u002Fchunks\u002Fpages\u002F_error.js"],sortedPages:["\u002FCategory","\u002F_app","\u002F_error"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
->>>>>>> Takami
-=======
-self.__BUILD_MANIFEST = {__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/":["static\u002Fchunks\u002Fpages\u002Findex.js"],"/Intro":["static\u002Fchunks\u002Fpages\u002FIntro.js"],"/_error":["static\u002Fchunks\u002Fpages\u002F_error.js"],sortedPages:["\u002F","\u002FIntro","\u002F_app","\u002F_error"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
->>>>>>> takami
+self.__BUILD_MANIFEST = {__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/":["static\u002Fchunks\u002Fpages\u002Findex.js"],"/Category":["static\u002Fchunks\u002Fpages\u002FCategory.js"],"/EnterYou":["static\u002Fchunks\u002Fpages\u002FEnterYou.js"],"/Identify":["static\u002Fchunks\u002Fpages\u002FIdentify.js"],"/Startpage":["static\u002Fchunks\u002Fpages\u002FStartpage.js"],"/TermsAndService":["static\u002Fchunks\u002Fpages\u002FTermsAndService.js"],"/_error":["static\u002Fchunks\u002Fpages\u002F_error.js"],sortedPages:["\u002F","\u002FCategory","\u002FEnterYou","\u002FIdentify","\u002FStartpage","\u002FTermsAndService","\u002F_app","\u002F_error"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

@@ -15,13 +15,13 @@ export default function Identify() {
 
 
 <section className={styles.patient_choices_buttons}>
-        <Link href="/EnterName2">
+        <Link href="/EnterYou">
         <button className={styles.patient_choices_myself} onclick="">Myself</button>
        </Link>
 
 
 
-       <Link href="/EnterName1">
+       <Link href="/EnterTheir">
         <button className={styles.patient_choices_someoneelse} onclick="">Someone Else</button>
        </Link>
 

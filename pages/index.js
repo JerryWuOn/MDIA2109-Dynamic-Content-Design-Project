@@ -33,7 +33,7 @@ export default function Welcome() {
 
        <div
        className={styles.welcome_page_button_section}>
-       <Link href="/Intro">
+       <Link href="/Startpage">
         <button className={styles.welcome_page_button} onclick="">Begin!!</button>
        </Link>
        </div>
