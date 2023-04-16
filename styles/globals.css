@@ -7,7 +7,6 @@
   --gray-colour: rgb(239, 239, 239);
   --green-colour: rgb(169, 231, 168);
   --button-hovers: "#A1BEDA";
-
   /* Font sizes*/
   --Header-34px: 34px;
   --font-24px: 24px;
@@ -17,12 +16,9 @@
   --font-12px: 12px;
   --font-10px: 10px;
   --font-8px: 8px;
-
-
   /* Margins*/
   --side-margin: 30px;
-
-    /* Button size*/
+  /* Button size*/
   --width-140px: 140px;
   --width-160px: 160px;
   --width-290px: 290px;
@@ -31,22 +27,22 @@
   --height-20px: 20px;
   --height-40px: 40px;
   --height-180px: 180px;
-
-
       /* Button border radius*/
       --border-radius-80px: 80px;
       --border-radius-20px: 20px;
       --border-radius-10px: 10px;
       --border-none: none;
+      /* padding*/ 
+      --padding-30px: 30px;
+      --padding-15px: 15px;
+      /* padding*/ 
+      --text-aling-center: center;
+      --text-aling-left: left;
+      /* Sentence height*/
+}
 
-           /* padding*/ 
-           --padding-30px: 30px;
-           --padding-15px: 15px;
-
-           /* padding*/ 
-           --text-aling-center: center;
-           --text-aling-left: left;
-
-           /* Sentence height*/
-
+html,
+body {
+  padding: 0;
+  margin: 0;
 }

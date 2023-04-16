@@ -2,10 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Identify": "pages/Identify.js",
-  "/EnterYou": "pages/EnterYou.js",
-  "/TermsAndService": "pages/TermsAndService.js",
-  "/Category": "pages/Category.js",
-  "/Startpage": "pages/Startpage.js",
-  "/": "pages/index.js"
+  "/Startpage": "pages/Startpage.js"
 }
