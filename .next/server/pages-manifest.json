@@ -2,23 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "/EnterName2": "pages/EnterName2.js",
-  "/PatientChoice": "pages/PatientChoice.js"
-=======
-=======
-  "/Results": "pages/Results.js",
->>>>>>> Khalil
-  "/References": "pages/References.js"
->>>>>>> Khalil
-=======
   "/Category": "pages/Category.js"
->>>>>>> Takami
-=======
-  "/": "pages/index.js",
-  "/Intro": "pages/Intro.js"
->>>>>>> takami
 }

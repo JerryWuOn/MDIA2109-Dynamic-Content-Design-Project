@@ -19,7 +19,7 @@ Information displayed are based on the labels from the specific medication.
 We advise users to consult a medical professional or healthcare provider if they're seeking medical advice, diagnoses, or treatment.
 We are not liable for risks or issues associated with using or acting upon the information on this site.</p>
 
-       <Link href="/PatientChoice">
+       <Link href="/Identify">
         <button className={styles.warningpage__understand_button} onclick="">I Understand</button>
        </Link>
       </main>
