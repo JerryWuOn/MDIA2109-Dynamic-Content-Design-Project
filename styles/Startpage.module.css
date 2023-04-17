@@ -1,3 +1,20 @@
+.body_main {
+    padding-top: 2em;
+    margin: auto;
+    width: 390px;
+    height: 844px;
+    overflow: hidden;
+    position: relative;
+}
+.overlayButton{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 2em;
+}
+.main_image{
+    display: flex;
+    justify-content: center;
+}
 .main{
     padding: 0 var(--side-margin);
 }
@@ -32,4 +49,10 @@
 .intro_page_buttons{
     justify-content: space-between;
     display: flex;
+}
+.intro_page_list {
+    padding-bottom:8em;
+}
+.intro_page_list li{
+    margin: .5em;
 }
