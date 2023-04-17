@@ -23,29 +23,27 @@
 
 .intro_page_header{
     font-size: var(--font-24px);
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-700);
 }
 
 .intro_page_description{
     font-size: var(--font-16px);
     line-height: 0.2;
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-400);
 }
 
-.intro_decline_button{
+.intro_button{
     font-size: var(--font-18px);
     width: var(--width-140px);
     border-radius: var(--border-radius-80px);
     border: var(--border-none);
     background-color: var(--blue-colour);
-
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-400);
 }
 
-.intro_start_button{
-    font-size: var(--font-18px);
-    width: var(--width-160px);
-    border-radius: var(--border-radius-80px);
-    border: var(--border-none);
-    background-color: var(--blue-colour);
-}
 
 
 .intro_page_buttons{
@@ -54,6 +52,8 @@
 }
 .intro_page_list {
     padding-bottom:8em;
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-400);
 }
 .intro_page_list li{
     margin: .5em;
