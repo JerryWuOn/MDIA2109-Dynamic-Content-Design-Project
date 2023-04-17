@@ -1,5 +1,14 @@
 import Image from "next/image"
+import  {useState} from 'react';
+
 export default function Topbar(){
+
+    const [isToggle, setIsToggle] = useState(false);
+
+    const handleClick = () => {
+        setIsToggle(!isToggle);
+    };
+
     return(
         <>
         <main>
@@ -12,6 +21,14 @@ export default function Topbar(){
                 onClick=""
                 />
             </div>
+
+            <button onClick={handleClick}>
+                {isToggle ? 'ON' : "OFF"}
+            </button>
+
+            <button onClick={handleClick}>
+                {isToggle ? 'EN' : "JP"}
+            </button>
         </main>
         </>
     )

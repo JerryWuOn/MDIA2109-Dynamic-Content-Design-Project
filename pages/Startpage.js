@@ -39,10 +39,10 @@ export default function Startpage() {
 
 <div className={styles.intro_page_buttons}>
       <Link href="/">
-        <button className={styles.intro_decline_button} onclick="">Decline</button>
+        <button className={styles.intro_button} onclick="">Decline</button>
        </Link>
        <Link href="/TermsAndService">
-        <button className={styles.intro_start_button} onclick="">Start</button>
+        <button className={styles.intro_button} onclick="">Start</button>
        </Link>
        </div>
       </main>

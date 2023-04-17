@@ -25,10 +25,10 @@ export default function Welcome() {
         </div>
         <div className={styles.main_image}>
         <Image
-        src = "/icons/logo.png"
+        src = "/icons/Icon.png"
         alt =""
-        width = {200}
-        height = {200}
+        width = {130}
+        height = {163}
         />
         </div>
 

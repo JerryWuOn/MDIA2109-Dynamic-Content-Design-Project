@@ -42,6 +42,8 @@
 
             /* Fonts*/
             --font-style: "Quicksand";
+            --font-weight-700: 700;
+            --font-weight-400: 400;
 }
 
 
