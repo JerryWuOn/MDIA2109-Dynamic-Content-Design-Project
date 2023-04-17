@@ -3,15 +3,20 @@ import  {useState} from 'react';
 
 export default function Topbar(){
 
-    const [isToggle, setIsToggle] = useState(false);
+    const [IsToggle, setIsToggle] = useState(false);
+    const [IsActive, setIsActive] = useState(false);
 
     const handleClick = () => {
-        setIsToggle(!isToggle);
+        setIsToggle(!IsToggle);
     };
 
     return(
         <>
         <main>
+
+        <div onClick={()=> setIsActive(!IsActive)}>
+            <div >{IsActive ? '+' : '+'}</div>
+        </div>
             <div>
                 <Image
                 src={"/icons/down.jpeg"}
@@ -22,13 +27,17 @@ export default function Topbar(){
                 />
             </div>
 
-            <button onClick={handleClick}>
-                {isToggle ? 'ON' : "OFF"}
+            {IsActive && <div>
+                <button onClick={handleClick}>
+                {IsToggle ? 'ON' : "OFF"}
             </button>
 
             <button onClick={handleClick}>
-                {isToggle ? 'EN' : "JP"}
+                {IsToggle ? 'EN' : "JP"}
             </button>
+                
+                </div>}
+           
         </main>
         </>
     )

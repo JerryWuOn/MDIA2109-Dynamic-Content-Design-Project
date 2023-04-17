@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
-
+import Topbar from '../components/topbar';
 
 export default function Welcome() {
   return (
@@ -46,6 +46,9 @@ export default function Welcome() {
         <button className={styles.welcome_page_button} onclick="">Begin!!</button>
        </Link>
        </div>
+
+
+       <Topbar/>
       </main>
     </div>
   )

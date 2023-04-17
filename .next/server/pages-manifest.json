@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/TermsAndService": "pages/TermsAndService.js",
-  "/Startpage": "pages/Startpage.js",
   "/": "pages/index.js"
 }
