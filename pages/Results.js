@@ -7,7 +7,6 @@ export default function Results(){
         <>
         <Topbar/>
             <div>
-
                 <h1>Hello, Jerry!!</h1>
                 <p><h2>We recommend you take these over the</h2></p>
                 <p><h2>counter drugs for:</h2></p>

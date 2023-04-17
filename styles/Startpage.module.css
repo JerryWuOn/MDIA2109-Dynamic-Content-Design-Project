@@ -5,6 +5,8 @@
     height: 844px;
     overflow: hidden;
     position: relative;
+    background-color: rgb(250, 250, 250);
+    margin-top: 10em;
 }
 .overlayButton{
     display: flex;
