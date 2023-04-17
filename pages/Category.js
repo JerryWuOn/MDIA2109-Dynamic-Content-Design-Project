@@ -16,7 +16,7 @@ export default function Category() {
 <section className={styles.category_buttons}>
 
 <section className={styles.button_shape}>
-    <Link href="/ChooseSymptom">
+    <Link href="/Symptoms">
     <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>   
          <Image
@@ -36,7 +36,7 @@ export default function Category() {
        </Link>
        </section>
 
-       <Link href="">
+       <Link href="/Symptoms">
         
        <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>   
@@ -56,7 +56,7 @@ export default function Category() {
             </div></button>
        </Link>
 
-       <Link href="">
+       <Link href="/Symptoms">
        <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>   
          <Image
@@ -76,7 +76,7 @@ export default function Category() {
        </Link>
 
 
-       <Link href="">
+       <Link href="/Symptoms">
        <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>   
          <Image
@@ -96,7 +96,7 @@ export default function Category() {
        </Link>
 
 
-       <Link href="">
+       <Link href="/Symptoms">
         <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>   
          <Image
@@ -116,7 +116,7 @@ export default function Category() {
        </Link>
 
 
-       <Link href="">
+       <Link href="/Symptoms">
        <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside_other}>   
          <Image

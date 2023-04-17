@@ -15,35 +15,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
+    "/Symptoms": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
-    "/Category": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Category.js"
-    ],
-    "/EnterTheir": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/EnterTheir.js"
-    ],
-    "/Identify": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Identify.js"
-    ],
-    "/Startpage": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Identify.js"
-    ],
-    "/TermsAndService": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/TermsAndService.js"
+      "static/chunks/pages/Symptoms.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
