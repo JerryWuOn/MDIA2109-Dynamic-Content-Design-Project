@@ -38,7 +38,7 @@
     "/Startpage": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Startpage.js"
+      "static/chunks/pages/Identify.js"
     ],
     "/TermsAndService": [
       "static/chunks/webpack.js",
