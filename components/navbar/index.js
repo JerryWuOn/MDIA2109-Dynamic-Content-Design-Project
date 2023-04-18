@@ -8,39 +8,45 @@ export default function Navbar() {
     <main className={styles.main}>
 
     <div className={styles.icons}>    
+    
     <Image
             src={"/icons/down.png"}
             alt=""
             href="history.back()"
-            width={80}
-            height={80}
+            width={50}
+            height={50}
             onClick=""
             />
+
+    <p className={styles.navbar_text}>Back</p>
     </div> 
 
     <div className={styles.icons}>    
     <Image
             src={"/icons/homee.png"}
             alt=""
-            href=""
-            width={80}
-            height={80}
+            href="/"
+            width={50}
+            height={50}
             onClick=""
             />
+               <p className={styles.navbar_text}>Home</p>
     </div> 
 
     <div className={styles.icons}>    
     <Image
             src={"/icons/book.png"}
             alt=""
-            width={80}
-            height={80}
+            href="/References"
+            width={50}
+            height={50}
             onClick=""
             />
+               <p className={styles.navbar_text}>Reference</p>
     </div> 
-
+    
     </main>
     </>
-     /** Navigation Bar End*/
+     /** Navigation Bar Ended*/
     )
 }

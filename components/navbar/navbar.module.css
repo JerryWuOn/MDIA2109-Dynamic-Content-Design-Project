@@ -4,12 +4,17 @@
     grid-template-columns: auto auto auto;
     background-color: var(--red-colour);
     max-width: 414px;
+    padding: 0 40px;
+    padding-top: 20px;
+    justify-content: space-between;
 }
 
 .icons{
     cursor: pointer;
 }
-.navContainer{
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
+
+.navbar_text{
+    font-size: 10px;
+    text-align: center;
 }
+

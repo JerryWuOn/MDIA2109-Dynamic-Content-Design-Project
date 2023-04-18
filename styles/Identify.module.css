@@ -1,0 +1,26 @@
+.main{
+    padding: 0 var(--side-margin);
+}
+
+.patient_choices_header{
+    font-size: var(--font-24px);
+}
+
+.patient_choices_buttons{
+    flex-direction: column;
+    display: flex;
+}
+
+.patient_choices_someoneelse{
+    font-size: var(--font-24px);
+    height: var(--height-180px);
+    width: var(--width-290px);
+    border-radius: var(--border-radius-20px);
+}
+
+.patient_choices_myself{
+    font-size: var(--font-24px);
+    height: var(--height-180px);
+    width: var(--width-290px);
+    border-radius: var(--border-radius-20px);
+}

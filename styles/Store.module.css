@@ -1,0 +1,52 @@
+.main{
+    max-height: 1000vh;
+}
+
+.store1{
+    padding: var(--padding-30px);
+    border-radius: var(--border-radius-20px);
+    border-style: solid;
+    width: 270px;
+}
+
+.store1_name{
+    text-align: var(--text-aling-center);
+    font-size: var( --font-18px);
+}
+
+.store1_adress{
+    text-align: var(--text-aling-left);
+    line-height: 0.2;
+    font-size: var( --font-10px)
+}
+
+.stores_buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: var(--padding-30px);
+}
+
+.stores_phoneNumber{
+    font-size: var( --font-12px);
+}
+
+.store_button{
+    height: var(--height-20px);
+    width: var( --width-80px);
+    border-radius: var(--border-radius-80px);
+    background-color: var(--blue-colour);
+    border: var(--border-none);
+}
+
+.store_lists{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
