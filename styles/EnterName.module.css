@@ -1,14 +1,32 @@
 .enter_yourname_header{
     font-size: var(--font-24px);
+    
 }
 
 .main{
     padding: 0 var(--side-margin);
     display: flex;
     flex-direction: column;
+    font-family: var(--font-style);
 }
 
-.input_first_name{
+.input_name{
     width: var(--width-330px);
+    height: var(--height-55px);
+    border-radius: var(--border-radius-20px);
+    font-size: var(--font-18px);
+    color: var( --red-colour);
 }
 
+.enteryourpage__begin_button{
+    width: var(--width-166px);
+    height: var(--height-40px);
+    border-radius: var(--border-radius-80px);
+    font-size: var(--font-18px);
+    background-color: var( --blue-colour);
+}
+
+
+.label{
+    font-size: var( --font-16px);
+}

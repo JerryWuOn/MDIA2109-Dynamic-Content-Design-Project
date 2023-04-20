@@ -10,7 +10,7 @@ export default function Navbar() {
     <div className={styles.icons}>    
     
     <Image
-            src={"/icons/reference.svg"}
+            src={"/icons/backbutton.svg"}
             alt=""
             href="history.back()"
             width={50}
@@ -23,7 +23,7 @@ export default function Navbar() {
 
     <div className={styles.icons}>    
     <Image
-            src={"/icons/home.png"}
+            src={"/icons/homebutton.svg"}
             alt=""
             href="/"
             width={50}
@@ -35,7 +35,7 @@ export default function Navbar() {
 
     <div className={styles.icons}>    
     <Image
-            src={"/icons/backbutton.svg"}
+            src={"/icons/referencebutton.svg"}
             alt=""
             href="/References"
             width={50}

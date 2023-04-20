@@ -11,11 +11,17 @@
 .category_button_inside{
     display: flex;
     flex-direction: row;
-    background-color: white;
 }
 
-.category_buttons{
+.category_button{
     border-color: var(--blue-colour);
+    border-radius: var(--border-radius-10px);
+    width: 153px;
+    height:100px;
+    background-color: #EFEFEF;
+    border-style: solid;
+    border-width: 5px;
+    font-family: var(--font-style);
 }
 
 .category_head{
@@ -40,4 +46,15 @@
 .button_shape{
     width: 13px;
     height: 100px;
+}
+
+.body_icons{
+    display: flex;
+  align-items: center;
+}
+
+.other_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
