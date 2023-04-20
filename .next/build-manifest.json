@@ -15,20 +15,20 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
+    "/Access": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/Access.js"
     ],
-    "/Results": [
+    "/References": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Results.js"
+      "static/chunks/pages/References.js"
     ],
-    "/Startpage": [
+    "/Symptoms": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Startpage.js"
+      "static/chunks/pages/Symptoms.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
