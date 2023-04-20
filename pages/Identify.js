@@ -16,16 +16,27 @@ export default function Identify() {
 
 <section className={styles.patient_choices_buttons}>
         <Link href="/EnterYou">
-        <button className={styles.patient_choices_myself} onclick="">Myself</button>
+        <button className={styles.patient_choices_myself} onclick="">
         <Image
-        
-        />
+                src = "/icons/HelloBear.png"
+                alt =""
+                width = {69}
+                height = {104}
+        />Myself
+        </button>
        </Link>
 
 
 
+
        <Link href="/EnterTheir">
-        <button className={styles.patient_choices_someoneelse} onclick="">Someone Else</button>
+        <button className={styles.patient_choices_someoneelse} onclick="">
+        <Image
+                src = "/icons/twoBear.png"
+                alt =""
+                width = {92}
+                height = {81}
+        />Someone Else</button>
        </Link>
 
        </section>
