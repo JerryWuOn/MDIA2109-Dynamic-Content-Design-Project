@@ -1,32 +1,202 @@
-<>
-    /** Stomach */
-    <>
-    Stomach Ache, 
-    Upset Stomach, 
-    Acid Reflux
-    </>
-    /** Eyes */
-    <>
-    Dry eyes, 
-    Red eyes, 
-    Blurry Vision
-    </>
-    /** Head */
-    <>
-    Nasuea, 
-    Spinning Sensation, 
-    Lightheadness
-    </>
-    /** Nose */
-    <>
-    Sneezing, 
-    Congestion, 
-    Cough
-    </>
-    /** Muscles */
-    <>
-    Pain or Tenderness, 
-    Muscle Weakness, 
-    Limited Motion
-    </>
-</>
+import { useState } from "react";
+
+
+export const List = {
+
+    symptoms: [
+        {
+            category: "Head",
+            symptoms: "Nausea",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/"
+        }, 
+        {
+            category: "Head",
+            symptoms: "Spanning Sensation",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/"
+        }, 
+        {
+            category: "Head",
+            symptoms: "Lightheadedness",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/"
+        }, 
+        {
+            category: "Head",
+            symptoms: "None of the above",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        }, 
+        {
+            category: "Nose",
+            symptoms: "Nasal Congestion",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        }, 
+        {
+            category: "Nose",
+            symptoms: "Runny Nose",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+
+        },
+        {
+            category: "Nose",
+            symptoms: "Blockage",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        },
+        {
+            category: "Nose",
+            symptoms: "Other",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+
+        },
+        {
+            category: "Stomach",
+            symptoms: "Stomach Ache",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        },
+        {
+            category: "Stomach",
+            symptoms: "Upset Stomach",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        },
+        {
+            category: "Stomach",
+            symptoms: "Acid Reflux",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        },        
+        {
+            category: "Stomach",
+            symptoms: "Other",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        } ,
+        {
+            category: "Eyes",
+            symptoms: "Dry Eyes",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        },
+        {
+            category: "Eyes",
+            symptoms: "Red Eyes",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        },
+        {
+            category: "Eyes",
+            symptoms: "Blurry Vision",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        },        
+        {
+            category: "Eyes",
+            symptoms: "Other",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        } ,
+        {
+            category: "Muscles",
+            symptoms: "Pain or tenderness",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        },
+        {
+            category: "Muscles",
+            symptoms: "Soreness",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        },
+        {
+            category: "Muscles",
+            symptoms: "Limited Motion",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        },        
+        {
+            category: "Muscles",
+            symptoms: "Other",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        } ,
+        {
+            category: "Other",
+            symptoms: "Other",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "/",
+        } ,
+
+    ]
+}
+
+
