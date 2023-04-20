@@ -14,7 +14,6 @@ export default function languageToggle(){
         <>
         <main>
 
-      
 
          <label className={styles.switch}>
             <input type="checkbox"/>

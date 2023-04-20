@@ -1,4 +1,6 @@
 import styles from '../styles/Access.module.css'
+import Link from 'next/link'
+import Navbar from '../components/navbar/index'
 
 export default function Access(){
     return(
@@ -8,10 +10,11 @@ export default function Access(){
             <h2>We recommend you take Advil</h2>
             <image></image>
             <p>Eye medication</p>
-        </div>
-        <div>
             <h1>Secondary Options</h1>
+            <image></image>
             <button>Available Stores</button>
+
+            <Navbar/>
         </div>
         </>
     )
