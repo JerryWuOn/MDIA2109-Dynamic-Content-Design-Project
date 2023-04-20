@@ -5,8 +5,6 @@ import styles from '../languageToggle/languageToggle.module.css'
 
 export default function languageToggle(){
 
-    const [IsToggle, setIsToggle] = useState(false);
-    
 
     const handleClick = () => {
         setIsToggle(!IsToggle);
