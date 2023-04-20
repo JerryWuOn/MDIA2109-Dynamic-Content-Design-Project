@@ -1,10 +1,13 @@
 import Image from "next/image"
 import  {useState} from 'react';
+import styles from '../topbar/topbar.module.css'
+
 
 export default function Topbar(){
 
     const [IsToggle, setIsToggle] = useState(false);
     const [IsActive, setIsActive] = useState(false);
+     
 
     const handleClick = () => {
         setIsToggle(!IsToggle);
@@ -27,16 +30,11 @@ export default function Topbar(){
                 />
             </div>
 
-            {IsActive && <div>
-                <button onClick={handleClick}>
-                {IsToggle ? 'ON' : "OFF"}
-            </button>
-
-            <button onClick={handleClick}>
-                {IsToggle ? 'EN' : "JP"}
-            </button>
-                
-                </div>}
+         <label className={styles.switch}>
+            <input type="checkbox"/>
+            <span className={styles.slider}/>
+         </label>
+      
            
         </main>
         </>
