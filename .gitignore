@@ -32,3 +32,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# Ignoring other files
+.next/static/chunks
+.next/static
+.next/trace
+
