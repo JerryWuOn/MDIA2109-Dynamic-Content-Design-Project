@@ -3,6 +3,18 @@ import Image from 'next/image'
 import styles from '../styles/Startpage.module.css'
 import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
+import { toast } from 'react-toastify';
+
+function MyComponent() {
+  function handleClick() {
+    toast('Hello World!');
+  }
+
+  return (
+    <button onClick={handleClick}>Show Alert</button>
+  );
+}
+
 
 
 export default function Startpage() {

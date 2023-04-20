@@ -48,7 +48,7 @@ export default function Welcome() {
        </div>
 
 
-       <Topbar/>
+
       </main>
     </div>
   )
