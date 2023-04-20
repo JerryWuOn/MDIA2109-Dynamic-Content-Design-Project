@@ -1,10 +1,11 @@
 .body_main {
     padding-top: 2em;
     margin: auto;
-    width: 390px;
-    height: 844px;
+    width: 24.375em;
+    height: 52.75em;
     overflow: hidden;
     position: relative;
+    background-color: rgb(250, 250, 250);
 }
 .overlayButton{
     display: flex;
@@ -17,10 +18,14 @@
 }
 .welcome_page__texts{
     text-align: center;
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-400);
 }
 
 .welcome_page_header{
     font-size: var(--Header-34px);
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-700);
 }
 
 .welcome_page_slogan{
@@ -39,6 +44,7 @@
     font-size: var(--font-18px);
     border: var(--border-none);
     background-color: var(--blue-colour);
+    cursor: pointer;
 }
 
 .welcome_page_button_section{

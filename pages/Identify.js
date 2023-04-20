@@ -17,6 +17,9 @@ export default function Identify() {
 <section className={styles.patient_choices_buttons}>
         <Link href="/EnterYou">
         <button className={styles.patient_choices_myself} onclick="">Myself</button>
+        <Image
+        
+        />
        </Link>
 
 
