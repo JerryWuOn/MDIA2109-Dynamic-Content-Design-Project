@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/NoneAbove.module.css'
 import Link from 'next/link'
+import Navbar from '../components/navbar'
 
 
 export default function NoneAbove() {
@@ -35,6 +36,7 @@ export default function NoneAbove() {
        </Link>
        </div>
 
+<Navbar/>
 
       </main>
     </>

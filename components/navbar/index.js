@@ -1,5 +1,6 @@
 import styles from '../navbar/navbar.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Navbar() {
     return (
@@ -9,42 +10,38 @@ export default function Navbar() {
 
     <div className={styles.icons}>    
     
-    <Image
-            src={"/icons/backbutton.svg"}
-            alt=""
-            href="history.back()"
-            width={50}
-            height={50}
-            onClick=""
-            />
+
+<Link href="window.history.back()">
+    <img
+            src={"/icons/backbutton.svg"}></img>
+
 
     <p className={styles.navbar_text}>Back</p>
+</Link>
+
     </div> 
 
+<Link   href="/">
     <div className={styles.icons}>    
-    <Image
-            src={"/icons/homebutton.svg"}
-            alt=""
-            href="/"
-            width={50}
-            height={50}
-            onClick=""
-            />
+    <img
+            src={"/icons/homebutton.svg"}></img>
+
+
+        
                <p className={styles.navbar_text}>Home</p>
     </div> 
+</Link>
 
+
+<Link href="/References">
     <div className={styles.icons}>    
-    <Image
-            src={"/icons/referencebutton.svg"}
-            alt=""
-            href="/References"
-            width={50}
-            height={50}
-            onClick=""
-            />
+    <img
+            src={"/icons/referencebutton.svg"}></img>
+
                <p className={styles.navbar_text}>Reference</p>
     </div> 
-    
+</Link>
+
     </main>
     </>
      /** Navigation Bar Ended*/

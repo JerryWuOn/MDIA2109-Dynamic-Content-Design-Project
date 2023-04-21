@@ -44,6 +44,7 @@ export default function EnterYourName() {
        </Link>
        </div>
 
+<Navbar/>
       </main>
     </>
   )

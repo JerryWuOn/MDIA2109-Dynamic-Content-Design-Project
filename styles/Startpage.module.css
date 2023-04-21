@@ -59,3 +59,24 @@
 .intro_page_list li{
     margin: .5em;
 }
+
+
+.popup_alart{
+    height: 550px;
+    width: 330px;
+    background-color: var(--gray-colour);
+    position: absolute;
+    top: 60px;
+    left:30px;
+}
+
+.popup_alart_texts{
+    padding: 45px 20px;
+
+}
+
+.popup_alart_close{
+    display: flex;
+    justify-content: center;
+}
+

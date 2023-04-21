@@ -4,7 +4,6 @@ import styles from '../styles/EnterName.module.css'
 import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
 
-
 export default function EnterTheirName() {
   return (
     <>
@@ -42,6 +41,8 @@ export default function EnterTheirName() {
         <button className={styles.enteryourpage__begin_button} onclick="">Begin!!</button>
        </Link>
        </div>
+
+       <Navbar/>
        
       </main>
     </>
