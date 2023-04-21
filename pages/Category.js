@@ -1,6 +1,7 @@
 import styles from '../styles/Category.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import Navbar from '../components/navbar'
 
 export default function Category() {
     return (
@@ -152,6 +153,7 @@ export default function Category() {
 
        </section>
 
+<Navbar/>
        </main>
     </>
     )
