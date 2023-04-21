@@ -15,20 +15,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/Category": [
+    "/Startpage": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Category.js"
-    ],
-    "/EnterYou": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/EnterYou.js"
-    ],
-    "/NoneAbove": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/NoneAbove.js"
+      "static/chunks/pages/Startpage.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
