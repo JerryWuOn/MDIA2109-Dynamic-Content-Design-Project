@@ -38,9 +38,11 @@ export default function EnterYourName() {
        </input>
        </div>
 
+<div className={styles.enteryourpage__begin_button_div}>
        <Link href="/Category">
         <button className={styles.enteryourpage__begin_button} onclick="">Begin!!</button>
        </Link>
+       </div>
 
       </main>
     </>

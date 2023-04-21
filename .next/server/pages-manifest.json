@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Symptoms": "pages/Symptoms.js",
-  "/References": "pages/References.js",
-  "/Access": "pages/Access.js"
+  "/Category": "pages/Category.js",
+  "/EnterYou": "pages/EnterYou.js",
+  "/NoneAbove": "pages/NoneAbove.js"
 }

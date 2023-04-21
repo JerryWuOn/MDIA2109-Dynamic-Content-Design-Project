@@ -8,6 +8,8 @@
     display: flex;
     flex-direction: column;
     font-family: var(--font-style);
+    width: 390px;
+    height: 844px;
 }
 
 .input_name{
@@ -15,7 +17,10 @@
     height: var(--height-55px);
     border-radius: var(--border-radius-20px);
     font-size: var(--font-18px);
-    color: var( --red-colour);
+    background-color: var(--gray-colour);
+    border-width: 1px;
+    border-style: solid;
+
 }
 
 .enteryourpage__begin_button{
@@ -24,9 +29,27 @@
     border-radius: var(--border-radius-80px);
     font-size: var(--font-18px);
     background-color: var( --blue-colour);
+    border: none;
 }
 
 
 .label{
     font-size: var( --font-16px);
+}
+
+.enteryourpage__begin_button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+}
+
+
+.spaceholder_first_name{
+    color: var( --red-colour);
+    font-family: var(--font-style);
+}
+
+.spaceholder_user_name{
+
 }

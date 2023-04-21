@@ -1,0 +1,26 @@
+.noneAbove_texts{
+    font-size: var(--font-18px);
+    font-weight: var(--font-weight-700);
+    font-family: var(--font-style);
+    text-align: center;
+    line-height: 0.5;
+}
+
+.noneAbove_page_button{
+    width: var(--width-166px);
+    height: var(--height-40px);
+    border-radius: var(--border-radius-80px);
+    font-size: var(--font-18px);
+    background-color: var( --blue-colour);
+    border: none;
+}
+
+.noneAbove_page_button_div{
+    display: flex;
+    justify-content: center;
+}
+
+.noneAbove_pic{
+    display: flex;
+    justify-content: center;
+}
