@@ -132,9 +132,13 @@
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 /******/ 		__webpack_require__.h = function() { return "3632eb296126f353"; }
 =======
 /******/ 		__webpack_require__.h = function() { return "6ae19c79c0b82379"; }
+>>>>>>> Takami
+=======
+/******/ 		__webpack_require__.h = function() { return "f18da0a410befcff"; }
 >>>>>>> Takami
 /******/ 	}();
 /******/ 	
