@@ -68,11 +68,12 @@
     position: absolute;
     top: 60px;
     left:30px;
+    border-radius: var(--border-radius-30px);
 }
 
 .popup_alart_texts{
     padding: 45px 20px;
-
+    font-family: var(--font-style);
 }
 
 .popup_alart_close{
@@ -80,3 +81,9 @@
     justify-content: center;
 }
 
+.popup_alart_whitepart{
+    height: 425px;
+    width: 300px;
+    background-color: var(--white-colour);
+    border-radius: var(--border-radius-20px);
+}
