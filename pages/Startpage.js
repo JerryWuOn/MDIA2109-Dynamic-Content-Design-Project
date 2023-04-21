@@ -3,21 +3,22 @@ import Image from 'next/image'
 import styles from '../styles/Startpage.module.css'
 import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
-import { toast } from 'react-toastify';
-
-function MyComponent() {
-  function handleClick() {
-    toast('Hello World!');
-  }
-
-  return (
-    <button onClick={handleClick}>Show Alert</button>
-  );
-}
+import React from 'react';
+import { useState } from 'react';
 
 
 
 export default function Startpage() {
+
+  const[popup, setPop] = useState(false);
+  const handleClickOpen = () => {
+    setPop(!popup);
+  }
+
+  const closePopup = () => {
+    setPop(false);
+  }
+
   return (
 
     <>
@@ -66,11 +67,33 @@ export default function Startpage() {
       <Link href="/">
         <button className={styles.intro_button} onclick="">Decline</button>
        </Link>
-       <Link href="/TermsAndService">
-        <button className={styles.intro_button} onclick="">Start</button>
-       </Link>
+
+        <button onClick={handleClickOpen}
+        className={styles.intro_button}>Start</button>
+
        </div>
        
+
+      <div>
+        {popup?
+        <div className={styles.popup_main}>
+          <div className={styles.popup_alart}>
+            <div className={styles.popup_alart_texts}>
+             <h1>Terms of Service</h1>
+              <h1>Caution: We are not doctors</h1>
+              <li>The information displayed on this website are only recommendations for common over the counter drugs.</li>
+              <li>Information displayed are based on the labels from the specific medication.</li>
+              <li>We advise users to consult a medical professional or healthcare provider if they’re seeking medical advice, diagnoses, or treatment.</li>
+            </div>
+
+           <div className={styles.popup_alart_close}>
+            <h1 onClick = {closePopup}>X</h1>
+          </div>
+
+          </div>
+        </div>: ""}
+      </div>
+
       </main>
     </div>
 
