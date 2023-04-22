@@ -15,15 +15,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/Category": [
+    "/Identify": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Category.js"
-    ],
-    "/EnterTheir": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/EnterTheir.js"
+      "static/chunks/pages/Identify.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

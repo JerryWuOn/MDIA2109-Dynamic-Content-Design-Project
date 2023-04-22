@@ -71,9 +71,10 @@ const passName = (event) => {
          <Category passName = {name}/>
        </div>
 
-       <Navbar/>
        
       </main>
+      
+      <Navbar className={styles.navbar}/>
       </div>
     </>
   )

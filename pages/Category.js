@@ -164,8 +164,9 @@ export default function Category({passName}) {
 
        </section>
 
-<Navbar/>
        </main>
+
+       <Navbar className={styles.navbar}/>
        </div>
     </>
     )

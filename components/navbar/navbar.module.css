@@ -4,6 +4,7 @@
     grid-template-columns: auto auto auto;
     background-color: var(--red-colour);
     max-width: 414px;
+    height: 80px;
     padding: 0 40px;
     padding-top: 20px;
     justify-content: space-between;
