@@ -19,6 +19,8 @@ export default function Startpage() {
     setPop(false);
   }
 
+  const [buttonClicked, setButtonClicked] = useState(false);
+
   return (
 
     <>
@@ -88,12 +90,31 @@ export default function Startpage() {
               <li className={styles.popup_alart_lists}>The information displayed on this website are only recommendations for common over the counter drugs.</li>
               <li className={styles.popup_alart_lists}>Information displayed are based on the labels from the specific medication.</li>
               <li className={styles.popup_alart_lists}>We advise users to consult a medical professional or healthcare provider if they’re seeking medical advice, diagnoses, or treatment.</li>
+
+ 
+          <div>
+            <label onClick={() => setButtonClicked(true)}>
+              <input className={styles.accept_term_checkbox} type="checkbox"/>I accept Terms of Service
+            </label>
+          </div>
                   </div>
 
-           <div className={styles.popup_alart_close}>
-            <h1 onClick = {closePopup}>X</h1>
-                 </div>
+    
             </div>
+           
+            <div>
+
+            
+            
+            </div>
+
+            <Link href="/">
+            <button className={styles.intro_button} onclick="">Decline</button>
+            </Link>
+
+            <Link href="/Identify">
+           {buttonClicked && <button className={styles.intro_button}>Start</button>}
+           </Link>
           </div>
 
           </div>
