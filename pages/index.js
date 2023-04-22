@@ -1,11 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
-import Topbar from '../components/topbar';
 
 export default function Welcome() {
+
   return (
     <div className={styles.body_main}>
       <Head>

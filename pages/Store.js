@@ -1,9 +1,8 @@
 import styles from '../styles/Store.module.css'
 import Link from 'next/link'
 import Navbar from '../components/navbar/index.js';
-import { Inter } from 'next/font/google'
+import Head from 'next/head'
 
-const inter = Inter({ subsets: ['Quicksand'] })
 
 export default function Store() {
     return (
