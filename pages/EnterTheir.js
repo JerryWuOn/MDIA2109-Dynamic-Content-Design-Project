@@ -51,7 +51,7 @@ const passName = (event) => {
 
        </div>
 
-
+{/* 
        <p className={styles.label}>User Name:</p>
        <div className={styles.spaceholder_user_name}>
        <input 
@@ -59,7 +59,7 @@ const passName = (event) => {
        type="text" 
        placeholder="User Name">
        </input>
-       </div>
+       </div> */}
 
        <div className={styles.enteryourpage__begin_button_div}>
        <Link href="/Category">

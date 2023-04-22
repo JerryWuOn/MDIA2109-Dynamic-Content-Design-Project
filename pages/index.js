@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Carousel from '../components/tipPage'
 
 export default function Welcome() {
 
@@ -45,7 +46,7 @@ export default function Welcome() {
         <button className={styles.welcome_page_button} onclick="">Begin!!</button>
        </Link>
        </div>
-
+<Carousel/>
 
 
       </main>

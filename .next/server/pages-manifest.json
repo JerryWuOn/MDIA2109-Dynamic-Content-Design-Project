@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Category": "pages/Category.js",
+  "/": "pages/index.js",
   "/Identify": "pages/Identify.js",
-  "/NoneAbove": "pages/NoneAbove.js",
-  "/EnterTheir": "pages/EnterTheir.js"
+  "/Startpage": "pages/Startpage.js"
 }

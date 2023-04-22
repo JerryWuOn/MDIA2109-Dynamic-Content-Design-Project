@@ -20,6 +20,8 @@ export default function Store() {
 
     <h1>Hello,</h1>
     <p>Your medication can be access through these stores:</p>
+    
+    <input></input>
 
     <div className={styles.store_lists}>
 

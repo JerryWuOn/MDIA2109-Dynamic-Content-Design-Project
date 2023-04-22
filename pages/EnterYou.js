@@ -30,14 +30,14 @@ export default function EnterYourName() {
        </input>
        </div>
 
-       <p className={styles.label}>User Name:</p>
+       {/* <p className={styles.label}>User Name:</p>
        <div className={styles.spaceholder_user_name}>
        <input 
        className={styles.input_name}
        type="text" 
        placeholder="User Name">
        </input>
-       </div>
+       </div> */}
 
 <div className={styles.enteryourpage__begin_button_div}>
        <Link href="/Category">
