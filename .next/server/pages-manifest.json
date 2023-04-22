@@ -2,6 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/NoneAbove": "pages/NoneAbove.js",
   "/": "pages/index.js",
-  "/Startpage": "pages/Startpage.js"
+  "/Startpage": "pages/Startpage.js",
+  "/Category": "pages/Category.js",
+  "/EnterYou": "pages/EnterYou.js",
+  "/Symptoms": "pages/Symptoms.js"
 }

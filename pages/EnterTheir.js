@@ -14,6 +14,8 @@ export default function EnterTheirName() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icons/Icon.svg" />
       </Head>
+
+      <div className={styles.body_main}>
       <main className={styles.main}>
        
        <h1 className={styles.enter_yourname_header}>Enter Their Details Here:</h1>
@@ -45,6 +47,7 @@ export default function EnterTheirName() {
        <Navbar/>
        
       </main>
+      </div>
     </>
   )
 }

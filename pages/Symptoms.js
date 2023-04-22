@@ -10,8 +10,13 @@ export default function Symptoms() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icons/Icon.svg" />
       </Head>
+
+      <div className={styles.body_main}>
    
     <h1>Hello You currently have these Symptoms</h1>
+
+
+    </div>
     </>
     )
 }

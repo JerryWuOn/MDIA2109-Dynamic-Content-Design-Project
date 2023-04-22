@@ -15,6 +15,8 @@ export default function NoneAbove() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icons/Icon.svg" />
       </Head>
+
+      <div className={styles.body_main}>
       <main className={styles.main}>
        
       <h1>Hello, ?</h1>
@@ -39,6 +41,7 @@ export default function NoneAbove() {
 <Navbar/>
 
       </main>
+      </div>
     </>
   )
 }

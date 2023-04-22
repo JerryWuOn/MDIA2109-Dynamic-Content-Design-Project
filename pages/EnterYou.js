@@ -16,6 +16,7 @@ export default function EnterYourName() {
         <link rel="icon" href="/icons/Icon.svg" />
       </Head>
 
+<div className={styles.body_main}>
 <main className={styles.main}>
        
        <h1 className={styles.enter_yourname_header}>Enter Your Details Here:</h1>
@@ -46,6 +47,7 @@ export default function EnterYourName() {
 
 <Navbar/>
       </main>
+      </div>
     </>
   )
 }

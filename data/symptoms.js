@@ -7,7 +7,7 @@ export const List = {
         {
             category: "Head",
             symptoms: "Nausea",
-            medicineName: "",
+            medicineName: "Antiemetics",
             usage: "",
             doses: "",
             Caution: "",

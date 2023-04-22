@@ -1,6 +1,22 @@
 .main{
     padding: 0 var(--side-margin);
     font-family: var(--font-style);
+    width: 390px;
+    height: 844px;
+}
+
+.body_main{
+        padding-top: 2em;
+        margin: auto;
+        width: var(--screen-width);
+        height: var(--screen-height);
+        overflow: hidden;
+        position: relative;
+        background-color: rgb(250, 250, 250);
+        width: var(--screen-width);
+        height: var(--screen-height);
+        border: var(--screen-border);
+        border-radius: var(--screen-border-radius);
 }
 
 .patient_choices_header{

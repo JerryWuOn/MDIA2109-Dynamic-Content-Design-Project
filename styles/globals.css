@@ -47,6 +47,12 @@
             --font-style: "Quicksand";
             --font-weight-700: 700;
             --font-weight-400: 400;
+
+      /* Iphone size */
+      --screen-width: 414px;
+      --screen-height: 896px;
+      --screen-border: solid 7px;
+      --screen-border-radius: 10px;
 }
 
 

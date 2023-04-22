@@ -16,6 +16,7 @@ export default function Identify() {
         <link rel="icon" href="/icons/Icon.svg" />
       </Head>
 
+<div className={styles.body_main}>
       <main className={styles.main}>
 
        <h1 className={styles.patient_choices_header}>Who are you Checkup For?</h1>
@@ -47,8 +48,9 @@ export default function Identify() {
        </Link>
 
        </section>
+       <Navbar/>
       </main>
-      <Navbar/>
+      </div>
     </>
   )
 }

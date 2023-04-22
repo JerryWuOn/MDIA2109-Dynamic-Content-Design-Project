@@ -15,6 +15,7 @@ export default function Results(){
         <link rel="icon" href="/icons/Icon.svg" />
       </Head>
       
+      <div className={styles.body_main}>
             <div>
                 <h1>Hello, Jerry!!</h1>
                 <p><h2>We recommend you take these over the</h2></p>
@@ -27,6 +28,9 @@ export default function Results(){
                 <button>Access medication</button>
             </div>
             </div>
+        
+        
+        </div>
         <Navbar />
         </>
     )

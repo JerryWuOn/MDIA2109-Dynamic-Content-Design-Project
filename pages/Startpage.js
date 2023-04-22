@@ -79,14 +79,16 @@ export default function Startpage() {
         <div className={styles.popup_main}>
           <div className={styles.popup_alart}>
             <div className={styles.popup_alart_texts}>
-             <h1>Terms of Service</h1>
+             <h1 className={styles.terms_of_services}>Terms of Service</h1>
 
                 <div className={styles.popup_alart_whitepart}>
-              <h1>Caution: We are not doctors</h1>
-              <li>The information displayed on this website are only recommendations for common over the counter drugs.</li>
-              <li>Information displayed are based on the labels from the specific medication.</li>
-              <li>We advise users to consult a medical professional or healthcare provider if they’re seeking medical advice, diagnoses, or treatment.</li>
-         
+
+                  <div  className={styles.popup_alart_inside_texts}>
+              <h1 className={styles.popup_alart_lists}>Caution: We are not doctors</h1>
+              <li className={styles.popup_alart_lists}>The information displayed on this website are only recommendations for common over the counter drugs.</li>
+              <li className={styles.popup_alart_lists}>Information displayed are based on the labels from the specific medication.</li>
+              <li className={styles.popup_alart_lists}>We advise users to consult a medical professional or healthcare provider if they’re seeking medical advice, diagnoses, or treatment.</li>
+                  </div>
 
            <div className={styles.popup_alart_close}>
             <h1 onClick = {closePopup}>X</h1>

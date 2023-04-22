@@ -16,6 +16,7 @@ export default function Store() {
       </Head>
  
 
+<div className={styles.body_main}>
     <main className={styles.main}>
 
     <h1>Hello,</h1>
@@ -133,6 +134,7 @@ export default function Store() {
     <Navbar
    className={styles.navbar} />
    </main>
+   </div>
     </>
 
     
