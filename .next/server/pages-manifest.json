@@ -1,5 +1,10 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/Category": "pages/Category.js",
+  "/References": "pages/References.js",
+  "/Identify": "pages/Identify.js",
+  "/EnterTheir": "pages/EnterTheir.js",
+  "/Symptoms": "pages/Symptoms.js"
 }
