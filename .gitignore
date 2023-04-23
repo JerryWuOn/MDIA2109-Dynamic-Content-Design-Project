@@ -40,3 +40,4 @@ yarn-error.log*
 .next/trace
 
 .next
+*.next
