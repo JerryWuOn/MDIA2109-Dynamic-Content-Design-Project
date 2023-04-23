@@ -65,8 +65,8 @@
 
 
 .popup_alart{
-    height: 700px;
-    width: 330px;
+    height: 760px;
+    width: 360px;
     background-color: var(--gray-colour);
     position: absolute;
     top: 60px;
@@ -74,9 +74,11 @@
     border-radius: var(--border-radius-30px);
 }
 
+
 .popup_alart_texts{
     padding: 45px 20px;
     font-family: var(--font-style);
+
 }
 
 .popup_alart_close{
@@ -85,10 +87,12 @@
 }
 
 .popup_alart_whitepart{
+    position: fixed;
     height: 425px;
-    width: 300px;
+    width: 320px;
     background-color: var(--white-colour);
     border-radius: var(--border-radius-20px);
+    overflow: auto;
 }
 
 .terms_of_services{
@@ -116,4 +120,20 @@
     background-color: var(--blue-colour);
     font-family: var(--font-style);
     font-weight: var(--font-weight-400);
+}
+
+
+.intro_button_container{
+    display: flex;
+    width: 250px;
+    margin-top: 4em;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.popup_button_container{
+    display: flex;
+    width: 250px;
+    flex-direction: row;
+    gap: 1em;
+
 }

@@ -27,6 +27,7 @@
 .store1_name{
     text-align: var(--text-aling-center);
     font-size: var( --font-18px);
+    padding-bottom: 15px;
 }
 
 .store1_adress{
@@ -53,12 +54,6 @@
     border: var(--border-none);
 }
 
-.store_lists{
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-    font-family: var(--font-style);
-}
 
 .navbar{
     overflow: hidden;
@@ -72,7 +67,7 @@
 }
 
 .store_page_input{
-    width: 300px;
+    width: 280px;
     height: 20px;
 }
 
@@ -84,4 +79,22 @@
 .store_page_location{
     display: flex;
     flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.navbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+}
+
+.store_list{
+    height: 550px;
+    overflow: auto;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }

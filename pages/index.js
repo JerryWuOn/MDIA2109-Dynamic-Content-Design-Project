@@ -25,7 +25,7 @@ export default function Welcome() {
         </div>
         <div className={styles.main_image}>
         <Image
-        src = "/icons/Icon.png"
+        src = "/icons/bearHead.svg"
         alt =""
         width = {130}
         height = {163}

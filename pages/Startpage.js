@@ -11,13 +11,10 @@ import { useState } from 'react';
 export default function Startpage() {
 
   const[popup, setPop] = useState(false);
+
   const handleClickOpen = () => {
     setPop(!popup);
-  }
-
-  const closePopup = () => {
-    setPop(false);
-  }
+  };
 
   const [buttonClicked, setButtonClicked] = useState(false);
 
@@ -57,10 +54,10 @@ export default function Startpage() {
           <h1 className={styles.intro_page_header}>Check your Symptoms</h1>
         <h2 className={styles.intro_page_description}>Take a short assessment to get results for:</h2>
         <ul className={styles.intro_page_list}> 
-          <li>Symptoms</li>
-          <li>Recommendations for treatments</li>
-          <li>Medications</li>
-          <li>Tips to keep your body healthy</li>
+          <li>Possible Symptoms</li>
+          <li>Recommended treatment from current sources</li>
+          <li>Recommended over the counter medications to take</li>
+          <li>Tips to reduce the chances for common symptoms such as headaches</li>
         </ul>
         </div>
 
@@ -83,40 +80,33 @@ export default function Startpage() {
             <div className={styles.popup_alart_texts}>
              <h1 className={styles.terms_of_services}>Terms of Service</h1>
 
-                <div className={styles.popup_alart_whitepart}>
+              <div className={styles.popup_alart_whitepart}>
+                <div  className={styles.popup_alart_inside_texts}>
+                <h1 className={styles.popup_alart_lists}>Caution: We are not doctors</h1>
+                <li className={styles.popup_alart_lists}>The information displayed on this website are only recommendations for common over the counter drugs.</li>
+                <li className={styles.popup_alart_lists}>Information displayed are based on the labels from the current common drug store medication.</li>
+                <li className={styles.popup_alart_lists}>We advise users to consult a medical professional or healthcare provider if they are seeking medical advice, diagnoses, or treatment.</li>
+                <li className={styles.popup_alart_lists}>AS THERSE ARE NOT PRESCRIBTIONS BUT ONLY PRESCREENING RECOMMENDATIONS. CONSULT A DOCTOR FOR PRESCRIBTIONS</li>
+                <li className={styles.popup_alart_lists}>We ARE NOT LIABLE FOR RISK OR ISSUES ASSOCIATED WITH USING OR ACTING UPON THE INFORMATION ON THIS SITE.</li>
 
-                  <div  className={styles.popup_alart_inside_texts}>
-              <h1 className={styles.popup_alart_lists}>Caution: We are not doctors</h1>
-              <li className={styles.popup_alart_lists}>The information displayed on this website are only recommendations for common over the counter drugs.</li>
-              <li className={styles.popup_alart_lists}>Information displayed are based on the labels from the specific medication.</li>
-              <li className={styles.popup_alart_lists}>We advise users to consult a medical professional or healthcare provider if they’re seeking medical advice, diagnoses, or treatment.</li>
-
- 
-          <div>
-            <label onClick={() => setButtonClicked(true)}>
-              <input className={styles.accept_term_checkbox} type="checkbox"/>I accept Terms of Service
+                <div className={styles.intro_button_container}>
+              <label onClick={() => setButtonClicked(true)}>
+              <input className={styles.accept_term_checkbox} type="checkbox" id="checkboxed" />I accept Terms of Service
             </label>
-          </div>
-                  </div>
-
-    
-            </div>
-           
-            <div>
-
-            
-            
-            </div>
-
+            <div className={styles.popup_button_container}>
             <Link href="/">
             <button className={styles.intro_button} onclick="">Decline</button>
             </Link>
-
             <Link href="/Identify">
            {buttonClicked && <button className={styles.intro_button}>Start</button>}
            </Link>
-          </div>
+           </div>
 
+          
+           </div>
+          </div>
+            </div>
+            </div>
           </div>
         </div>: ""}
       </div>
