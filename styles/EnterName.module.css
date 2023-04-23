@@ -48,9 +48,13 @@
     width: var(--width-166px);
     height: var(--height-40px);
     border-radius: var(--border-radius-80px);
+    border: var(--border-none);
     font-size: var(--font-18px);
     background-color: var( --blue-colour);
-    border: none;
+    cursor: pointer;
+}
+.enteryourpage__begin_button:hover{
+    background-color: var(--button-hovers);
 }
 
 

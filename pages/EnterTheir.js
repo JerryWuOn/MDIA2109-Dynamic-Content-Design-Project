@@ -32,6 +32,14 @@ const passName = (event) => {
 
       <div className={styles.body_main}>
       <main className={styles.main}>
+      <div className={styles.overlayButton}>
+              <Image
+              src = "/icons/overlayButton.png"
+              alt =""
+              width = {60}
+              height = {60}
+              />
+          </div>
        
        <div style={{display: isActiveOne ? 'block' : 'none'}}>
        <h1 className={styles.enter_yourname_header}>Enter Their Details Here:</h1>
@@ -47,19 +55,7 @@ const passName = (event) => {
        placeholder="First Name">
        </input>
        </div>
-
-
        </div>
-
-{/* 
-       <p className={styles.label}>User Name:</p>
-       <div className={styles.spaceholder_user_name}>
-       <input 
-       className={styles.input_name}
-       type="text" 
-       placeholder="User Name">
-       </input>
-       </div> */}
 
        <div className={styles.enteryourpage__begin_button_div}>
        <Link href="/Category">

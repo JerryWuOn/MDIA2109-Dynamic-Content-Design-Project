@@ -20,6 +20,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/Category.js"
     ],
+    "/EnterTheir": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/EnterTheir.js"
+    ],
     "/EnterYou": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
