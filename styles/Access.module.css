@@ -1,0 +1,14 @@
+.body_main {
+    padding-top: 2em;
+    margin: auto;
+    width: 390px;
+    height: 1444px;
+    overflow: hidden;
+    position: relative;
+}
+
+.button {
+    align-items: center;
+    color: blue;
+    background-color: cyan;
+}
