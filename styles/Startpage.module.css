@@ -90,7 +90,7 @@
 }
 
 .popup_alert_inner_container{
-    position: fixed;
+    position: absolute;
     height: 560px;
     width: 320px;
     background-color: var(--white-colour);

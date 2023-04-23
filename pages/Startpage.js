@@ -73,7 +73,7 @@ export default function Startpage() {
                 <li className={styles.popup_alert_lists}>The information displayed on this website are only recommendations for common over the counter drugs.</li>
                 <li className={styles.popup_alert_lists}>Information displayed are based on the labels from the current common drug store medication.</li>
                 <li className={styles.popup_alert_lists}>We advise users to consult a medical professional or healthcare provider if they are seeking medical advice, diagnoses, or treatment.</li>
-                <li className={styles.popup_alert_lists}>AS THESE ARE NOT PRESCRIpTIONS BUT ONLY PRESCREENING RECOMMENDATIONS. CONSULT A DOCTOR FOR PRESCRIPTIONS</li>
+                <li className={styles.popup_alert_lists}>AS THESE ARE NOT PRESCRIPTIONS BUT ONLY PRESCREENING RECOMMENDATIONS. CONSULT A DOCTOR FOR PRESCRIPTIONS</li>
                 <li className={styles.popup_alert_lists}>WE ARE NOT LIABLE FOR RISK OR ISSUES ASSOCIATED WITH USING OR ACTING UPON THE INFORMATION ON THIS SITE.</li>
                 <div className={styles.intro_button_container}>
               <label onClick={() => setButtonClicked(true)}>
