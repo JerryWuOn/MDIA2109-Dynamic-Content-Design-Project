@@ -13,6 +13,7 @@
 /out/
 /next/
 .next/
+
 # production
 /build
 
@@ -38,3 +39,4 @@ yarn-error.log*
 .next/static
 .next/trace
 
+.next
