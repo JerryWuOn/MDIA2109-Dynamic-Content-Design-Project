@@ -81,6 +81,14 @@
     font-size: var(--font-24px);
     gap: 0.5em;
 }
+.patient_choices_myself:hover{
+    background-color: var( --button-hovers);
+    cursor: pointer;
+}
+.patient_choices_someoneelse:hover{
+    background-color: var( --button-hovers);
+    cursor: pointer;
+}
 .patient_choices_myself h1, .patient_choices_someoneelse h1{
     font-size: var(--font-24px);
 }

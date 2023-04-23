@@ -18,14 +18,12 @@
 }
 
 .enter_yourname_header{
-    font-size: var(--font-24px);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    font-size: var(--font-24px);
     font-family: var(--font-style);
-    font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-700);
 }
 
 .main{
@@ -42,6 +40,8 @@
     background-color: var(--gray-colour);
     border-width: 1px;
     border-style: solid;
+    font-family: var(--font-style);
+    padding-left: 1em;
 }
 
 .enteryourpage__begin_button{
@@ -55,7 +55,12 @@
 
 
 .label{
-    font-size: var( --font-16px);
+    font-size: var(--font-16px);
+    font-family: var(--font-style);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 1em;
 }
 
 .enteryourpage__begin_button_div{
