@@ -2,9 +2,18 @@ import styles from '../styles/Store.module.css'
 import Link from 'next/link'
 import Navbar from '../components/navbar/index.js';
 import Head from 'next/head'
+import Image from 'next/image';
+import { useState } from 'react';
 
 
 export default function Store() {
+
+const [location, setLocation] = useState (false);
+const [inputValue, setInputValue] = useState('');
+const locationClicked = () => {
+        setLocation(!location);
+};
+
     return (
     <>
     <Head>
@@ -18,10 +27,30 @@ export default function Store() {
 <div className={styles.body_main}>
     <main className={styles.main}>
 
+    <Image
+           onClick={() => setLocation(true)}
+           src = "/icons/overlayButton.png"
+           alt =""
+           width = {60}
+           height = {60}
+           />
+
     <h1>Hello,</h1>
-    <p>Your medication can be access through these stores:</p>
+    <p className={styles.store_page_description}>Your medication can be access through these stores:</p>
     
-    <input></input>
+    <div className={styles.store_page_location}>
+
+     <img className={styles.location_picture} src="/icons/location.png" onClick={() => {
+        if(location){
+                setInputValue("");
+        }else{
+                setInputValue("3700 Willingdon Avenue Burnaby, BC V5G 3H2");
+        }
+        locationClicked();
+     }}/>
+
+     <input className={styles.store_page_input} type="text" value={inputValue} onChange={(a) => setInputValue(a.target.value)}/>
+    </div>
 
     <div className={styles.store_lists}>
 

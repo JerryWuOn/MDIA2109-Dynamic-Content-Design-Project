@@ -10,6 +10,11 @@
     height: var(--screen-height);
     border: var(--screen-border);
     border-radius: var(--screen-border-radius);
+    font-family: var(--font-style);
+}
+
+.main{
+    padding: 0 var(--side-margin);
 }
 
 .store1{
@@ -51,7 +56,8 @@
 .store_lists{
     display: flex;
     flex-direction: column;
-
+    overflow-y: scroll;
+    font-family: var(--font-style);
 }
 
 .navbar{
@@ -59,4 +65,23 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.store_page_description{
+    font-size: var(--font-18px);
+}
+
+.store_page_input{
+    width: 300px;
+    height: 20px;
+}
+
+.location_picture{
+    width: 30px;
+    height: 30px;
+}
+
+.store_page_location{
+    display: flex;
+    flex-direction: row-reverse;
 }
