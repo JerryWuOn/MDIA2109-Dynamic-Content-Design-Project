@@ -33,3 +33,5 @@ yarn-error.log*
 # vercel
 .vercel
 
+.next/static/webpack/*.webpack.hot-update.json
+.next/static/webpack/pages/*.hot-update.js
