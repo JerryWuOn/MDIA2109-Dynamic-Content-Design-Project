@@ -7,41 +7,28 @@ export default function Navbar() {
         /** Navigation Bar */
     <>
     <main className={styles.main}>
+        <div className={styles.icons}>
+            <div className={styles.container_back}>
+            <Link href="window.history.back()" className={styles.navbar_text}>
+                <img src={"/icons/backbutton.svg"}></img>
+            </Link>
+            <p>Back</p>
+            </div>  
 
-    <div className={styles.icons}>    
-    
+            <div className={styles.container_home}>
+            <Link href="/" className={styles.navbar_text}> 
+            <img src={"/icons/homebutton.svg"}></img>   
+            </Link>
+            <p>Home</p>
+            </div> 
 
-<Link href="window.history.back()">
-    <img
-            src={"/icons/backbutton.svg"}></img>
-
-
-    <p className={styles.navbar_text}>Back</p>
-</Link>
-
-    </div> 
-
-<Link   href="/">
-    <div className={styles.icons}>    
-    <img
-            src={"/icons/homebutton.svg"}></img>
-
-
-        
-               <p className={styles.navbar_text}>Home</p>
-    </div> 
-</Link>
-
-
-<Link href="/References">
-    <div className={styles.icons}>    
-    <img
-            src={"/icons/referencebutton.svg"}></img>
-
-               <p className={styles.navbar_text}>Reference</p>
-    </div> 
-</Link>
-
+            <div className={styles.container_reference}>
+            <Link href="/References" className={styles.navbar_text}>  
+                <img src={"/icons/referencebutton.svg"}></img>
+            </Link>
+            <p>Reference</p>
+            </div> 
+        </div>
     </main>
     </>
      /** Navigation Bar Ended*/
