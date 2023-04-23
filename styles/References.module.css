@@ -26,3 +26,10 @@
     font-size: var(--font-16px);
     font-weight: 400;
 }
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
