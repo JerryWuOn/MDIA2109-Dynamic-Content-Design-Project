@@ -11,8 +11,7 @@
 # next.js
 
 /out/
-/next/
-.next/
+
 
 # production
 /build
@@ -34,10 +33,3 @@ yarn-error.log*
 # vercel
 .vercel
 
-# Ignoring other files
-.next/static/chunks
-.next/static
-.next/trace
-
-.next
-*.next
