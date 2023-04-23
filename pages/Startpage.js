@@ -31,7 +31,6 @@ export default function Startpage() {
     <div className={styles.body_main}>
       <main className={styles.main}>
 
-
       <div className={styles.overlayButton}>
           <Image
            src = "/icons/overlayButton.png"
@@ -40,8 +39,6 @@ export default function Startpage() {
            height = {60}
            />
         </div>
-
-        
         <div className={styles.main_image}>
         <Image
         src = "/icons/startpageBear.svg"
@@ -60,60 +57,45 @@ export default function Startpage() {
           <li>Tips to reduce the chances for common symptoms such as headaches</li>
         </ul>
         </div>
-
-
-<div className={styles.intro_page_buttons}>
-      <Link href="/">
-        <button className={styles.intro_button} onclick="">Decline</button>
-       </Link>
-
-        <button onClick={handleClickOpen}
-        className={styles.intro_button}>Start</button>
-
+      <div className={styles.intro_page_buttons}>
+        <button onClick={handleClickOpen} className={styles.intro_button}>Start</button>
        </div>
-       
 
       <div>
         {popup?
         <div className={styles.popup_main}>
-          <div className={styles.popup_alart}>
-            <div className={styles.popup_alart_texts}>
+          <div className={styles.popup_alert}>
+            <div className={styles.popup_alert_texts}>
              <h1 className={styles.terms_of_services}>Terms of Service</h1>
-
-              <div className={styles.popup_alart_whitepart}>
-                <div  className={styles.popup_alart_inside_texts}>
-                <h1 className={styles.popup_alart_lists}>Caution: We are not doctors</h1>
-                <li className={styles.popup_alart_lists}>The information displayed on this website are only recommendations for common over the counter drugs.</li>
-                <li className={styles.popup_alart_lists}>Information displayed are based on the labels from the current common drug store medication.</li>
-                <li className={styles.popup_alart_lists}>We advise users to consult a medical professional or healthcare provider if they are seeking medical advice, diagnoses, or treatment.</li>
-                <li className={styles.popup_alart_lists}>AS THERSE ARE NOT PRESCRIBTIONS BUT ONLY PRESCREENING RECOMMENDATIONS. CONSULT A DOCTOR FOR PRESCRIBTIONS</li>
-                <li className={styles.popup_alart_lists}>We ARE NOT LIABLE FOR RISK OR ISSUES ASSOCIATED WITH USING OR ACTING UPON THE INFORMATION ON THIS SITE.</li>
-
+              <div className={styles.popup_alert_inner_container}>
+                <div  className={styles.popup_alert_inside_texts}>
+                <h1 className={styles.popup_alert_lists}>Caution: We are not doctors</h1>
+                <li className={styles.popup_alert_lists}>The information displayed on this website are only recommendations for common over the counter drugs.</li>
+                <li className={styles.popup_alert_lists}>Information displayed are based on the labels from the current common drug store medication.</li>
+                <li className={styles.popup_alert_lists}>We advise users to consult a medical professional or healthcare provider if they are seeking medical advice, diagnoses, or treatment.</li>
+                <li className={styles.popup_alert_lists}>AS THESE ARE NOT PRESCRIpTIONS BUT ONLY PRESCREENING RECOMMENDATIONS. CONSULT A DOCTOR FOR PRESCRIPTIONS</li>
+                <li className={styles.popup_alert_lists}>WE ARE NOT LIABLE FOR RISK OR ISSUES ASSOCIATED WITH USING OR ACTING UPON THE INFORMATION ON THIS SITE.</li>
                 <div className={styles.intro_button_container}>
               <label onClick={() => setButtonClicked(true)}>
               <input className={styles.accept_term_checkbox} type="checkbox" id="checkboxed" />I accept Terms of Service
-            </label>
+              </label>
             <div className={styles.popup_button_container}>
-            <Link href="/">
-            <button className={styles.intro_button} onclick="">Decline</button>
+              <Link href="/">
+              <button className={styles.intro_button} onclick="">Decline</button>
+              </Link>
+              <Link href="/Identify">
+            {buttonClicked && <button className={styles.intro_button}>Start</button>}
             </Link>
-            <Link href="/Identify">
-           {buttonClicked && <button className={styles.intro_button}>Start</button>}
-           </Link>
-           </div>
-
-          
-           </div>
-          </div>
             </div>
-            </div>
+              </div>
           </div>
-        </div>: ""}
+        </div>
       </div>
-
+    </div>
+  </div>: ""}
+  </div>
       </main>
     </div>
-
    </>
   )
 }

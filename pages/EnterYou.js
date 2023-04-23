@@ -16,37 +16,34 @@ export default function EnterYourName() {
         <link rel="icon" href="/icons/Icon.svg" />
       </Head>
 
-<div className={styles.body_main}>
-<main className={styles.main}>
-       
+      <div className={styles.body_main}>
+        <main className={styles.main}>
+          <div className={styles.overlayButton}>
+              <Image
+              src = "/icons/overlayButton.png"
+              alt =""
+              width = {60}
+              height = {60}
+              />
+          </div>
        <h1 className={styles.enter_yourname_header}>Enter Your Details Here:</h1>
-
-       <p className={styles.label}>First Name:</p>
-       <div className={styles.spaceholder_first_name}>
-       <input 
-       className={styles.input_name}
-       type="text" 
-       placeholder="First Name">
-       </input>
+       <div>
+        <p className={styles.label}>Name:</p>
+          <div className={styles.spaceholder_first_name}>
+          <input 
+          className={styles.input_name}
+          type="text" 
+          placeholder="Name">
+          </input>
+          </div>
        </div>
-
-       {/* <p className={styles.label}>User Name:</p>
-       <div className={styles.spaceholder_user_name}>
-       <input 
-       className={styles.input_name}
-       type="text" 
-       placeholder="User Name">
-       </input>
-       </div> */}
-
-<div className={styles.enteryourpage__begin_button_div}>
-       <Link href="/Category">
-        <button className={styles.enteryourpage__begin_button} onclick="">Begin!!</button>
-       </Link>
-       </div>
-
-<Navbar/>
+        <div className={styles.enteryourpage__begin_button_div}>
+          <Link href="/Category">
+          <button className={styles.enteryourpage__begin_button} onclick="">Begin!!</button>
+          </Link>
+        </div>
       </main>
+      <Navbar className={styles.navbar}/>
       </div>
     </>
   )
