@@ -2,12 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-<<<<<<< HEAD
-  "/Startpage": "pages/Startpage.js",
-  "/": "pages/index.js",
   "/Identify": "pages/Identify.js",
-  "/EnterYou": "pages/EnterYou.js"
-=======
-  "/": "pages/index.js"
->>>>>>> Takami
+  "/EnterYou": "pages/EnterYou.js",
+  "/": "pages/index.js",
+  "/Startpage": "pages/Startpage.js",
+  "/Category": "pages/Category.js"
 }

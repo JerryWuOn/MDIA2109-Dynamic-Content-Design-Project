@@ -71,17 +71,12 @@ export default function References() {
 
       
 
-                 
-  
-
-        
-                 </div>
-
+                
    <div className={styles.navbar}>
    <Navbar/>
    </div>
 
-   </div>
+ 
     </>
 
     

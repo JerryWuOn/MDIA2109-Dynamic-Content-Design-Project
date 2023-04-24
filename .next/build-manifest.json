@@ -19,7 +19,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
-<<<<<<< HEAD
+    ],
+    "/Category": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Category.js"
     ],
     "/EnterYou": [
       "static/chunks/webpack.js",
@@ -35,8 +39,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/Startpage.js"
-=======
->>>>>>> Takami
     ],
     "/_app": [
       "static/chunks/webpack.js",
