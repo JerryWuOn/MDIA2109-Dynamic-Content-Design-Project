@@ -28,7 +28,6 @@ const locationClicked = () => {
     <main className={styles.main}>
 
     <Image
-           onClick={() => setLocation(true)}
            src = "/icons/overlayButton.png"
            alt =""
            width = {60}
