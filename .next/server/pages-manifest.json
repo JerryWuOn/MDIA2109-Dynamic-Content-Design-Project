@@ -1,13 +1,5 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-<<<<<<< HEAD
-  "/Identify": "pages/Identify.js",
-  "/EnterYou": "pages/EnterYou.js",
-  "/": "pages/index.js",
-  "/Startpage": "pages/Startpage.js",
-=======
->>>>>>> c9247ae1732a0a36a9a6cbfdcadf1e029c41fd63
-  "/Category": "pages/Category.js"
+  "/_document": "pages/_document.js"
 }
