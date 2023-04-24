@@ -1,11 +1,13 @@
 .body_main {
     padding-top: 2em;
     margin: auto;
-    width: 24.375em;
-    height: 52.75em;
     overflow: hidden;
     position: relative;
     background-color: rgb(250, 250, 250);
+    width: var(--screen-width);
+    height: var(--screen-height);
+    border: var(--screen-border);
+    border-radius: var(--screen-border-radius);
 }
 .overlayButton{
     display: flex;
@@ -46,9 +48,16 @@
     background-color: var(--blue-colour);
     cursor: pointer;
 }
+.welcome_page_button:hover{
+    background-color: var( --button-hovers);
+}
+
+
 
 .welcome_page_button_section{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+

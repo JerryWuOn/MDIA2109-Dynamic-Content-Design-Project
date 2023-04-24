@@ -1,7 +1,21 @@
-.main{
-    padding: 0 var(--side-margin);
+.body_main {
+    padding-top: 2em;
+    margin: auto;
+    width: var(--screen-width);
+    height: var(--screen-height);
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(250, 250, 250);
+    width: var(--screen-width);
+    height: var(--screen-height);
+    border: var(--screen-border);
+    border-radius: var(--screen-border-radius);
 }
-
+.overlayButton{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 2em;
+}
 .patient_choices_header{
     font-size: var(--font-24px);
 }
@@ -16,6 +30,7 @@
     height: var(--height-180px);
     width: var(--width-290px);
     border-radius: var(--border-radius-20px);
+    font-family: var(--font-style);
 }
 
 .patient_choices_myself{
@@ -23,4 +38,63 @@
     height: var(--height-180px);
     width: var(--width-290px);
     border-radius: var(--border-radius-20px);
+    font-family: var(--font-style);
+}
+
+.main{
+    padding: 0 var(--side-margin);
+}
+
+.navbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.welcome_page_texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-400);
+}
+
+.patient_choices_header{
+    font-size: var(--font-24px);
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-700);
+}
+.patient_choices_buttons{
+    display: flex;
+    gap: 26px;
+    margin-bottom: 16em;
+}
+.patient_choices_myself, .patient_choices_someoneelse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: var(--font-24px);
+    gap: 0.5em;
+}
+.patient_choices_myself:hover{
+    background-color: var( --button-hovers);
+    cursor: pointer;
+}
+.patient_choices_someoneelse:hover{
+    background-color: var( --button-hovers);
+    cursor: pointer;
+}
+.patient_choices_myself h1, .patient_choices_someoneelse h1{
+    font-size: var(--font-24px);
+}
+.yourself{
+    text-decoration: none;
+}
+.someoneelse{
+    text-decoration: none;
 }

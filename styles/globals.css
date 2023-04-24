@@ -6,7 +6,6 @@
   --white-colour: white;
   --gray-colour: rgb(239, 239, 239);
   --green-colour: rgb(169, 231, 168);
-  --button-hovers: "#A1BEDA";
   /* Font sizes*/
   --Header-34px: 34px;
   --font-24px: 24px;
@@ -18,17 +17,21 @@
   --font-8px: 8px;
   /* Margins*/
   --side-margin: 30px;
+--padding-button-font: 30px;
   /* Button size*/
   --width-140px: 140px;
   --width-160px: 160px;
+  --width-166px: 166px;
   --width-290px: 290px;
   --width-330px: 330px;
   --width-80px: 80px;
   --height-20px: 20px;
   --height-40px: 40px;
+  --height-55px: 55px;
   --height-180px: 180px;
       /* Button border radius*/
       --border-radius-80px: 80px;
+      --border-radius-30px: 30px;
       --border-radius-20px: 20px;
       --border-radius-10px: 10px;
       --border-none: none;
@@ -43,12 +46,19 @@
             --font-style: "Quicksand";
             --font-weight-700: 700;
             --font-weight-400: 400;
+      /* Iphone size */
+      --screen-width: 414px;
+      --screen-height: 896px;
+      --screen-border: solid 7px;
+      --screen-border-radius: 10px;
+      /* Hover Colour*/
+      --button-hovers: #A1BEDA;
+}
+html,body{
+  margin-top: 2rem;
+  padding: 0%;
 }
 
 
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-}
+

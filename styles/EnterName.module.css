@@ -1,14 +1,90 @@
+.body_main {
+    padding-top: 2em;
+    margin: auto;
+    width: var(--screen-width);
+    height: var(--screen-height);
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(250, 250, 250);
+    width: var(--screen-width);
+    height: var(--screen-height);
+    border: var(--screen-border);
+    border-radius: var(--screen-border-radius);
+}
+.overlayButton{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 2em;
+}
+
 .enter_yourname_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: var(--font-24px);
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-700);
 }
 
 .main{
     padding: 0 var(--side-margin);
-    display: flex;
-    flex-direction: column;
+    font-family: var(--font-style);
+
 }
 
-.input_first_name{
+.input_name{
     width: var(--width-330px);
+    height: var(--height-55px);
+    border-radius: var(--border-radius-20px);
+    font-size: var(--font-18px);
+    background-color: var(--gray-colour);
+    border-width: 1px;
+    border-style: solid;
+    font-family: var(--font-style);
+    padding-left: 1em;
 }
 
+.enteryourpage__begin_button{
+    width: var(--width-166px);
+    height: var(--height-40px);
+    border-radius: var(--border-radius-80px);
+    border: var(--border-none);
+    font-size: var(--font-18px);
+    background-color: var( --blue-colour);
+    cursor: pointer;
+}
+.enteryourpage__begin_button:hover{
+    background-color: var(--button-hovers);
+}
+
+
+.label{
+    font-size: var(--font-16px);
+    font-family: var(--font-style);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 1em;
+}
+
+.enteryourpage__begin_button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    margin-bottom: 27em;
+}
+
+
+.spaceholder_first_name{
+    color: var( --red-colour);
+    font-family: var(--font-style);
+}
+
+
+.navbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
