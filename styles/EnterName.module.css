@@ -11,20 +11,25 @@
     border: var(--screen-border);
     border-radius: var(--screen-border-radius);
 }
-
+.overlayButton{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 2em;
+}
 
 .enter_yourname_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: var(--font-24px);
-    
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-700);
 }
 
 .main{
     padding: 0 var(--side-margin);
-    display: flex;
-    flex-direction: column;
     font-family: var(--font-style);
-    width: 390px;
-    height: 844px;
+
 }
 
 .input_name{
@@ -35,21 +40,31 @@
     background-color: var(--gray-colour);
     border-width: 1px;
     border-style: solid;
-
+    font-family: var(--font-style);
+    padding-left: 1em;
 }
 
 .enteryourpage__begin_button{
     width: var(--width-166px);
     height: var(--height-40px);
     border-radius: var(--border-radius-80px);
+    border: var(--border-none);
     font-size: var(--font-18px);
     background-color: var( --blue-colour);
-    border: none;
+    cursor: pointer;
+}
+.enteryourpage__begin_button:hover{
+    background-color: var(--button-hovers);
 }
 
 
 .label{
-    font-size: var( --font-16px);
+    font-size: var(--font-16px);
+    font-family: var(--font-style);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 1em;
 }
 
 .enteryourpage__begin_button_div{
@@ -57,6 +72,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 75px;
+    margin-bottom: 27em;
 }
 
 
@@ -65,13 +81,10 @@
     font-family: var(--font-style);
 }
 
-.spaceholder_user_name{
-
-}
 
 .navbar{
-    width: 100%;
+    position: fixed;
     bottom: 0;
     left: 0;
-    position: fixed;
+    width: 100%;
 }

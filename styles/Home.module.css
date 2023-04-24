@@ -48,6 +48,9 @@
     background-color: var(--blue-colour);
     cursor: pointer;
 }
+.welcome_page_button:hover{
+    background-color: var( --button-hovers);
+}
 
 
 
