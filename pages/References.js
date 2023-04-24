@@ -37,11 +37,6 @@ export default function References() {
                     <h1 className={styles.referencepage_header}>References</h1>
                     <p className={styles.referencepage_description}>Quick links to the primary medication for each category:</p>
 
-      
-
-                 
-  
-
         
                  </div>
 

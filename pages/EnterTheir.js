@@ -32,7 +32,7 @@ const passName = (event) => {
 
       <div className={styles.body_main}>
       <main className={styles.main}>
-      <div className={styles.overlayButton}>
+        <div className={styles.overlayButton}>
               <Image
               src = "/icons/overlayButton.png"
               alt =""
@@ -59,7 +59,7 @@ const passName = (event) => {
 
        <div className={styles.enteryourpage__begin_button_div}>
        <Link href="/Category">
-        <button className={styles.enteryourpage__begin_button} onclick="">Begin!!</button>
+        <button className={styles.enteryourpage__begin_button} onClick="">Begin!!</button>
        </Link>
        </div>
 

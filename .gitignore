@@ -35,3 +35,4 @@ yarn-error.log*
 
 .next/static/webpack/*.webpack.hot-update.json
 .next/static/webpack/pages/*.hot-update.js
+.next/static/webpack/

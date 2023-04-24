@@ -4,9 +4,7 @@ import Image from 'next/image'
 import Navbar from '../components/navbar'
 import Head from 'next/head'
 
-export default function Category({passName}) {
-
-  
+export default function Category() {
 
     return (
     <>
@@ -21,7 +19,7 @@ export default function Category({passName}) {
 <div className={styles.body_main}>
     <main className={styles.main}>
     
-    <h1>Hello, {passName}!</h1>
+    <h1>Hello,</h1>
 
     <p className={styles.categoryPage_question}>Where are you experiencing discomfortable today?</p>
 
@@ -160,7 +158,7 @@ export default function Category({passName}) {
        </Link>
        </section>
        </main>
-       
+
        <Navbar className={styles.navbar}/>
        </div>
     </>

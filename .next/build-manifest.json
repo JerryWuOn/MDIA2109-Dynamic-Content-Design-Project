@@ -15,15 +15,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/Identify": [
+    "/Symptoms": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Identify.js"
-    ],
-    "/Startpage": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Startpage.js"
+      "static/chunks/pages/Symptoms.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
