@@ -15,10 +15,15 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/EnterYou": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/EnterYou.js"
+      "static/chunks/pages/index.js"
+    ],
+    "/References": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/References.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

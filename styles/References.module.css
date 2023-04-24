@@ -33,7 +33,7 @@
 }
 
 .reference_lists{
-    /* height: 580px; */
+    height: 580px;
     overflow: auto;
     padding-top: 20px;
     display: flex;
