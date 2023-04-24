@@ -17,7 +17,7 @@ export default function References() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icons/Icon.svg" />
       </Head>
- 
+
 
 <div className={styles.body_main}>
     <main className={styles.main}>
@@ -69,16 +69,14 @@ export default function References() {
       <Link className={styles.medication_link} href="https://medlineplus.gov/druginfo/meds/a682159.html#:~:text=Nonprescription%20ibuprofen%20is%20used%20to,class%20of%20medications%20called%20NSAIDs">Learn More</Link>
     </section>
 
-      
-
-                
+  
    <div className={styles.navbar}>
    <Navbar/>
    </div>
-
- 
+ </section>
+ </main>
+ </div>
     </>
-
     
     )
 }
