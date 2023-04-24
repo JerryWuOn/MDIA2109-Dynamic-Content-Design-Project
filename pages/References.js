@@ -19,7 +19,7 @@ export default function References() {
       </Head>
 
 
-<div className={styles.body_main}>
+    <div className={styles.body_main}>
     <main className={styles.main}>
 
     <Image
@@ -28,8 +28,6 @@ export default function References() {
            width = {60}
            height = {60}
            />
-
-
     <h1 className={styles.references_title}>References</h1>
     <p className={styles.references_description}>Quick links to the primary medication for each category:</p>
 
@@ -61,22 +59,18 @@ export default function References() {
             width = {60}
             height = {60}
       />
-
       <h1 className={styles.medication_title}>Head Medication</h1>
-      </div>
-
+    </div>
 
       <Link className={styles.medication_link} href="https://medlineplus.gov/druginfo/meds/a682159.html#:~:text=Nonprescription%20ibuprofen%20is%20used%20to,class%20of%20medications%20called%20NSAIDs">Learn More</Link>
     </section>
 
-  
    <div className={styles.navbar}>
    <Navbar/>
    </div>
- </section>
- </main>
- </div>
-    </>
-    
+   </section>
+        </main>
+        </div>
+    </div>
     )
 }
