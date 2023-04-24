@@ -20,10 +20,10 @@ export default function Results(){
                 <h2>We recommend you take these over the</h2>
                 <h2>counter drugs for:</h2>
             <div>
-                <input type="text" disabled="disabled">Medical Name</input>
-                <input type="text" disabled="disabled">Usage</input>
-                <input type="text" disabled="disabled">Doses:</input>
-                <input type="text" disabled="disabled">For more serious conditions, please seek professionalmedical assistance</input>
+                <p>Medical Name</p>
+                <p>Usage</p>
+                <p>Doses:</p>
+                <p>For more serious conditions, please seek professionalmedical assistance</p>
                 <button>Access medication</button>
             </div>
             </div>
