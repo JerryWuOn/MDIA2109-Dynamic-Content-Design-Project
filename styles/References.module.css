@@ -46,6 +46,9 @@
     width: 270px;
     border-radius: 10px;
     border: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .references_section_content{
@@ -57,8 +60,15 @@
 
 .medication_title{
     font-size: var(--font-18px);
+    text-align: right;
 }
 
 .medication_link{
     text-align: right;
+}
+
+.references_section_image{
+   display: flex;
+   align-items: center;
+   padding-top: 20px;
 }

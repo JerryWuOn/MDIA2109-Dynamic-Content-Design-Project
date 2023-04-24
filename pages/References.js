@@ -35,32 +35,42 @@ export default function References() {
 
 
 <section className={styles.reference_lists}>
+    
+  
     <section className={styles.references_section}>
+      
 
         <div className={styles.references_section_content}>
+
+          <div className={styles.references_section_image}>
       <Image
             src = "/icons/eyesIcon.svg"
             alt =""
             width = {87}
             height = {24}
       />
+         </div>
 
       <h1 className={styles.medication_title}>Eye Medication</h1>
          </div>
 
       <Link className={styles.medication_link} href="https://medlineplus.gov/druginfo/meds/a682159.html#:~:text=Nonprescription%20ibuprofen%20is%20used%20to,class%20of%20medications%20called%20NSAIDs">Learn More</Link>
+   
     </section>
 
 
     <section className={styles.references_section}>
 
     <div className={styles.references_section_content}>
+
+    <div className={styles.references_section_image}>
       <Image
             src = "/icons/headIcon.svg"
             alt =""
             width = {60}
             height = {60}
       />
+      </div>
 
       <h1 className={styles.medication_title}>Head Medication</h1>
       </div>
@@ -136,7 +146,6 @@ export default function References() {
       <h1 className={styles.medication_title}>Others</h1>
       </div>
       
-      <Link className={styles.medication_link} href="https://medlineplus.gov/druginfo/meds/a682159.html#:~:text=Nonprescription%20ibuprofen%20is%20used%20to,class%20of%20medications%20called%20NSAIDs">Learn More</Link>
     </section>
 
  </section>
