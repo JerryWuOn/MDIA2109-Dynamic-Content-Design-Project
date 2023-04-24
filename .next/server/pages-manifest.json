@@ -1,6 +1,19 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Symptoms": "pages/Symptoms.js"
+  "/Access": "pages/Access.js",
+  "/Category": "pages/Category.js",
+  "/_error": "pages/_error.js",
+  "/EnterTheir": "pages/EnterTheir.js",
+  "/EnterYou": "pages/EnterYou.js",
+  "/HealthyTips": "pages/HealthyTips.js",
+  "/References": "pages/References.js",
+  "/Identify": "pages/Identify.js",
+  "/Startpage": "pages/Startpage.js",
+  "/Results": "pages/Results.js",
+  "/Store": "pages/Store.js",
+  "/Symptoms": "pages/Symptoms.js",
+  "/api/hello": "pages/api/hello.js",
+  "/": "pages/index.js",
+  "/NoneAbove": "pages/NoneAbove.js"
 }
