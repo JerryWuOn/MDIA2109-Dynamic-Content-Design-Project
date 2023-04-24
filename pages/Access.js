@@ -3,7 +3,6 @@ import styles from '../styles/Access.module.css'
 import Link from 'next/link'
 // components
 import Navbar from '../components/navbar/index'
-import Topbar from '../components/topbar'
 import react from 'react'
 import Image from 'next/image'
 // import { Inter } from '@next/font'
@@ -45,7 +44,7 @@ export default function Access(){
                         height={130}
                     />
                 </div>
-                <button className={styles.button}>Available Stores</button>
+                <button className={styles.welcome_page_button} onclick="">Available Stores</button>
 
             <Navbar/>
         </div>

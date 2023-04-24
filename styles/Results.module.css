@@ -1,5 +1,21 @@
 .body_main {
+    
     padding-top: 2em;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(250, 250, 250);
+    width: var(--screen-width);
+    height: var(--screen-height);
+    border: var(--screen-border);
+    border-radius: var(--screen-border-radius);
+    font-family: var(--font-style);
+    padding: 0 var(--side-margin);
+    /* for scroll */
+    overflow: auto;
+    height: 100vh;
+    
+    /* padding-top: 2em;
     margin: auto;
     width: var(--screen-width);
     height: var(--screen-height);
@@ -9,5 +25,14 @@
     width: var(--screen-width);
     height: var(--screen-height);
     border: var(--screen-border);
-    border-radius: var(--screen-border-radius);
+    border-radius: var(--screen-border-radius); */
+}
+
+
+.name {
+    font-size: var(--font-24px);
+}
+
+.container {
+    display: flex;
 }

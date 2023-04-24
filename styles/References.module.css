@@ -7,10 +7,18 @@
     width: var(--screen-width);
     height: var(--screen-height);
     border: var(--screen-border);
-    border-radius: var(--screen-border-radius);
+    border-radius: var(--screen-border-radius); 
     font-family: var(--font-style);
     padding: 0 var(--side-margin);
+    /* for scroll */
+    overflow: auto;
+    height: 100vh;
+    /* scroll custom */
+    scrollbar-width: thin;
+    scrollbar-color: blue;
 }
+
+
 
 .main{
     padding: 0 var(--side-margin);
@@ -26,3 +34,58 @@
     font-size: var(--font-16px);
     font-weight: 400;
 }
+
+/* icons */
+/* .box {
+    width: 270;
+    height: 120;
+} */
+
+
+.cards {
+    display: flex;
+    width: 270;
+    height: 120;
+    border: solid;
+    border-radius: 1em;
+    border-spacing: 0em 1rem;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.text {
+    justify-content: center;
+}
+
+.link {
+    color: black;
+}
+
+.eye {
+    margin: 1em;
+    padding-top: 30px;
+}
+
+.head {
+    margin: 1em;
+    padding-top: 30px;
+}
+
+.nose {
+    margin: 1em;
+    padding-top: 30px;
+}
+
+.stomach {
+    margin: 1em;
+    padding-top: 30px;
+}
+
+.other {
+    margin: 1em;
+    padding-top: 30px;
+}
+
+/* Scrollbar */
+
