@@ -7,85 +7,58 @@
     width: var(--screen-width);
     height: var(--screen-height);
     border: var(--screen-border);
-    border-radius: var(--screen-border-radius); 
+    border-radius: var(--screen-border-radius);
     font-family: var(--font-style);
     padding: 0 var(--side-margin);
-    /* for scroll */
-    overflow: auto;
-    height: 100vh;
-    /* scroll custom */
-    scrollbar-width: thin;
-    scrollbar-color: blue;
 }
-
-
 
 .main{
     padding: 0 var(--side-margin);
 }
 
-.referencepage_header{
-    font-size: var(--font-24px);
-    font-weight: 700;
 
+.navbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
 }
 
-.referencepage_description{
-    font-size: var(--font-16px);
-    font-weight: 400;
+.references_title{
+    font-size: var(--font-24px); 
 }
 
-/* icons */
-/* .box {
-    width: 270;
-    height: 120;
-} */
+.references_description{
+    font-size: var(--font-16px); 
+}
 
-
-.cards {
+.reference_lists{
+    /* height: 580px; */
+    overflow: auto;
+    padding-top: 20px;
     display: flex;
-    width: 270;
-    height: 120;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.references_section{
+    width: 270px;
+    border-radius: 10px;
     border: solid;
-    border-radius: 1em;
-    border-spacing: 0em 1rem;
-    padding: 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
 }
 
-.text {
-    justify-content: center;
+.references_section_content{
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    justify-content: space-between;
 }
 
-.link {
-    color: black;
+.medication_title{
+    font-size: var(--font-18px);
 }
 
-.eye {
-    margin: 1em;
-    padding-top: 30px;
+.medication_link{
+    text-align: right;
 }
-
-.head {
-    margin: 1em;
-    padding-top: 30px;
-}
-
-.nose {
-    margin: 1em;
-    padding-top: 30px;
-}
-
-.stomach {
-    margin: 1em;
-    padding-top: 30px;
-}
-
-.other {
-    margin: 1em;
-    padding-top: 30px;
-}
-
-/* Scrollbar */
-

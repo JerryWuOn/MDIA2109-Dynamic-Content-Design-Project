@@ -5,20 +5,9 @@ import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
 import { useState } from 'react';
 import Category from './Category';
+import Survey from '../components/enterText/Survey';
 
 export default function EnterTheirName() {
-
-const [name, setName] = useState("");
-const [isActiveOne, setIsActiveOne] = useState(true);
-const [isActiveTwo, setIsActiveTwo] = useState(false);
-
-const passName = (event) => {
-  if(event.key === "Enter"){
-    console.log("enter")
-    setIsActiveOne(false);
-    setIsActiveTwo(true);
-  }
-}
 
   return (
     <>
@@ -40,8 +29,7 @@ const passName = (event) => {
               height = {60}
               />
           </div>
-       
-       <div style={{display: isActiveOne ? 'block' : 'none'}}>
+      
        <h1 className={styles.enter_yourname_header}>Enter Their Details Here:</h1>
 
        <p className={styles.label}>First Name:</p>
@@ -54,7 +42,6 @@ const passName = (event) => {
        name="name"
        placeholder="First Name">
        </input>
-       </div>
        </div>
 
        <div className={styles.enteryourpage__begin_button_div}>
@@ -69,6 +56,7 @@ const passName = (event) => {
 
        
       </main>
+      <Survey/>
       
       <Navbar className={styles.navbar}/>
       </div>

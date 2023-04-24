@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Identify": "pages/Identify.js",
-  "/Results": "pages/Results.js",
-  "/References": "pages/References.js"
+  "/References": "pages/References.js",
+  "/Access": "pages/Access.js"
 }
