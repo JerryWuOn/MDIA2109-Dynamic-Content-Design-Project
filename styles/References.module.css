@@ -16,13 +16,49 @@
     padding: 0 var(--side-margin);
 }
 
-.referencepage_header{
-    font-size: var(--font-24px);
-    font-weight: 700;
 
+.navbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
 }
 
-.referencepage_description{
-    font-size: var(--font-16px);
-    font-weight: 400;
+.references_title{
+    font-size: var(--font-24px); 
+}
+
+.references_description{
+    font-size: var(--font-16px); 
+}
+
+.reference_lists{
+    /* height: 580px; */
+    overflow: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.references_section{
+    width: 270px;
+    border-radius: 10px;
+    border: solid;
+}
+
+.references_section_content{
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+.medication_title{
+    font-size: var(--font-18px);
+}
+
+.medication_link{
+    text-align: right;
 }
