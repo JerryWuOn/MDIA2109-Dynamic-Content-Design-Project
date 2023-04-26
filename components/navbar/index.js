@@ -3,8 +3,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Navbar() {
+
+    
     return (
-        /** Navigation Bar */
+
     <>
     <main className={styles.main}>
         <div className={styles.icons}>
@@ -31,6 +33,6 @@ export default function Navbar() {
         </div>
     </main>
     </>
-     /** Navigation Bar Ended*/
+
     )
 }
