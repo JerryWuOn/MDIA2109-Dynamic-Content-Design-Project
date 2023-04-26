@@ -83,12 +83,15 @@ export default function References() {
     <section className={styles.references_section}>
 
     <div className={styles.references_section_content}>
+
+    <div className={styles.references_section_image}>
       <Image
             src = "/icons/noseIcon.svg"
             alt =""
             width = {60}
             height = {60}
       />
+      </div>
 
       <h1 className={styles.medication_title}>Nose Medication</h1>
 
@@ -101,12 +104,15 @@ export default function References() {
        <section className={styles.references_section}>
 
        <div className={styles.references_section_content}>
+
+       <div className={styles.references_section_image}>
       <Image
             src = "/icons/stomachIcon.svg"
             alt =""
             width = {60}
             height = {60}
       />
+      </div>
 
       <h1 className={styles.medication_title}>Stomach Medication</h1>
 
@@ -119,12 +125,15 @@ export default function References() {
     <section className={styles.references_section}>
 
     <div className={styles.references_section_content}>
+
+    <div className={styles.references_section_image}>
       <Image
-            src = "/icons/muscleIcon.svg"
+            src = "/icons/exerciseRunning.svg"
             alt =""
             width = {60}
             height = {60}
       />
+      </div>
 
       <h1 className={styles.medication_title}>Muscle Medication</h1>
     </div>
@@ -135,14 +144,19 @@ export default function References() {
 
     <section className={styles.references_section}>
 
-    <div className={styles.references_section_content}>
+    <div className={styles.references_section_content_others}>
+
+    <div className={styles.references_section_image}>
       <Image
             src = "/icons/otherIcon.svg"
             alt =""
             width = {60}
             height = {60}
       />
+      </div>
 
+      <Link className={styles.medication_link} href="https://medlineplus.gov/druginfo/meds/a682159.html#:~:text=Nonprescription%20ibuprofen%20is%20used%20to,class%20of%20medications%20called%20NSAIDs">Learn More</Link>
+      
       <h1 className={styles.medication_title}>Others</h1>
       </div>
       
