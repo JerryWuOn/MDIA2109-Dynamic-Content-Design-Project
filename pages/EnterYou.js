@@ -45,7 +45,10 @@ export default function EnterYourName() {
           </Link>
         </div>
       </main>
-      <Navbar className={styles.navbar}/>
+
+      <div className={styles.navbar}>
+      <Navbar/>
+      </div>
       </div>
     </>
   )

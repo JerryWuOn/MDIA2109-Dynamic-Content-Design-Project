@@ -58,7 +58,9 @@ export default function EnterTheirName() {
       </main>
       <Survey/>
       
-      <Navbar className={styles.navbar}/>
+      <div className={styles.navbar}>
+      <Navbar/>
+      </div>
       </div>
     </>
   )

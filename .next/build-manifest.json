@@ -15,30 +15,15 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
+    "/Category": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/Category.js"
     ],
-    "/404": [
+    "/EnterYou": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/404.js"
-    ],
-    "/HealthyTips": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/HealthyTips.js"
-    ],
-    "/Identify": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Identify.js"
-    ],
-    "/Startpage": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Startpage.js"
+      "static/chunks/pages/EnterYou.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
