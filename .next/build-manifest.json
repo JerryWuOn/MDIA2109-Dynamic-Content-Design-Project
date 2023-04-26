@@ -15,27 +15,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-<<<<<<< HEAD
-    "/Category": [
+    "/EnterTheir": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Category.js"
-    ],
-    "/EnterYou": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/EnterYou.js"
-=======
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
-    "/404": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/404.js"
->>>>>>> Takami
+      "static/chunks/pages/EnterTheir.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
