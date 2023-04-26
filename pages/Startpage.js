@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Startpage.module.css'
-import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
 import React from 'react';
 import { useState } from 'react';
