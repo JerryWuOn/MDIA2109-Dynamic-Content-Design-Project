@@ -17,11 +17,9 @@ export default function References() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icons/Icon.svg" />
       </Head>
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> Takami
+
+
 
 <div className={styles.body_main}>
     <main className={styles.main}>
