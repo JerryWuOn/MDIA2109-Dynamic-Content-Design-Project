@@ -4,7 +4,8 @@ import Image from 'next/image'
 import Navbar from '../components/navbar'
 import Head from 'next/head'
 
-export default function Category({passName}) {
+
+export default function Category() {
 
     return (
     <>
@@ -19,9 +20,9 @@ export default function Category({passName}) {
 <div className={styles.body_main}>
     <main className={styles.main}>
     
-    <h1>Hello,</h1>
+    <h1>Hello, </h1>
 
-    <p className={styles.categoryPage_question}>Where are you experiencing discomfortable today? {passName}</p>
+    <p className={styles.categoryPage_question}>Where are you experiencing discomfortable today?</p>
 
 <section className={styles.category_buttons}>
 
@@ -32,10 +33,10 @@ export default function Category({passName}) {
 
         <div className={styles.body_icons}>
         <Image
-                    src = "/icons/headIcon.svg"
-                    alt =""
-                    width = {60}
-                    height = {60}
+                src = "/icons/headIcon.svg"
+                alt =""
+                width = {60}
+                height = {60}
             />
         </div>
             <div className={styles.category_button_texts}>
@@ -46,15 +47,15 @@ export default function Category({passName}) {
             <p className={styles.category_symptoms}>Other</p>
             </div>
             </div></button>
-    </Link>
-</section>
+        </Link>
+        </section>
 
-       <Link href="/Symptoms">
+        <Link href="/Symptoms">
         
-       <button className={styles.category_button} onclick="">    
+        <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}> 
         <div className={styles.body_icons}>  
-         <Image
+        <Image
                     src = "/icons/noseIcon.svg"
                     alt =""
                     width = {60}
@@ -70,14 +71,14 @@ export default function Category({passName}) {
             <p className={styles.category_symptoms}>Other</p>
             </div>
             </div></button>
-       </Link>
+        </Link>
 
-       <Link href="/Symptoms">
-       <button className={styles.category_button} onclick="">    
+        <Link href="/Symptoms">
+        <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>  
 
         <div className={styles.body_icons}>
-         <Image
+            <Image
                     src = "/icons/stomachIcon.svg"
                     alt =""
                     width = {60}
@@ -93,15 +94,15 @@ export default function Category({passName}) {
             <p className={styles.category_symptoms}>Other</p>
             </div>
             </div></button>
-       </Link>
+        </Link>
 
 
-       <Link href="/Symptoms">
-       <button className={styles.category_button} onclick="">    
+        <Link href="/Symptoms">
+        <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>  
 
         <div className={styles.body_icons}>
-         <Image
+            <Image
                     src = "/icons/eyesIcon.svg"
                     alt =""
                     width = {60}
@@ -137,14 +138,14 @@ export default function Category({passName}) {
             <p className={styles.category_symptoms}>Other</p>
             </div>
             </div></button>
-       </Link>
+        </Link>
 
-       <Link href="/NoneAbove">
+        <Link href="/NoneAbove">
         <button className={styles.category_button} onclick="">    
         <div className={styles.category_other_button_inside}>  
 
         <div className={styles.other_icons}> 
-         <Image
+            <Image
                     src = "/icons/otherIcon.svg"
                     alt =""
                     width = {46}
@@ -153,11 +154,11 @@ export default function Category({passName}) {
         </div>
         <p className={styles.category_head}>Other</p>
         </div></button>
-       </Link>
-       </section>
-       </main>
-       <Navbar className={styles.navbar}/>
-       </div>
+        </Link>
+        </section>
+        </main>
+        <Navbar className={styles.navbar}/>
+        </div>
     </>
     )
 }
