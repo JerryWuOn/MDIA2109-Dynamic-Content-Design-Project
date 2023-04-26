@@ -171,17 +171,17 @@ export default function References() {
    <div className={styles.navbar}>
    <Navbar/>
    </div>
-<<<<<<< HEAD
+
    </section>
         </main>
         </div>
     </>
-=======
+=
 
    </div>
     </>
 
     
->>>>>>> Takami
+
     )
 }

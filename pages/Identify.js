@@ -60,6 +60,7 @@ export default function Identify() {
       <div className={styles.navbar}>
       <Navbar/>
       </div>
+      
       </div>
     </>
   )
