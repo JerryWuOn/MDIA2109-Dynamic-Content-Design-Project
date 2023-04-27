@@ -35,9 +35,5 @@ export default function Navbar() {
         </div>
     </main>
     </>
-<<<<<<< HEAD
-=======
-
->>>>>>> Takami
     )
 }
