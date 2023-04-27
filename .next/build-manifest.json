@@ -15,24 +15,15 @@
   ],
   "rootMainFiles": [],
   "pages": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "/EnterTheir": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/EnterTheir.js"
-=======
-    "/Store": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Store.js"
->>>>>>> Takami
-=======
     "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
->>>>>>> Takami
+    ],
+    "/Startpage": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Startpage.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

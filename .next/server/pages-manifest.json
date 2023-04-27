@@ -2,13 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "/EnterTheir": "pages/EnterTheir.js"
-=======
-  "/Store": "pages/Store.js"
->>>>>>> Takami
-=======
+  "/Startpage": "pages/Startpage.js",
   "/": "pages/index.js"
->>>>>>> Takami
 }
