@@ -3,6 +3,7 @@ import styles from '../styles/Healthy.module.css'
 import Head from 'next/head'
 import Carousel from '../components/tipPage';
 import Navbar from '../components/navbar/index.js';
+import Topbar from '../components/topbar';
 
 export default function HealthyTips() {
     return (
@@ -19,13 +20,8 @@ export default function HealthyTips() {
     <main className={styles.main}>
 
     <div className={styles.overlayButton}>
-          <Image
-           src = "/icons/overlayButton.png"
-           alt =""
-           width = {60}
-           height = {60}
-           />
-    </div>
+        <Topbar/>
+        </div>
     
     <h1>Hello, </h1>
 

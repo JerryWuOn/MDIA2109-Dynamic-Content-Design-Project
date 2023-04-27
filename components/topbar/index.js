@@ -1,42 +1,43 @@
 import Image from "next/image"
 import  {useState} from 'react';
 import styles from '../topbar/topbar.module.css'
+import DarkMode from "../darkMode/darkMode";
+import Language from "../language/language";
 
 
-export default function Topbar(){
-
-    const [IsToggle, setIsToggle] = useState(false);
+export default function Topbar (){
     const [IsActive, setIsActive] = useState(false);
-     
-
-    const handleClick = () => {
-        setIsToggle(!IsToggle);
-    };
 
     return(
         <>
-        <main>
 
-        <div onClick={()=> setIsActive(!IsActive)}>
-            <div >{IsActive ? '+' : '+'}</div>
+        <div onClick = {() => setIsActive(!IsActive)}>
+
+            <div>{IsActive ? <Image 
+            src = "/icons/overlayButton.png"
+            alt =""
+            width = {60}
+            height = {60}
+            /> : <Image
+            src = "/icons/overlayButton.png"
+            alt =""
+            width = {60}
+            height = {60}
+            />}</div>
+
         </div>
-            <div>
-                <Image
-                src={"/icons/down.jpeg"}
-                alt=""
-                width={30}
-                height={30}
-                onClick=""
-                />
-            </div>
 
-         <label className={styles.switch}>
-            <input type="checkbox"/>
-            <span className={styles.slider}/>
-         </label>
-      
-           
-        </main>
+        {IsActive && <div>
+         <div className={styles.darkmode_button}><p>Dark Mode</p>
+
+         <DarkMode className={styles.button}/>
+     
+         
+         </div>
+        <Language/>
+
+        </div>}
+        
         </>
     )
 }

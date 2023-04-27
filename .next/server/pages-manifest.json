@@ -3,8 +3,12 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "/EnterTheir": "pages/EnterTheir.js"
 =======
   "/Store": "pages/Store.js"
+>>>>>>> Takami
+=======
+  "/": "pages/index.js"
 >>>>>>> Takami
 }

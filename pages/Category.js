@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Navbar from '../components/navbar'
 import Head from 'next/head'
+import Topbar from '../components/topbar'
 
 export default function Category({passName}) {
 
@@ -30,14 +31,10 @@ export default function Category({passName}) {
     <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>   
 
-        <div className={styles.body_icons}>
-         <Image
-                    src = "/icons/headIcon.svg"
-                    alt =""
-                    width = {60}
-                    height = {60}
-            />
+        <div className={styles.overlayButton}>
+        <Topbar/>
         </div>
+        
             <div className={styles.category_button_texts}>
             <p className={styles.category_head}>Head</p>
             <p className={styles.category_symptoms}>Nausea</p>

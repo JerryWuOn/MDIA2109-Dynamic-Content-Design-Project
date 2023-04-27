@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/NoneAbove.module.css'
 import Link from 'next/link'
 import Navbar from '../components/navbar'
+import Topbar from '../components/topbar'
 
 
 export default function NoneAbove() {
@@ -18,6 +19,10 @@ export default function NoneAbove() {
 
       <div className={styles.body_main}>
       <main className={styles.main}>
+
+      <div className={styles.overlayButton}>
+        <Topbar/>
+        </div>
        
       <h1>Hello, ?</h1>
 

@@ -5,7 +5,11 @@ import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
 import { useState } from 'react';
 import Category from './Category';
+<<<<<<< HEAD
 import Survey from '../components/enterText/Survey';
+=======
+import Topbar from '../components/topbar';
+>>>>>>> Takami
 
 export default function EnterTheirName() {
 
@@ -21,6 +25,7 @@ export default function EnterTheirName() {
 
       <div className={styles.body_main}>
       <main className={styles.main}>
+<<<<<<< HEAD
         <div className={styles.overlayButton}>
               <Image
               src = "/icons/overlayButton.png"
@@ -30,6 +35,14 @@ export default function EnterTheirName() {
               />
           </div>
       
+=======
+
+      <div className={styles.overlayButton}>
+        <Topbar/>
+        </div>
+       
+       <div style={{display: isActiveOne ? 'block' : 'none'}}>
+>>>>>>> Takami
        <h1 className={styles.enter_yourname_header}>Enter Their Details Here:</h1>
 
        <p className={styles.label}>First Name:</p>
