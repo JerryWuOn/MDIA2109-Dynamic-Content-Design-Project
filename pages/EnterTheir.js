@@ -5,6 +5,7 @@ import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
 import { useState } from 'react';
 import Category from './Category';
+import Topbar from '../components/topbar';
 
 export default function EnterTheirName() {
 
@@ -32,14 +33,10 @@ const passName = (event) => {
 
       <div className={styles.body_main}>
       <main className={styles.main}>
-        <div className={styles.overlayButton}>
-              <Image
-              src = "/icons/overlayButton.png"
-              alt =""
-              width = {60}
-              height = {60}
-              />
-          </div>
+
+      <div className={styles.overlayButton}>
+        <Topbar/>
+        </div>
        
        <div style={{display: isActiveOne ? 'block' : 'none'}}>
        <h1 className={styles.enter_yourname_header}>Enter Their Details Here:</h1>

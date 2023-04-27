@@ -4,7 +4,7 @@ import Navbar from '../components/navbar/index.js';
 import Head from 'next/head'
 import Image from 'next/image';
 import { useState } from 'react';
-
+import Topbar from '../components/topbar';
 
 export default function Store() {
 
@@ -27,12 +27,10 @@ const locationClicked = () => {
 <div className={styles.body_main}>
     <main className={styles.main}>
 
-    <Image
-           src = "/icons/overlayButton.png"
-           alt =""
-           width = {60}
-           height = {60}
-           />
+    <div className={styles.overlayButton}>
+        <Topbar/>
+        </div>
+        
 
     <h1>Hello,</h1>
     <p className={styles.store_page_description}>Your medication can be access through these stores:</p>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Navbar from '../components/navbar/index.js';
 import Head from 'next/head'
 import Image from 'next/image';
-
+import Topbar from '../components/topbar';
 
 export default function References() {
 
@@ -22,14 +22,11 @@ export default function References() {
 <div className={styles.body_main}>
     <main className={styles.main}>
 
-    <Image
-           src = "/icons/overlayButton.png"
-           alt =""
-           width = {60}
-           height = {60}
-           />
+    <div className={styles.overlayButton}>
+        <Topbar/>
+        </div>
 
-
+        
     <h1 className={styles.references_title}>References</h1>
     <p className={styles.references_description}>Quick links to the primary medication for each category:</p>
 

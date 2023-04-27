@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Identify.module.css'
 import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
-
+import Topbar from '../components/topbar';
 
 export default function Identify() {
 
@@ -19,14 +19,11 @@ export default function Identify() {
 
 <div className={styles.body_main}>
       <main className={styles.main}>
+
       <div className={styles.overlayButton}>
-          <Image
-           src = "/icons/overlayButton.png"
-           alt =""
-           width = {60}
-           height = {60}
-           />
+        <Topbar/>
         </div>
+
         <div className={styles.welcome_page_texts}>
        <h1 className={styles.patient_choices_header}>Who is this Checkup for?</h1>
         <section className={styles.patient_choices_buttons}>

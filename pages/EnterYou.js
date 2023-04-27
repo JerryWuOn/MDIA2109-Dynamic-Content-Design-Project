@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/EnterName.module.css'
 import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
+import Topbar from '../components/topbar';
 
 
 export default function EnterYourName() {
@@ -18,14 +19,11 @@ export default function EnterYourName() {
       </Head>
       <div className={styles.body_main}>
         <main className={styles.main}>
-          <div className={styles.overlayButton}>
-              <Image
-              src = "/icons/overlayButton.png"
-              alt =""
-              width = {60}
-              height = {60}
-              />
-          </div>
+          
+        <div className={styles.overlayButton}>
+        <Topbar/>
+        </div>
+
        <h1 className={styles.enter_yourname_header}>Enter Your Details Here:</h1>
        <div>
         <p className={styles.label}>Name:</p>

@@ -2,7 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import Carousel from '../components/tipPage'
+import Topbar from '../components/topbar'
+
 
 export default function Welcome() {
 
@@ -16,12 +17,7 @@ export default function Welcome() {
       </Head>
       <main className={styles.main}>
         <div className={styles.overlayButton}>
-          <Image
-           src = "/icons/overlayButton.png"
-           alt =""
-           width = {60}
-           height = {60}
-           />
+        <Topbar/>
         </div>
         <div className={styles.main_image}>
         <Image

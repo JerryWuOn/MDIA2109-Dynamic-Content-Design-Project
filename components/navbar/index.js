@@ -1,9 +1,11 @@
 import styles from '../navbar/navbar.module.css'
-import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export default function Navbar() {
 
+    const router = useRouter()
+    const {locale} = router
     
     return (
 
