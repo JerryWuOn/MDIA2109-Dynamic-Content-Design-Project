@@ -25,6 +25,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/References.js"
     ],
+    "/Results_Eyes": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Results_Eyes.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

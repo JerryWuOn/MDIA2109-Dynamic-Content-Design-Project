@@ -30,8 +30,7 @@ export default function Results(){
 
             <div>
                 <h1 className={styles.name}>Hello, Jerry!!</h1>
-                <h2>We recommend you take these over the</h2>
-                <h2>counter drugs for:</h2>
+                <h2>We recommend you take these over the counter drugs for:</h2>
             </div>
 
                 <div className={styles.container}>
@@ -47,20 +46,20 @@ export default function Results(){
 
                     <div className={styles.picture}>
                         <Image
-                            src="/public/Medication.jpg"
+                            src="/Medication.svg"
                             alt=""
-                            width={120}
-                            height={120}
+                            width={213}
+                            height={130}
                         />
                     </div>
                     
                 </div>
 
             <div>    
-                <p>Medical Name</p>
-                <p>Usage</p>
-                <p>Doses:</p>
-                <p>For more serious conditions, please seek professionalmedical assistance</p>
+                <p className={styles.border}>Medical Name</p>
+                <p className={styles.border}>Usage</p>
+                <p className={styles.border}>Doses:</p>
+                <p className={styles.border}>Caution: For more serious conditions, please seek professionalmedical assistance</p>
 
                 <div className={styles.button_container}>
                 <button className={styles.button}>Access medication</button>

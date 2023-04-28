@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/References": "pages/References.js",
-  "/Access": "pages/Access.js"
+  "/Results_Eyes": "pages/Results_Eyes.js",
+  "/Access": "pages/Access.js",
+  "/References": "pages/References.js"
 }

@@ -57,10 +57,10 @@ export default function Results(){
                 </div>
 
             <div>    
-                <p>Medical Name</p>
-                <p>Usage</p>
-                <p>Doses:</p>
-                <p>For more serious conditions, please seek professionalmedical assistance</p>
+                <p className={styles.border}>Medical Name</p>
+                <p className={styles.border}>Usage</p>
+                <p className={styles.border}>Doses:</p>
+                <p className={styles.border}>For more serious conditions, please seek professionalmedical assistance</p>
 
                 <div className={styles.button_container}>
                 <button className={styles.button}>Access medication</button>

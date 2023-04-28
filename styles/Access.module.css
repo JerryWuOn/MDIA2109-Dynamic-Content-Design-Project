@@ -24,11 +24,18 @@
     border-radius: var(--screen-border-radius);
     font-family: var(--font-style);
     color: var( --font-colour);
+    /* for scroll */
+    overflow: auto;
+    height: 100vh;
+
+}
+
+.main{
+    padding: 0 var(--side-margin);
 }
 
 .main_container {
     height: 580px;
-    overflow: auto;
     padding-top: 20px;
     display: flex;
     flex-direction: column;
@@ -37,11 +44,10 @@
 }
 
 .border {
-    width: 270px;
+    width: 300px;
     border-radius: 5px;
-    border-color: rgb(238, 193, 170);
-    color: rgb(238, 193, 170);
     border: solid;
+    border-color: var(--red-colour);
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -61,11 +67,21 @@
     border-radius: var(--border-radius-80px);
     width: var(--width-140px);
     height: var(--height-40px);
-    font-size: var(--font-18px);
+    font-size: var(--font-16px);
+    font-family: var(--font-style);
     border: var(--border-none);
     background-color: var(--blue-colour);
     cursor: pointer;
 }
 .welcome_page_button:hover{
     background-color: var( --button-hovers);
+}
+
+/* Navbar */
+
+.navbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
 }
