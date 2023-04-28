@@ -1,0 +1,41 @@
+.slidePic{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.slideText1{
+    font-size: var(--font-24px);
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-700);
+    text-align: center;
+    padding: 30px 0;
+}
+
+.slideText2{
+    font-size: var(--font-16px);
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-400);
+}
+
+.carousel_buttons{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 30px;
+}
+
+
+.button{
+    width: var(--width-140px);
+    height: var(--height-40px);
+    font-size: var(--font-18px);
+    border-radius: var(--border-radius-80px);
+    border: var(--border-none);
+    background-color: var(--blue-colour);
+    font-family: var(--font-style);
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var( --button-hovers);
+}

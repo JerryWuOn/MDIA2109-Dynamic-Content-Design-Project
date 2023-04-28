@@ -1,15 +1,17 @@
 .body_main {
     padding-top: 2em;
     margin: auto;
+    width: var(--screen-width);
+    height: var(--screen-height);
     overflow: hidden;
     position: relative;
-    background-color: rgb(250, 250, 250);
+    background-color: var(--white-colour);
     width: var(--screen-width);
     height: var(--screen-height);
     border: var(--screen-border);
     border-radius: var(--screen-border-radius);
     font-family: var(--font-style);
-    padding: 0 var(--side-margin);
+    color: var( --font-colour);
 }
 
 .main{
@@ -33,7 +35,7 @@
 }
 
 .reference_lists{
-    /* height: 580px; */
+    height: 580px;
     overflow: auto;
     padding-top: 20px;
     display: flex;
@@ -46,6 +48,9 @@
     width: 270px;
     border-radius: 10px;
     border: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .references_section_content{
@@ -94,8 +99,23 @@
 
 .medication_title{
     font-size: var(--font-18px);
+    text-align: right;
 }
 
 .medication_link{
     text-align: right;
+}
+
+.references_section_image{
+   display: flex;
+   align-items: center;
+   padding-top: 20px;
+}
+
+.references_section_content_others{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 15px;
+    justify-content: space-between;
 }

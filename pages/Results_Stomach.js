@@ -61,7 +61,11 @@ export default function Results(){
                 <p>Usage</p>
                 <p>Doses:</p>
                 <p>For more serious conditions, please seek professionalmedical assistance</p>
-                <button>Access medication</button>
+                
+                <div className={styles.button_container}>
+                <button className={styles.button}>Access medication</button>
+                </div>
+
             </div>
         
         

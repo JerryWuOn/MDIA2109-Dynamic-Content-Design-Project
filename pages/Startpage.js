@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Startpage.module.css'
-import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
 import React from 'react';
 import { useState } from 'react';
+import Topbar from '../components/topbar';
 
 
 
@@ -32,13 +32,9 @@ export default function Startpage() {
       <main className={styles.main}>
 
       <div className={styles.overlayButton}>
-          <Image
-           src = "/icons/overlayButton.png"
-           alt =""
-           width = {60}
-           height = {60}
-           />
+        <Topbar/>
         </div>
+
         <div className={styles.main_image}>
         <Image
         src = "/icons/startpageBear.svg"

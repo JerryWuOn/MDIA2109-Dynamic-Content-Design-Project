@@ -3,11 +3,12 @@
     margin: auto;
     overflow: hidden;
     position: relative;
-    background-color: rgb(250, 250, 250);
+    background-color: var(--white-colour);
     width: var(--screen-width);
     height: var(--screen-height);
     border: var(--screen-border);
     border-radius: var(--screen-border-radius);
+    color: var( --font-colour);
 }
 .overlayButton{
     display: flex;

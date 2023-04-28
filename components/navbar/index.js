@@ -1,10 +1,14 @@
 import styles from '../navbar/navbar.module.css'
-import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export default function Navbar() {
+
+    const router = useRouter()
+    const {locale} = router
+    
     return (
-        /** Navigation Bar */
+
     <>
     <main className={styles.main}>
         <div className={styles.icons}>
@@ -31,6 +35,5 @@ export default function Navbar() {
         </div>
     </main>
     </>
-     /** Navigation Bar Ended*/
     )
 }

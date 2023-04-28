@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import styles from '../styles/Healthy.module.css'
 import Head from 'next/head'
+import Carousel from '../components/tipPage';
+import Navbar from '../components/navbar/index.js';
+import Topbar from '../components/topbar';
 
 export default function HealthyTips() {
     return (
@@ -14,26 +17,30 @@ export default function HealthyTips() {
 
 
 <div className={styles.body_main}>
-    <main>
+    <main className={styles.main}>
 
-
+    <div className={styles.overlayButton}>
+        <Topbar/>
+        </div>
+    
     <h1>Hello, </h1>
 
 <section className={styles.healthyHabits__bear_talking}>
 <Image
-    src = "/icons/face.png"
+    src = "/icons/bearHead.svg"
     alt =""
     width = {50}
     height = {50}
 />
 <p>Here are a few tips to improve overall health and boost immune system</p>
 </section>
-    <h1>Drink More Water</h1>
-    <h1>Physical Activity</h1>
-    <h1>Get more sleep</h1>
-    <h1>Eat well, get enough nutrients</h1>
-    <h1>Less screen time</h1>
+
+<Carousel/>
     </main>
+
+<div className={styles.navbar}>
+    <Navbar/>
+</div>
     </div>
     </>
     )
