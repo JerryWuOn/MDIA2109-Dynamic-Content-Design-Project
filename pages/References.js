@@ -43,7 +43,7 @@ export default function References() {
               height = {24}
         />
         <div>
-        <h2>Head medication</h2>
+        
         <h1 className={styles.medication_title}>Eye Medication</h1>
         </div>
     
