@@ -30,15 +30,8 @@ export default function References() {
         </div>
 
         
-    <h1 className={styles.references_title}>References</h1>
-    <p className={styles.references_description}>Quick links to the primary medication for each category:</p>
-
-      <Image
-            src = "/icons/overlayButton.png"
-            alt =""
-            width = {60}
-            height = {60}
-            />
+    
+     
 
 
       <h1 className={styles.references_title}>References</h1>
