@@ -15,6 +15,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/Access": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Access.js"
+    ],
     "/References": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

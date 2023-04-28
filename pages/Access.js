@@ -11,7 +11,7 @@ export default function Access(){
     return(
         <>
         <div className={styles.body_main}>
-                
+            <div className={styles.main_conatiner}>   
                 <div className={styles.overlayButton}>
                     <Image
                         src="/icons/overlayButton.svg"
@@ -34,7 +34,7 @@ export default function Access(){
                     />
                 </div>
                 
-                <p>Eye medication</p>
+                <p className={styles.border}>Eye medication</p>
                 <h1>Secondary Options</h1>
                 <div className={styles.overlayButton}>
                     <Image
@@ -44,8 +44,11 @@ export default function Access(){
                         height={130}
                     />
                 </div>
+                <div className={styles.container}>
+                <button className={styles.welcome_page_button} onclick="">Health Tips</button>
                 <button className={styles.welcome_page_button} onclick="">Available Stores</button>
-
+                </div>
+            </div>
             <Navbar/>
         </div>
         </>
