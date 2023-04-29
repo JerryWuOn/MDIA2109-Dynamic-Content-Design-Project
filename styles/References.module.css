@@ -60,6 +60,43 @@
     justify-content: space-between;
 }
 
+.references_section_content_eye{
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+.references_section_content_head{
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+.references_section_content_nose{
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+.references_section_content_stomach{
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+.references_section_content_muscle{
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+.references_section_content_other{
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
 .medication_title{
     font-size: var(--font-18px);
     text-align: right;
