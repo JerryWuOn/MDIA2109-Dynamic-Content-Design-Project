@@ -15,20 +15,20 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/404": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/404.js"
+      "static/chunks/pages/index.js"
     ],
-    "/Identify": [
+    "/References": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Identify.js"
+      "static/chunks/pages/References.js"
     ],
-    "/Startpage": [
+    "/Results_Eyes": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Startpage.js"
+      "static/chunks/pages/Results_Eyes.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
