@@ -22,7 +22,7 @@ export default function References() {
 
 
   <div className={styles.body_main}>
-      <main className={styles.main}>
+    <main className={styles.main}>
 
 
     <div className={styles.overlayButton}>
@@ -166,9 +166,9 @@ export default function References() {
     </section>
     </main>
 
-    <div className={styles.navbar}>
-    <Navbar/>
-    </div>
+      <div className={styles.navbar}>
+      <Navbar/>
+      </div>
 
           </div>
       </>

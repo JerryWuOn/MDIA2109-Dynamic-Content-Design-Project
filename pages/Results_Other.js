@@ -18,7 +18,7 @@ export default function Results(){
     </Head>
       
       <div className={styles.body_main}>
-
+        <div className={styles.main}>
             <div className={styles.overlayButton}>
                         <Image
                             src="/icons/overlayButton.svg"
@@ -68,7 +68,7 @@ export default function Results(){
 
             </div>
         
-        
+        </div>
         <Navbar/>
         </div>
         

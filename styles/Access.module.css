@@ -24,9 +24,7 @@
     border-radius: var(--screen-border-radius);
     font-family: var(--font-style);
     color: var( --font-colour);
-    /* for scroll */
-    overflow: auto;
-    height: 100vh;
+   
 
 }
 
