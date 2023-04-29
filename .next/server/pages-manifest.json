@@ -3,6 +3,8 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/Results_Eyes": "pages/Results_Eyes.js",
-  "/References": "pages/References.js"
+  "/Access": "pages/Access.js",
+  "/404": "pages/404.js",
+  "/References": "pages/References.js",
+  "/Results_Eyes": "pages/Results_Eyes.js"
 }
