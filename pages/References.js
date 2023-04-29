@@ -7,7 +7,7 @@ import Topbar from '../components/topbar';
 
 export default function References() {
 
-
+  var name = process.env.NEXT_PUBLIC_NAME;
 
     return (
     <>
@@ -19,11 +19,11 @@ export default function References() {
     </Head>
 
 
-
-
   <div className={styles.body_main}>
     <main className={styles.main}>
 
+      {/* HERE LIES ENVIRONMENT VARIABLE */}
+        {name}
 
     <div className={styles.overlayButton}>
         <Topbar/>
