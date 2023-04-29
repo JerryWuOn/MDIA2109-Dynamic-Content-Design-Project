@@ -4,9 +4,13 @@ import Image from 'next/image'
 import Navbar from '../components/navbar'
 import Head from 'next/head'
 import Topbar from '../components/topbar'
+import { useRouter } from 'next/router'
 
 
 export default function Category() {
+
+    const router = useRouter();
+    const { name } = router.query;
 
     return (
     <>
@@ -21,8 +25,7 @@ export default function Category() {
 <div className={styles.body_main}>
     <main className={styles.main}>
     
-    <h1>Hello, </h1>
-
+    <h1>Hello, {name}  </h1>
     <p className={styles.categoryPage_question}>Where are you experiencing discomfortable today?</p>
 
 <section className={styles.category_buttons}>
