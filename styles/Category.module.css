@@ -16,6 +16,7 @@
 .main{
     padding: 0 var( --side-margin);
     font-family: var(--font-style);
+    margin-bottom: 14em;
 }
 
 .category_buttons{
@@ -40,9 +41,19 @@
     border-width: 5px;
     font-family: var(--font-style);
     line-height: 0.3;
+    cursor: pointer;
+}
+
+.category_button:hover{
+    background-color:var(--button-hovers);
 }
 
 .category_head{
+    font-size: var(--font-16px);
+    margin-left: -.5em;
+}
+
+.category_other{
     font-size: var(--font-16px);
 }
 
@@ -66,6 +77,7 @@
     width: 13px;
     height: 100px;
 }
+
 
 .body_icons{
     display: flex;

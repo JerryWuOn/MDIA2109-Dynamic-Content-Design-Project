@@ -15,20 +15,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
+    "/Category": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
-    "/References": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/References.js"
-    ],
-    "/Results_Eyes": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Results_Eyes.js"
+      "static/chunks/pages/Category.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
