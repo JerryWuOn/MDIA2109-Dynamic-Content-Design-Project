@@ -12,13 +12,22 @@
     border-radius: var(--screen-border-radius);
     color: var( --font-colour);
 }
+.overlayButton{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 2em;
+}
 
 .noneAbove_texts{
     font-size: var(--font-18px);
     font-weight: var(--font-weight-700);
     font-family: var(--font-style);
     text-align: center;
-    line-height: 0.5;
+
+}
+.main{
+    padding: 0 var(--side-margin);
+    font-family: var(--font-style);
 }
 
 .noneAbove_page_button{
@@ -28,6 +37,11 @@
     font-size: var(--font-18px);
     background-color: var( --blue-colour);
     border: none;
+    cursor: pointer;
+    margin-bottom: 13.11em;
+}
+.noneAbove_page_button:hover{
+    background-color: var(--button-hovers);
 }
 
 .noneAbove_page_button_div{

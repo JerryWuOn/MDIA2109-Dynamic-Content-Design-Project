@@ -23,6 +23,7 @@
     display: grid;
     grid-template-columns: 165px 165px;
     grid-template-rows: 120px 120px 120px;
+    justify-content: space-evenly;
 }
 
 .category_button_inside{

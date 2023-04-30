@@ -35,7 +35,7 @@ export default function EnterTheirName() {
       <form>
         <p className={styles.label}>Name:</p>
           <div className={styles.spaceholder_first_name}>
-          <input className={styles.input_name}type="text" placeholder="Name" value={name}onChange={handleNameChange} />
+          <input className={styles.input_name}type="text" placeholder="Name" value={name} onChange={handleNameChange} />
           </div>
       </form>
 
