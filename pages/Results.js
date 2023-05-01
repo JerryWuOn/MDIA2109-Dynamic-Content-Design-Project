@@ -20,12 +20,12 @@ export default function Results(){
       <div className={styles.body_main}>
 
             <div className={styles.overlayButton}>
-                        <Image
-                            src="/icons/overlayButton.svg"
-                            alt=""
-                            width={60}
-                            height={60}
-                        />
+                    <Image
+                        src="/icons/overlayButton.svg"
+                        alt=""
+                        width={60}
+                        height={60}
+                    />
             </div>
 
             <div>
@@ -35,7 +35,6 @@ export default function Results(){
             </div>
 
                 <div className={styles.container}>
-
                     <div className={styles.eye}>
                         <Image
                             src="/icons/head icon.svg"

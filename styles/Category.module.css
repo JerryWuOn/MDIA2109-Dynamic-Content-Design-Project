@@ -16,7 +16,10 @@
 .main{
     padding: 0 var( --side-margin);
     font-family: var(--font-style);
-    margin-bottom: 14.1em;
+    margin-bottom: 15.32em;
+}
+.main h1{
+    font-size: var(--font-24px);
 }
 
 .category_buttons{

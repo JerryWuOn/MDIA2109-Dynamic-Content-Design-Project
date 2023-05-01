@@ -22,21 +22,37 @@ export default function Symptoms() {
         <div className={styles.overlayButton}>
         <Topbar/>
         </div>
-
        <h1 className={styles.enter_header}>Hello,</h1>
-       <h2 className={styles.label}>How do you feel discomfort</h2>
+       <h2 className={styles.label}>Where do you feel discomfort</h2>
        <div>
           <div className={styles.title_header}>
             <h3>Head</h3>
             <h4>Down below are common symptoms for head injuries:</h4>
           </div>
-          <input className={styles.input_name}placeholder="Name" />
+          <div className={styles.infoButtons}>
+              <div className={styles.input_name} >
+                <input type="checkbox"></input>
+                <p>Nausea</p>
+              </div>
+              <div className={styles.input_name} >
+                <input type="checkbox"></input>
+                <p>Spinning Sensation</p>
+              </div>
+              <div className={styles.input_name} >
+                <input type="checkbox"></input>
+                <p>Lightheadedness</p>
+              </div>
+              <div className={styles.input_name} >
+                <input type="checkbox"></input>
+                <p>None of the above</p>
+              </div>
+          </div>
       </div>
 
       <form>
         <div className={styles.enteryourpage_submit_button_div}>
           <Link href="/Results">
-            <button className={styles.enteryourpage_submit_button}>Begin!!</button>
+            <button className={styles.enteryourpage_submit_button}>Submit</button>
           </Link>
         </div>
       </form>
