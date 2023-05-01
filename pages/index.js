@@ -7,6 +7,8 @@ import Topbar from '../components/topbar'
 
 export default function Welcome() {
 
+  var name = process.env.NEXT_PUBLIC_NAME;
+
   return (
     <div className={styles.body_main}>
       <Head>
@@ -31,7 +33,7 @@ export default function Welcome() {
        <div
        className={styles.welcome_page__texts}>
        <h1
-       className={styles.welcome_page_header}>Welcome to Meddy</h1>
+       className={styles.welcome_page_header}>Welcome to  {name}</h1>
        <p
        className={styles.welcome_page_slogan}>Meddy provides you with a fast assessment of your current symptoms you may be feeling</p>
        </div>
