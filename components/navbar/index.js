@@ -5,7 +5,6 @@ import { useRouter } from 'next/router'
 export default function Navbar() {
 
     const router = useRouter()
-    const {locale} = router
     
     return (
 
@@ -13,9 +12,9 @@ export default function Navbar() {
     <main className={styles.main}>
         <div className={styles.icons}>
             <div className={styles.container_back}>
-            <Link href="window.history.back()" className={styles.navbar_text}>
+            <button onClick={() => router.back()} className={styles.navbar_text}>
                 <img src={"/icons/backbutton.svg"}></img>
-            </Link>
+            </button>
             <p>Back</p>
             </div>  
 
