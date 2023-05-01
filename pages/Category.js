@@ -12,6 +12,7 @@ export default function Category() {
     const router = useRouter();
     const { name } = router.query;
 
+
     return (
     <>
 

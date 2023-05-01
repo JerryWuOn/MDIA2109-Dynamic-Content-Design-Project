@@ -34,6 +34,11 @@ export const List = {
         {
             category: "Head",
             symptoms: "None of the above",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "",
         },
         {
             category: "Nose",
@@ -65,6 +70,11 @@ export const List = {
         {
             category: "Nose",
             symptoms: "None of the above",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "",
         },
         {
             category: "Stomach",
@@ -96,6 +106,11 @@ export const List = {
         {
             category: "Stomach",
             symptoms: "None of the above",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "",
         } ,
         {
             category: "Eyes",
@@ -127,6 +142,11 @@ export const List = {
         {
             category: "Eyes",
             symptoms: "None of the above",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "",
         } ,
         {
             category: "Muscles",
@@ -158,10 +178,20 @@ export const List = {
         {
             category: "Muscles",
             symptoms: "None of the above",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "",
         } ,
         {
             category: "Other",
             symptoms: "Other",
+            medicineName: "",
+            usage: "",
+            doses: "",
+            Caution: "",
+            image: "",
         } ,
 
     ]
