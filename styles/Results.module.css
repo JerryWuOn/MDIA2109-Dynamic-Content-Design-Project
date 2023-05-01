@@ -85,7 +85,7 @@
     width: 310px;
     height: var(--height-40px);
     border-radius: var(--border-radius-10px);
-    font-size: var(--font-18px);
+    font-size: var(--font-15px);
     background-color: var(--gray-colour);
     border-width: 4px;
     border-style: solid;
@@ -102,20 +102,6 @@
 }
 
 
-.enteryourpage_submit_button{
-    width: var(--width-166px);
-    height: var(--height-40px);
-    border-radius: var(--border-radius-80px);
-    border: var(--border-none);
-    font-size: var(--font-18px);
-    background-color: var( --blue-colour);
-    cursor: pointer;
-}
-.enteryourpage_submit_button:hover{
-    background-color: var(--button-hovers);
-}
-
-
 .label{
     font-size: var(--font-16px);
     font-family: var(--font-style);
@@ -126,14 +112,32 @@
     margin-bottom: 1em;
 
 }
-
+.healthyButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
 .enteryourpage_submit_button_div{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 75px;
+    padding-top: 40px;
     margin-bottom: 27em;
 }
+
+.enteryourpage_submit_button{
+    width: 153px;
+    height: var(--height-55px);
+    border-radius: var(--border-radius-10px);
+    border: var(--border-none);
+    font-size: var(--font-18px);
+    background-color: var( --blue-colour);
+    cursor: pointer;
+}
+.enteryourpage_submit_button:hover{
+    background-color: var(--button-hovers);
+}
+
 
 
 .navbar{
