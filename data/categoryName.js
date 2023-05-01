@@ -47,8 +47,4 @@ export const ParentInfo = {
         {
             category: "Other",
             description: "Down below write the symptom you are looking for",
-            symptomsone: "Nausea",
-            symptomstwo: "Spinning Sensation",
-            symptomsthree: "Lightheadedness",
-            symptomsfour: "None of the above",
-        }
+        }]}
