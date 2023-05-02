@@ -12,7 +12,7 @@ export default function Navbar() {
     <main className={styles.main}>
         <div className={styles.icons}>
             <div className={styles.container_back}>
-            <button onClick={() => router.back()} className={styles.navbar_text}>
+            <button className={styles.back_button} onClick={() => router.back()} >
                 <img src={"/icons/backbutton.svg"}></img>
             </button>
             <p>Back</p>
@@ -27,7 +27,7 @@ export default function Navbar() {
 
             <div className={styles.container_reference}>
             <Link href="/References" className={styles.navbar_text}>  
-                <img src={"/icons/referencebutton.svg"}></img>
+                <img src={"/icons/referencebutton.svg"}/>
             </Link>
             <p>Reference</p>
             </div> 
