@@ -69,15 +69,8 @@ export default function Symptoms() {
       <div className={styles.healthyButtons}>
       <form>
         <div className={styles.enteryourpage_submit_button_div}>
-          <Link href="/HealthyTips">
-            <button className={styles.enteryourpage_submit_button}>Healthy Tips</button>
-          </Link>
-        </div>
-      </form>
-      <form>
-        <div className={styles.enteryourpage_submit_button_div}>
-          <Link href="/References">
-            <button className={styles.enteryourpage_submit_button}>References</button>
+          <Link href="/Access">
+            <button className={styles.enteryourpage_submit_button}>Access Medication</button>
           </Link>
         </div>
       </form>
