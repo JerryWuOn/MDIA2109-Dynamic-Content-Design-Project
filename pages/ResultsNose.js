@@ -31,8 +31,8 @@ export default function Symptoms() {
                 <Image
                     src = "/icons/noseIcon.svg"
                     alt =""
-                    width = {120}
-                    height = {120}
+                    width = {60}
+                    height = {60}
                 />
                 <h3>Nose</h3>
                 </div>
@@ -40,8 +40,8 @@ export default function Symptoms() {
                 <Image
                     src = "/icons/Medication.svg"
                     alt =""
-                    width = {180}
-                    height = {110}
+                    width = {160}
+                    height = {90}
                 />
 
             </div>
