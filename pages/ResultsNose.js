@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Symptoms.module.css'
+import styles from '../styles/Results.module.css'
 import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
 import Topbar from '../components/topbar';
@@ -23,39 +23,62 @@ export default function Symptoms() {
         <Topbar/>
         </div>
        <h1 className={styles.enter_header}>Hello,</h1>
-       <h2 className={styles.label}>Where do you feel discomfort</h2>
+       <h2 className={styles.label}>We recommend you take these over the counter drugs for:</h2>
        <div>
           <div className={styles.title_header}>
-            <h3>Head</h3>
-            <h4>Down below are common symptoms for head injuries:</h4>
+            <div className={styles.title_Container}>
+                <div className={styles.imageCaption} >
+                <Image
+                    src = "/icons/noseIcon.svg"
+                    alt =""
+                    width = {120}
+                    height = {120}
+                />
+                <h3>Nose</h3>
+                </div>
+
+                <Image
+                    src = "/icons/Medication.svg"
+                    alt =""
+                    width = {180}
+                    height = {110}
+                />
+
+            </div>
           </div>
           <div className={styles.infoButtons}>
               <div className={styles.input_name} >
-                <input type="checkbox"></input>
-                <p>Nausea</p>
+                <p>Medicine Name: </p>
+                <h5>Antitussives</h5>
               </div>
+
               <div className={styles.input_name} >
-                <input type="checkbox"></input>
-                <p>Spinning Sensation</p>
+                <p>Usage:</p>
+                <h5>5 to 15 mg every two to four hours, as needed.</h5>
               </div>
+
               <div className={styles.input_name} >
-                <input type="checkbox"></input>
-                <p>Lightheadedness</p>
+                <p>Doses:</p>
+                <h5>Follow  the directions on the label.</h5>
               </div>
+
               <div className={styles.input_name} >
-                <input type="checkbox"></input>
-                <p>None of the above</p>
+                <p>Serious:  for more serious conditions,  please seek professional meassistance
+                </p>
               </div>
           </div>
       </div>
 
+      <div className={styles.healthyButtons}>
       <form>
         <div className={styles.enteryourpage_submit_button_div}>
-          <Link href="/Results">
-            <button className={styles.enteryourpage_submit_button}>Submit</button>
+          <Link href="/Access">
+            <button className={styles.enteryourpage_submit_button}>Access Medication</button>
           </Link>
         </div>
       </form>
+      </div>
+
     </main>
       <div className={styles.navbar}>
       <Navbar/>

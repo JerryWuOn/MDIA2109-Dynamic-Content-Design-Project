@@ -38,7 +38,7 @@ export default function Category() {
 
     <section className={styles.button_shape}>
         <div>
-    <Link href="/Symptoms">
+    <Link href="/symptomsHead">
     <button className={styles.category_button} onclick="">
     <div className={styles.category_button_inside}>     
         <div className={styles.body_icons}>
@@ -60,7 +60,7 @@ export default function Category() {
         </div>
         </section>
 
-        <Link href="/Symptoms">
+        <Link href="/symptomsNose">
         <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}> 
         <div className={styles.body_icons}>  
@@ -81,7 +81,7 @@ export default function Category() {
             </div></button>
         </Link>
 
-        <Link href="/Symptoms">
+        <Link href="symptomsStomach">
         <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>  
 
@@ -104,7 +104,7 @@ export default function Category() {
         </Link>
 
 
-        <Link href="/Symptoms">
+        <Link href="symptomsEyes">
         <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>  
 
@@ -125,7 +125,7 @@ export default function Category() {
             </div></button>
     </Link>
     
-    <Link href="/Symptoms">
+    <Link href="symptomsMuscles">
         <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>  
         <div className={styles.body_icons}> 
