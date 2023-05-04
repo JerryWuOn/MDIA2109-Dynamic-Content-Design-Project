@@ -44,7 +44,11 @@ export default function NoneAbove() {
        </div>
 
       </main>
+
+      <div className={styles.navbar}>
       <Navbar/>
+      </div>
+
       </div>
     </>
   )

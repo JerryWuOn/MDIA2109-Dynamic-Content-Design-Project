@@ -1,0 +1,19 @@
+.body_main {
+    padding-top: 2em;
+    margin: auto;
+    width: var(--screen-width);
+    height: var(--screen-height);
+    overflow: hidden;
+    position: relative;
+    background-color: var(--white-colour);
+    width: var(--screen-width);
+    height: var(--screen-height);
+    border: var(--screen-border);
+    border-radius: var(--screen-border-radius);
+    font-family: var(--font-style);
+    color: var( --font-colour);
+}
+
+.main{
+    padding: 0 var(--side-margin);
+}

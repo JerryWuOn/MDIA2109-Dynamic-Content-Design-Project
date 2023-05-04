@@ -162,7 +162,10 @@ export default function Category() {
         </Link>
         </section>
         </main>
-        <Navbar className={styles.navbar}/>
+
+        <div className={styles.navbar}>
+        <Navbar/>
+        </div>
         </div>
     </>
     )
