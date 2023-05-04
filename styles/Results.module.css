@@ -1,60 +1,150 @@
 .body_main {
-    
     padding-top: 2em;
     margin: auto;
+    width: var(--screen-width);
+    height: var(--screen-height);
     overflow: hidden;
     position: relative;
-    background-color: rgb(250, 250, 250);
+    background-color: var(--white-colour);
     width: var(--screen-width);
     height: var(--screen-height);
     border: var(--screen-border);
     border-radius: var(--screen-border-radius);
-    font-family: var(--font-style);
-    
-    /* for scroll */
-    overflow: auto;
-    height: 100vh;
+    color: var( --font-colour);
+}
+.overlayButton{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 2em;
+}
 
+.enter_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: var(--font-24px);
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-700);
+    margin: 0em;
 }
 
 .main{
     padding: 0 var(--side-margin);
+    font-family: var(--font-style);
 }
 
-.container {
+.title_header{
     display: flex;
-    gap: 30px;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-700);
+    width: 298px;
+    height: 160px;
+    margin-bottom: 2em;
+    border-style: solid;
+    border-radius: var(--border-radius-20px);
+    border-width: 10px;
+    border-color: var(--gray-colour);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
 
-.border {
-    width: 270px 300vmax;
-    border-radius: 5px;
-    border: solid;
+.title_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageCaption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100px;
+}
+
+.imageCaption image{
+    border-radius: var(--border-radius-80px);
+}
+
+.title_header h3{
+    font-size: var(--font-24px);
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-700);
+    margin: 0em;
+}
+
+
+.input_name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 310px;
+    height: var(--height-40px);
+    border-radius: var(--border-radius-10px);
+    font-size: var(--font-15px);
+    background-color: var(--gray-colour);
+    border-width: 4px;
+    border-style: solid;
     border-color: var(--red-colour);
+    font-family: var(--font-style);
+    padding-left: 1em;
+    gap: 1em;
+}
+
+.infoButtons{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.button_container {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 28px;
-}
 
-.button { 
-    text-align: center;
-    border-radius: var(--border-radius-80px);
-    width: var(--width-140px);
-    height: var(--height-40px);
+.label{
     font-size: var(--font-16px);
     font-family: var(--font-style);
-    border: var(--border-none);
-    background-color: var(--blue-colour);
-    cursor: pointer;
-    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 0em;
+    margin-bottom: 1em;
+
+}
+.healthyButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.enteryourpage_submit_button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 27em;
 }
 
-.button:hover{
-    background-color: var( --button-hovers);
+.enteryourpage_submit_button{
+    width: 153px;
+    height: var(--height-55px);
+    border-radius: var(--border-radius-10px);
+    border: var(--border-none);
+    font-size: var(--font-18px);
+    background-color: var( --blue-colour);
+    cursor: pointer;
+}
+.enteryourpage_submit_button:hover{
+    background-color: var(--button-hovers);
+}
+
+
+
+.navbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }

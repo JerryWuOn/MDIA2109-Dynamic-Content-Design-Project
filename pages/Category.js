@@ -12,6 +12,7 @@ export default function Category() {
     const router = useRouter();
     const { name } = router.query;
 
+
     return (
     <>
 
@@ -22,23 +23,24 @@ export default function Category() {
         <link rel="icon" href="/icons/Icon.svg" />
     </Head>
 
-<div className={styles.body_main}>
+    <div className={styles.body_main}>
     <main className={styles.main}>
-    
+    <div className={styles.overlayButton}>
+        <Topbar/>
+    </div>
+
+    <div>
     <h1>Hello, {name}  </h1>
     <p className={styles.categoryPage_question}>Where are you experiencing discomfortable today?</p>
+    </div>
 
-<section className={styles.category_buttons}>
+    <section className={styles.category_buttons}>
 
-<section className={styles.button_shape}>
-    <Link href="/Symptoms">
-    <button className={styles.category_button} onclick="">    
-         
-
-
-        <div className={styles.overlayButton}>
-        <Topbar/>
-
+    <section className={styles.button_shape}>
+        <div>
+    <Link href="/symptomsHead">
+    <button className={styles.category_button} onclick="">
+    <div className={styles.category_button_inside}>     
         <div className={styles.body_icons}>
         <Image
                 src = "/icons/headIcon.svg"
@@ -47,20 +49,18 @@ export default function Category() {
                 height = {60}
             />
         </div>
-        
             <div className={styles.category_button_texts}>
             <p className={styles.category_head}>Head</p>
             <p className={styles.category_symptoms}>Nausea</p>
-            <p className={styles.category_symptoms}>Spinning Sensation</p>
             <p className={styles.category_symptoms}>Lightheadness</p>
             <p className={styles.category_symptoms}>Other</p>
             </div>
             </div></button>
         </Link>
+        </div>
         </section>
 
-        <Link href="/Symptoms">
-        
+        <Link href="/symptomsNose">
         <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}> 
         <div className={styles.body_icons}>  
@@ -74,15 +74,14 @@ export default function Category() {
 
             <div className={styles.category_button_texts}>
             <p className={styles.category_head}>Nose</p>
-            <p className={styles.category_symptoms}> Nausea</p>
-            <p className={styles.category_symptoms}>Spinning Sensation</p>
-            <p className={styles.category_symptoms}>Lightheadness</p>
+            <p className={styles.category_symptoms}>Runny Nose</p>
+            <p className={styles.category_symptoms}>Blockage</p>
             <p className={styles.category_symptoms}>Other</p>
             </div>
             </div></button>
         </Link>
 
-        <Link href="/Symptoms">
+        <Link href="symptomsStomach">
         <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>  
 
@@ -98,7 +97,6 @@ export default function Category() {
             <div className={styles.category_button_texts}>
             <p className={styles.category_head}>Stomach</p>
             <p className={styles.category_symptoms}> Stomach Ache</p>
-            <p className={styles.category_symptoms}>Upset Stomach</p>
             <p className={styles.category_symptoms}>Acid Reflux</p>
             <p className={styles.category_symptoms}>Other</p>
             </div>
@@ -106,7 +104,7 @@ export default function Category() {
         </Link>
 
 
-        <Link href="/Symptoms">
+        <Link href="symptomsEyes">
         <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>  
 
@@ -122,13 +120,12 @@ export default function Category() {
             <p className={styles.category_head}>Eyes</p>
             <p className={styles.category_symptoms}> Dry Eyes</p>
             <p className={styles.category_symptoms}>Red Eyes</p>
-            <p className={styles.category_symptoms}>Blurry Vision</p>
             <p className={styles.category_symptoms}>Other</p>
             </div>
             </div></button>
     </Link>
     
-    <Link href="/Symptoms">
+    <Link href="symptomsMuscles">
         <button className={styles.category_button} onclick="">    
         <div className={styles.category_button_inside}>  
         <div className={styles.body_icons}> 
@@ -141,9 +138,8 @@ export default function Category() {
         </div>
             <div className={styles.category_button_texts}>
             <p className={styles.category_head}>Muscles</p>
-            <p className={styles.category_symptoms}> Pain or tendness</p>
+            <p className={styles.category_symptoms}> Pain</p>
             <p className={styles.category_symptoms}>Soreness</p>
-            <p className={styles.category_symptoms}>Limited Motion</p>
             <p className={styles.category_symptoms}>Other</p>
             </div>
             </div></button>
@@ -161,7 +157,7 @@ export default function Category() {
                     height = {46}
             />
         </div>
-        <p className={styles.category_head}>Other</p>
+        <p className={styles.category_other}>Other</p>
         </div></button>
         </Link>
         </section>

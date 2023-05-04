@@ -12,3 +12,122 @@
     border-radius: var(--screen-border-radius);
     color: var( --font-colour);
 }
+.overlayButton{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 2em;
+}
+
+.enter_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: var(--font-24px);
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-700);
+    margin: 0em;
+}
+
+.main{
+    padding: 0 var(--side-margin);
+    font-family: var(--font-style);
+}
+
+.title_header{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-700);
+    width: 298px;
+    height: 100px;
+    margin-bottom: 2em;
+    border-style: solid;
+    border-radius: var(--border-radius-20px);
+    border-width: 10px;
+    border-color: var(--gray-colour);
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.title_header h3{
+    font-size: var(--font-24px);
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-700);
+    margin: 0em;
+    width: 220px;
+}
+.title_header h4{
+    font-size: var(--font-16px);
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-400);
+    margin: 0em;
+    width: 270px;
+}
+
+.input_name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 310px;
+    height: var(--height-55px);
+    border-radius: var(--border-radius-10px);
+    font-size: var(--font-18px);
+    background-color: var(--gray-colour);
+    border-width: 4px;
+    border-style: solid;
+    border-color: var(--red-colour);
+    font-family: var(--font-style);
+    padding-left: 1em;
+    gap: 1em;
+}
+.input_name input{
+    width: 30px;
+    height: 30px;
+}
+
+.infoButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.enteryourpage_submit_button{
+    width: var(--width-166px);
+    height: var(--height-40px);
+    border-radius: var(--border-radius-80px);
+    border: var(--border-none);
+    font-size: var(--font-18px);
+    background-color: var( --blue-colour);
+    cursor: pointer;
+}
+.enteryourpage_submit_button:hover{
+    background-color: var(--button-hovers);
+}
+
+
+.label{
+    font-size: var(--font-16px);
+    font-family: var(--font-style);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 0em;
+    margin-bottom: 1em;
+
+}
+
+.enteryourpage_submit_button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    margin-bottom: 27em;
+}
+
+
+.navbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
