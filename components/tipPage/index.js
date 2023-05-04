@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from '../tipPage/tipPage.module.css'
+import Link from "next/link";
 
 const slides = [
     {
@@ -60,6 +61,11 @@ export default function Carousel(){
                 <button className={styles.button} onClick = {handlePrevSlide}>Prev</button>
                 <button  className={styles.button} onClick = {handleNexrSlide}>Next</button>
             </div>
+
+            <Link href="/Quiz">
+              <button className={styles.button} onclick="">Take a Quiz</button>
+              </Link>
+    
         </div>
     );
 }

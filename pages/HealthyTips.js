@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Carousel from '../components/tipPage';
 import Navbar from '../components/navbar/index.js';
 import Topbar from '../components/topbar';
+import Link from 'next/link';
 
 export default function HealthyTips() {
     return (
@@ -36,6 +37,7 @@ export default function HealthyTips() {
 </section>
 
 <Carousel/>
+
     </main>
 
 <div className={styles.navbar}>

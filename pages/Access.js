@@ -46,8 +46,14 @@ export default function Access() {
                             />
                         </div>
                         <div className={styles.container}>
+                            <Link href="/HealthyTips">
                             <button className={styles.welcome_page_button} onclick="">Health Tips</button>
-                            <button className={styles.welcome_page_button} onclick="">Available Stores</button>
+                            </Link>
+                          
+                            <Link href="/Store">
+                            <button className={styles.welcome_page_button} onclick="">Available store</button>
+                            </Link>
+
                         </div>
                     </div>
 
