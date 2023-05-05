@@ -72,8 +72,8 @@ export default function Startpage() {
                 <li className={styles.popup_alert_lists}>AS THESE ARE NOT PRESCRIPTIONS BUT ONLY PRESCREENING RECOMMENDATIONS. CONSULT A DOCTOR FOR PRESCRIPTIONS</li>
                 <li className={styles.popup_alert_lists}>WE ARE NOT LIABLE FOR RISK OR ISSUES ASSOCIATED WITH USING OR ACTING UPON THE INFORMATION ON THIS SITE.</li>
                 <div className={styles.intro_button_container}>
-              <label onClick={() => setButtonClicked(true)}>
-              <input className={styles.accept_term_checkbox} type="checkbox" id="checkboxed" />I accept Terms of Service
+              <label className={styles.accept_term_checkbox} onClick={() => setButtonClicked(true)}>
+              <input type="checkbox" id="checkboxed" /> <b>I accept Terms of Service</b>
               </label>
             <div className={styles.popup_button_container}>
               <Link href="/">
