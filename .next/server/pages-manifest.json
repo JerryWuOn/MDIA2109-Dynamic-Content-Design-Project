@@ -1,10 +1,5 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/ResultsHead": "pages/ResultsHead.js",
-  "/Access": "pages/Access.js",
-  "/404": "pages/404.js",
-  "/symptomsHead": "pages/symptomsHead.js",
-  "/References": "pages/References.js"
+  "/_document": "pages/_document.js"
 }
