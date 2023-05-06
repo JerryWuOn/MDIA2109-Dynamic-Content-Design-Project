@@ -1,10 +1,14 @@
 .darkmode_button{
     display: flex;
     flex-direction: row;
+    position: absolute;
     gap: 40px;
     font-size:20px;
     font-family: var(--font-style);
     background-color: var( --red-colour);
+}
+.overlayButton:hover{
+    cursor: pointer;
 }
 
 .button{
