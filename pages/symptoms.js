@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Symptoms.module.css'
 import Navbar from '../components/navbar/index.js';
-import Link from 'next/link'
 import Topbar from '../components/topbar';
 import { useRouter } from 'next/router';
+import Category from './Category';
 
 
 
@@ -14,10 +13,15 @@ export default function symptomsHead() {
   const { selectedData } = router.query;
 
   if (!selectedData) {
-    return null; 
+    return <Category/>; 
   }
 
   const data = JSON.parse(selectedData);
+
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+    router.push(data.clickedclicker);
+  };
 
   return (
     <>
@@ -59,11 +63,9 @@ export default function symptomsHead() {
           </div>
       </div>
 
-      <form>
+      <form onSubmit={handleFormSubmit}>
         <div className={styles.enteryourpage_submit_button_div}>
-          <Link href={data.clickedclicker}>
-            <button className={styles.enteryourpage_submit_button}>Submit</button>
-          </Link>
+          <button type="submit" className={styles.enteryourpage_submit_button}>Submit</button>
         </div>
       </form>
     </main>
@@ -72,5 +74,5 @@ export default function symptomsHead() {
       </div>
       </div>
     </>
-  )
+  );
 }
