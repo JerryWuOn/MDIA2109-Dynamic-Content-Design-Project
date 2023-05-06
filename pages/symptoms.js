@@ -4,10 +4,20 @@ import styles from '../styles/Symptoms.module.css'
 import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
 import Topbar from '../components/topbar';
+import { useRouter } from 'next/router';
 
 
 
 export default function symptomsHead() {
+
+  const router = useRouter();
+  const { selectedData } = router.query;
+
+  if (!selectedData) {
+    return null; 
+  }
+
+  const data = JSON.parse(selectedData);
 
   return (
     <>
@@ -26,32 +36,32 @@ export default function symptomsHead() {
        <h2 className={styles.label}>Where do you feel discomfort</h2>
        <div>
           <div className={styles.title_header}>
-            <h3>Eyes</h3>
-            <h4>Down below are common symptoms for eye problems:</h4>
+            <h3>{data.category}</h3>
+            <h4>{data.description}</h4>
           </div>
           <div className={styles.infoButtons}>
               <div className={styles.input_name} >
                 <input type="checkbox"></input>
-                <p>Dry Eyes</p>
+                <p>{data.symptomsOne}</p>
               </div>
               <div className={styles.input_name} >
                 <input type="checkbox"></input>
-                <p>Red Eyes</p>
+                <p>{data.symptomsTwo}</p>
               </div>
               <div className={styles.input_name} >
                 <input type="checkbox"></input>
-                <p>Blurry Vision</p>
+                <p>{data.symptomsThree}</p>
               </div>
               <div className={styles.input_name} >
                 <input type="checkbox"></input>
-                <p>None of the above</p>
+                <p>{data.symptomsFour}</p>
               </div>
           </div>
       </div>
 
       <form>
         <div className={styles.enteryourpage_submit_button_div}>
-          <Link href="/ResultsEyes">
+          <Link href={data.clickedclicker}>
             <button className={styles.enteryourpage_submit_button}>Submit</button>
           </Link>
         </div>
