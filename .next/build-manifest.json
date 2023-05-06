@@ -15,14 +15,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
-<<<<<<< HEAD
-=======
-    "/Quiz": [
+    "/ResultsHead": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Quiz.js"
+      "static/chunks/pages/ResultsHead.js"
     ],
->>>>>>> b8b35c6ea1142be707bd9164af9374d43bad6435
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -32,6 +29,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/symptomsHead": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/symptomsHead.js"
     ]
   },
   "ampFirstPages": []
