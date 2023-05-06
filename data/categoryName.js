@@ -57,13 +57,13 @@ export const parentInfo = [
         {
             id: 6,
             category: "Other",
-            description: "Down below write the symptom you are looking for",
-            symptomsone: "",
-            symptomsTwo: "",
-            symptomsThree: "",
-            symptomsFour: "",
+            description: "Down below click the symptoms you are looking for",
+            symptomsOne: "Feinting",
+            symptomsTwo: "Throwing Up",
+            symptomsThree: "Blindness",
+            symptomsFour: "Itchy Skin",
             image: "/icons/otherIcon.svg",
-            clickedclicker: ""
+            clickedclicker: "/NoneAbove"
         },
     ];
 
