@@ -2,7 +2,6 @@ import Image from "next/image"
 import  {useState} from 'react';
 import styles from '../topbar/topbar.module.css'
 import DarkMode from "../darkMode/darkMode";
-import Language from "../language/language";
 
 
 export default function Topbar (){
@@ -34,7 +33,6 @@ export default function Topbar (){
      
          
          </div>
-        <Language/>
 
         </div>}
         

@@ -142,3 +142,12 @@
     margin-top: 2em;
     margin-left: -10px;
 }
+.accept_term_checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.accept_term_checkbox input{
+    width: 30px;
+    height: 30px;
+}
