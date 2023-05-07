@@ -2,8 +2,9 @@ import styles from '../styles/Quiz.module.css'
 import Head from 'next/head'
 import Topbar from '../components/topbar'
 import Navbar from '../components/navbar'
-import Link from 'next/link'
-export default function Quiz(){
+
+
+export default function QuizCorrect(){
 
     return(
         <>
@@ -16,19 +17,14 @@ export default function Quiz(){
 
         <div className={styles.body_main}>
             <main className={styles.main}>
-
-        <div className={styles.overlayButton}>
-        <Topbar/>
-        </div>
-        
-
-        <h1>Lets check your knowledge! </h1>
-
-        <Link href="">
-        <button></button>
-        </Link>
+                <div className={styles.overlayButton}>
+                    <Topbar/>
+                </div>
+                
+                <h1>Incorrect</h1>
+                <h1> I want it to be a pop up, and have a button that says try again, displays for 5 seconds.</h1>
+                    
             </main>
-
             <div className={styles.navbar}>
                 <Navbar/>
             </div>
