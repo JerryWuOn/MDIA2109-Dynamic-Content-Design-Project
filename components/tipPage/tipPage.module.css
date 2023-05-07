@@ -1,3 +1,8 @@
+.slides{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
 .slidePic{
     display: flex;
     justify-content: center;
@@ -21,7 +26,7 @@
 .carousel_buttons{
     justify-content: space-between;
     display: flex;
-    padding-top: 30px;
+    padding-top: 3.75em;
 }
 
 

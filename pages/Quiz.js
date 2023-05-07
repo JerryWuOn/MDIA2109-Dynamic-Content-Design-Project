@@ -23,7 +23,7 @@ export default function Quiz(){
         </div>
         
 
-        <h1>Lets check your knowdklege! </h1>
+        <h1>Lets check your knowledge! </h1>
 
         <Link href="">
         <button></button>

@@ -3,7 +3,7 @@ import styles from '../styles/Symptoms.module.css'
 import Navbar from '../components/navbar/index.js';
 import Topbar from '../components/topbar';
 import { useRouter } from 'next/router';
-import Category from './Category';
+
 
 
 
@@ -13,7 +13,7 @@ export default function symptomsHead() {
   const { selectedData } = router.query;
 
   if (!selectedData) {
-    return <Category/>; 
+    return null;
   }
 
   const data = JSON.parse(selectedData);
