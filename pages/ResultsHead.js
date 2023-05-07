@@ -38,10 +38,10 @@ export default function Symptoms() {
                 </div>
 
                 <Image
-                    src = "/icons/Medication.svg"
+                    src = "/icons/Ibuprofen.png"
                     alt =""
-                    width = {160}
-                    height = {90}
+                    width = {120}
+                    height = {120}
                 />
 
             </div>
@@ -72,7 +72,7 @@ export default function Symptoms() {
       <div className={styles.healthyButtons}>
       <form>
         <div className={styles.enteryourpage_submit_button_div}>
-          <Link href="/Access">
+          <Link href="/AccessHead">
             <button className={styles.enteryourpage_submit_button}>Access Medication</button>
           </Link>
         </div>

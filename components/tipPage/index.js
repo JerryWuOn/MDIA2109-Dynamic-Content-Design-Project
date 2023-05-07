@@ -62,9 +62,11 @@ export default function Carousel(){
                 <button  className={styles.button} onClick = {handleNexrSlide}>Next</button>
             </div>
 
-            <Link href="/Quiz">
-              <button className={styles.button} onclick="">Take a Quiz</button>
-              </Link>
+            <div className={styles.takeQuiz}>
+                <Link href="/Quiz">
+                <button className={styles.button} onclick="">Take a Quiz</button>
+                </Link>
+            </div>
     
         </div>
     );

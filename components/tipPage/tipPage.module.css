@@ -51,3 +51,10 @@ border: var(--border-none);
 background-color: var(--blue-colour);
 cursor: pointer;
 }
+
+.takeQuiz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
