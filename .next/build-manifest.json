@@ -15,10 +15,25 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/ResultsHead": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/ResultsHead.js"
+      "static/chunks/pages/index.js"
+    ],
+    "/Identify": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Identify.js"
+    ],
+    "/References": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/References.js"
+    ],
+    "/Startpage": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Startpage.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
@@ -29,11 +44,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/symptomsHead": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/symptomsHead.js"
     ]
   },
   "ampFirstPages": []
