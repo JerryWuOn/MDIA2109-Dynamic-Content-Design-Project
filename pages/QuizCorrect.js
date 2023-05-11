@@ -4,6 +4,7 @@ import Topbar from '../components/topbar'
 import Navbar from '../components/navbar'
 import Link from 'next/link'
 import PieChart from '../components/pieChart/pieChart'
+import Image from 'next/image'
 import 'chart.js/auto';
 
 export default function QuizCorrect(){
@@ -22,10 +23,34 @@ export default function QuizCorrect(){
                 <div className={styles.overlayButton}>
                     <Topbar/>
                 </div>
-                
-                <h1>Correct! </h1>
+
+                <h1>Hello, </h1>
+                <section className={styles.intro_bear}>
+                    <Image
+                        src = "/icons/bearHead.svg"
+                        alt =""
+                        width = {50}
+                        height = {50}
+                    />
+                    <p>Approximately two-thirds of your body is composed of water!</p>
+                </section>
+
+                <div className={styles.chartContainer}>
                     <PieChart/>
+                </div>
+
             </main>
+            <div className={styles.container}>
+
+                <Link href="/HealthyTips">
+                    <button className={styles.welcome_page_button} onclick="">Health Tips</button>
+                </Link>
+                
+                <Link href="/Quiz">
+                    <button className={styles.welcome_page_button} onclick="">Retake Quiz!</button>
+                </Link>
+                </div>
+
             <div className={styles.navbar}>
                 <Navbar/>
             </div>

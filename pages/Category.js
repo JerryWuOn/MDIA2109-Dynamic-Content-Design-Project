@@ -75,11 +75,7 @@ export default function Category() {
         </section></div>
           
         </div>
-      ))}
-
-   
-
-        
+      ))}        
         </section>
         </main>
 

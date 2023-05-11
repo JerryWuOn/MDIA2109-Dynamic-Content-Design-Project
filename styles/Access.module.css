@@ -67,14 +67,12 @@
 }
 
 .welcome_page_button{
-    text-align: center;
-    border-radius: var(--border-radius-80px);
-    width: var(--width-140px);
-    height: var(--height-40px);
-    font-size: var(--font-16px);
-    font-family: var(--font-style);
+    width: 153px;
+    height: var(--height-55px);
+    border-radius: var(--border-radius-10px);
     border: var(--border-none);
-    background-color: var(--blue-colour);
+    font-size: var(--font-18px);
+    background-color: var( --blue-colour);
     cursor: pointer;
 }
 .welcome_page_button:hover{

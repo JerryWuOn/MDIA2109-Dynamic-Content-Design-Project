@@ -1,7 +1,7 @@
 .healthyHabits__bear_talking{
     flex-direction: row;
     display: flex;
-    font-size: var(--font-15px);
+    font-size: var(--font-16px);
     gap:20px;
 }
 

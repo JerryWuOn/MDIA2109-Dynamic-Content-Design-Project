@@ -1,9 +1,40 @@
+import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import styles from '../styles/Quiz.module.css'
 import Head from 'next/head'
 import Topbar from '../components/topbar'
 import Navbar from '../components/navbar'
 import Link from 'next/link'
+import Image from 'next/image'
+
+
 export default function Quiz(){
+    const [selectedAnswer, setSelectedAnswer] = useState(null);
+    const [showPopup, setShowPopup] = useState(false);
+    const [isCorrect, setIsCorrect] = useState(false);
+    const router = useRouter();
+  
+    const handleAnswerSubmit = (answer) => {
+      if (answer === '66%') {
+        setIsCorrect(true);
+      } else {
+        setIsCorrect(false);
+      }
+      setShowPopup(true);
+    };
+  
+    useEffect(() => {
+      let timer;
+      if (showPopup) {
+        timer = setTimeout(() => {
+          setShowPopup(false);
+          if (isCorrect) {
+            router.push('/QuizCorrect'); 
+          }
+        }, 2500);
+      }
+      return () => clearTimeout(timer);
+    }, [showPopup, isCorrect, router]);
 
     return(
         <>
@@ -16,18 +47,59 @@ export default function Quiz(){
 
         <div className={styles.body_main}>
             <main className={styles.main}>
-
         <div className={styles.overlayButton}>
         <Topbar/>
         </div>
-        
 
-        <h1>Lets check your knowledge! </h1>
+        <h1>Hello , </h1>
 
-        <Link href="">
-        <button></button>
-        </Link>
-            </main>
+
+    <section className={styles.intro_bear}>
+    <Image
+        src = "/icons/bearHead.svg"
+        alt =""
+        width = {50}
+        height = {50}
+    />
+    <p>What percentage of your body is made out of water?</p>
+    </section>
+
+
+    <div className={styles.buttonContainer}>
+        <div className={styles.category_button}>
+            <section className={styles.selectedAnswer === '33%' ? 'selected' : ''}
+            onClick={() => handleAnswerSubmit('33%')}>
+                <h1>33%</h1>
+            </section>
+        </div>
+
+        <div className={styles.category_button}>
+            <section className={selectedAnswer === '66%' ? 'selected' : ''}
+            onClick={() => handleAnswerSubmit('66%')}>
+                <h1>66%</h1>
+            </section>
+        </div>
+
+        <div className={styles.category_button}>
+            <section className={selectedAnswer === '87%' ? 'selected' : ''}
+            onClick={() => handleAnswerSubmit('87%')}>
+                <h1>87%</h1>
+            </section>
+        </div>
+    </div>
+    </main>
+
+    <div className={`${styles.popupContainer} ${ isCorrect ? styles.correct : styles.incorrect}`}>
+                {showPopup && (
+                    <div className="popup">
+                    {isCorrect ? (
+                        <p>Congratulations! That is correct!</p>
+                    ) : (
+                        <p>Incorrect answer. Please try again!</p>
+                    )}
+                    </div>
+                )}
+            </div>
 
             <div className={styles.navbar}>
                 <Navbar/>
@@ -35,5 +107,4 @@ export default function Quiz(){
         </div>
         </>
     )
-
 }
