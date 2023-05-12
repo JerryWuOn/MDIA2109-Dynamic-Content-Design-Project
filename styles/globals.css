@@ -8,6 +8,7 @@
   --gray-colour: rgb(239, 239, 239);
   --green-colour: rgb(169, 231, 168);
   --font-colour: black;
+  --border-colour: black;
   /* Font sizes*/
   --Header-34px: 34px;
   --font-24px: 24px;
@@ -61,12 +62,14 @@
 
 [data-theme = "dark"]{
   --white-colour: #193558;
+  --border-color: black;
   --font-colour: white;
 }
 
 html,body{
-  margin-top: 2rem;
+  margin-top: 1em;
   padding: 0%;
+  color: var( --font-colour);
 }
 
 

@@ -39,7 +39,7 @@ export default function Category() {
     <div className={styles.body_main}>
     <main className={styles.main}>
     <div className={styles.overlayButton}>
-        <Topbar/>
+      <Topbar/>
     </div>
 
     <div>
