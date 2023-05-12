@@ -13,6 +13,11 @@
     border-radius: var(--screen-border-radius);
     color: var( --font-colour);
 }
+.overlayButton{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 2em;
+}
 
 .main{
     padding: 0 var( --side-margin);
@@ -86,8 +91,8 @@
 
 .body_icons{
     display: flex;
-  align-items: center;
-  padding-right: 15px;
+    align-items: center;
+    padding-right: 15px;
 }
 
 .other_icons{

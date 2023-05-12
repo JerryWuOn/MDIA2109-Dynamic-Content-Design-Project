@@ -21,6 +21,10 @@
     font-family: var(--font-style);
     color: var( --font-colour);
 }
+.overlayButton{
+    display: flex;
+    justify-content: left;
+}
 
 .main{
     padding: 0 var(--side-margin);

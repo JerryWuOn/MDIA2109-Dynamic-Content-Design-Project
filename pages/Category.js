@@ -37,51 +37,51 @@ export default function Category() {
     </Head>
 
     <div className={styles.body_main}>
-    <main className={styles.main}>
-    <div className={styles.overlayButton}>
-      <Topbar/>
-    </div>
+      <main className={styles.main}>
+        <div className={styles.overlayButton}>
+          <Topbar/>
+        </div>
 
-    <div>
-    <h1>Hello, {name}  </h1>
-    <p className={styles.categoryPage_question}>Where are you experiencing discomfort today?</p>
-    </div>
-
-    <section className={styles.category_buttons}>
-    {parentInfo.map((item) => (
-        <div key={item.id} onClick={() => handleItemClick(item)}>
-          <div>
-          <section className={styles.button_shape}>
         <div>
-    <Link href="/symptoms">
-    <button className={styles.category_button} onclick="">
-    <div className={styles.category_button_inside}>     
-        <div className={styles.body_icons}>
-        <Image
-                src = {item.image}
-                alt =""
-                width = {60}
-                height = {60}
-            />
+        <h1>Hello, {name}  </h1>
+        <p className={styles.categoryPage_question}>Where are you experiencing discomfort today?</p>
         </div>
-            <div className={styles.category_button_texts}>
-            <p className={styles.category_head}>{item.category}</p>
-            <p className={styles.category_symptoms}>{item.symptomsTwo}</p>
-            <p className={styles.category_symptoms}>{item.symptomsThree}</p>
-            </div>
-            </div></button>
-        </Link>
-        </div>
-        </section></div>
-          
-        </div>
-      ))}        
-        </section>
-        </main>
 
-        <div className={styles.navbar}>
-        <Navbar/>
-        </div>
+        <section className={styles.category_buttons}>
+        {parentInfo.map((item) => (
+            <div key={item.id} onClick={() => handleItemClick(item)}>
+              <div>
+              <section className={styles.button_shape}>
+            <div>
+        <Link href="/symptoms">
+        <button className={styles.category_button} onclick="">
+        <div className={styles.category_button_inside}>     
+            <div className={styles.body_icons}>
+            <Image
+                    src = {item.image}
+                    alt =""
+                    width = {60}
+                    height = {60}
+                />
+            </div>
+                <div className={styles.category_button_texts}>
+                <p className={styles.category_head}>{item.category}</p>
+                <p className={styles.category_symptoms}>{item.symptomsTwo}</p>
+                <p className={styles.category_symptoms}>{item.symptomsThree}</p>
+                </div>
+                </div></button>
+            </Link>
+            </div>
+            </section></div>
+              
+            </div>
+          ))}        
+            </section>
+          </main>
+
+          <div className={styles.navbar}>
+          <Navbar/>
+          </div>
         </div>
     </>
     )
