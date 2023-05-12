@@ -107,6 +107,7 @@
 
 .popup_alert_lists{
     font-size: var(--font-16px);
+    margin-top: 0.5em;
 }
 
 .popup_alert_inside_texts{
