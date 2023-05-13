@@ -9,6 +9,7 @@
     width: var(--screen-width);
     height: var(--screen-height);
     border: var(--screen-border);
+    border-color: black;
     border-radius: var(--screen-border-radius);
     color: var( --font-colour);
 }
@@ -107,6 +108,7 @@
 
 .popup_alert_lists{
     font-size: var(--font-16px);
+    margin-top: 0.5em;
 }
 
 .popup_alert_inside_texts{

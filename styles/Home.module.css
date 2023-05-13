@@ -1,12 +1,15 @@
 .body_main {
     padding-top: 2em;
     margin: auto;
+    width: var(--screen-width);
+    height: var(--screen-height);
     overflow: hidden;
     position: relative;
     background-color: var(--white-colour);
     width: var(--screen-width);
     height: var(--screen-height);
     border: var(--screen-border);
+    border-color: black;
     border-radius: var(--screen-border-radius);
     color: var( --font-colour);
 }

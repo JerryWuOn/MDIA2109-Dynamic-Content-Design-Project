@@ -35,11 +35,11 @@ ChartJS.register(
 
     useEffect(() => {
         setChartData({
-            labels: ["Made out of roughly 66% of water ","Rest of your body material"],
+            labels: ["66% of water ","Rest of your body material"],
             datasets: [
                 {
                     label: 'Total All Cases',
-                    data: [66, 34],
+                    data: [66.66, 33.33],
                     backgroundColor: [
                         '#CCFBFE',
                         '#CDD6DD',
@@ -59,7 +59,7 @@ ChartJS.register(
                 },
                 title: {
                     display:true,
-                    text: "Percentage of Water"
+                    text: "Your human body"
                 }
             },
             maintainAspectRatio: false,

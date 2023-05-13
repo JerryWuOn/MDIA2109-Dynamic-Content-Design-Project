@@ -1,7 +1,7 @@
 .healthyHabits__bear_talking{
     flex-direction: row;
     display: flex;
-    font-size: var(--font-15px);
+    font-size: var(--font-16px);
     gap:20px;
 }
 
@@ -16,9 +16,14 @@
     width: var(--screen-width);
     height: var(--screen-height);
     border: var(--screen-border);
+    border-color: black;
     border-radius: var(--screen-border-radius);
     font-family: var(--font-style);
     color: var( --font-colour);
+}
+.overlayButton{
+    display: flex;
+    justify-content: left;
 }
 
 .main{

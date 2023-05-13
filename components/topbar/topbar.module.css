@@ -3,10 +3,19 @@
     flex-direction: row;
     position: absolute;
     gap: 40px;
-    font-size:20px;
+    font-size: 20px;
     font-family: var(--font-style);
-    background-color: var( --red-colour);
+    background-color: var(--red-colour);
+    margin-left: 2em;
+    align-items: center;
+    border-radius: var(--border-radius-10px);
+    width: 260px;
 }
+
+.darkmode_button p{
+    margin-left: 2em;
+}
+
 .overlayButton:hover{
     cursor: pointer;
 }
