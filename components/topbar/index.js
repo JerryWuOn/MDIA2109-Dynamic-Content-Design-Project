@@ -12,7 +12,8 @@ export default function Topbar (){
 
         <div onClick = {() => setIsActive(!IsActive)}>
 
-            <div>{IsActive ? <Image 
+            <div  className={styles.overlayButton}>
+            {IsActive ? <Image 
             src = "/icons/overlayButton.png"
             alt =""
             width = {60}

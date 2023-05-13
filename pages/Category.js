@@ -5,12 +5,25 @@ import Navbar from '../components/navbar'
 import Head from 'next/head'
 import Topbar from '../components/topbar'
 import { useRouter } from 'next/router'
+import { useState } from 'react';
+import parentInfo from '../data/categoryName'
 
 
 export default function Category() {
 
     const router = useRouter();
     const { name } = router.query;
+
+  const [selectedData, setSelectedData] = useState(null);
+
+  const handleItemClick = (item) => {
+    setSelectedData(item);
+    router.push({
+      pathname: '/symptoms',
+      query: { selectedData: JSON.stringify(item) },
+    });
+  };
+
 
 
     return (
@@ -31,135 +44,42 @@ export default function Category() {
 
     <div>
     <h1>Hello, {name}  </h1>
-    <p className={styles.categoryPage_question}>Where are you experiencing discomfortable today?</p>
+    <p className={styles.categoryPage_question}>Where are you experiencing discomfort today?</p>
     </div>
 
     <section className={styles.category_buttons}>
-
-    <section className={styles.button_shape}>
+    {parentInfo.map((item) => (
+        <div key={item.id} onClick={() => handleItemClick(item)}>
+          <div>
+          <section className={styles.button_shape}>
         <div>
-    <Link href="/symptomsHead">
+    <Link href="/symptoms">
     <button className={styles.category_button} onclick="">
     <div className={styles.category_button_inside}>     
         <div className={styles.body_icons}>
         <Image
-                src = "/icons/headIcon.svg"
+                src = {item.image}
                 alt =""
                 width = {60}
                 height = {60}
             />
         </div>
             <div className={styles.category_button_texts}>
-            <p className={styles.category_head}>Head</p>
-            <p className={styles.category_symptoms}>Nausea</p>
-            <p className={styles.category_symptoms}>Lightheadness</p>
-            <p className={styles.category_symptoms}>Other</p>
+            <p className={styles.category_head}>{item.category}</p>
+            <p className={styles.category_symptoms}>{item.symptomsTwo}</p>
+            <p className={styles.category_symptoms}>{item.symptomsThree}</p>
             </div>
             </div></button>
         </Link>
         </div>
-        </section>
-
-        <Link href="/symptomsNose">
-        <button className={styles.category_button} onclick="">    
-        <div className={styles.category_button_inside}> 
-        <div className={styles.body_icons}>  
-        <Image
-                    src = "/icons/noseIcon.svg"
-                    alt =""
-                    width = {60}
-                    height = {60}
-            />
+        </section></div>
+          
         </div>
+      ))}
 
-            <div className={styles.category_button_texts}>
-            <p className={styles.category_head}>Nose</p>
-            <p className={styles.category_symptoms}>Runny Nose</p>
-            <p className={styles.category_symptoms}>Blockage</p>
-            <p className={styles.category_symptoms}>Other</p>
-            </div>
-            </div></button>
-        </Link>
+   
 
-        <Link href="symptomsStomach">
-        <button className={styles.category_button} onclick="">    
-        <div className={styles.category_button_inside}>  
-
-        <div className={styles.body_icons}>
-            <Image
-                    src = "/icons/stomachIcon.svg"
-                    alt =""
-                    width = {60}
-                    height = {60}
-            />
-        </div> 
-
-            <div className={styles.category_button_texts}>
-            <p className={styles.category_head}>Stomach</p>
-            <p className={styles.category_symptoms}> Stomach Ache</p>
-            <p className={styles.category_symptoms}>Acid Reflux</p>
-            <p className={styles.category_symptoms}>Other</p>
-            </div>
-            </div></button>
-        </Link>
-
-
-        <Link href="symptomsEyes">
-        <button className={styles.category_button} onclick="">    
-        <div className={styles.category_button_inside}>  
-
-        <div className={styles.body_icons}>
-            <Image
-                    src = "/icons/eyesIcon.svg"
-                    alt =""
-                    width = {60}
-                    height = {17}
-            />
-        </div> 
-            <div className={styles.category_button_texts}>
-            <p className={styles.category_head}>Eyes</p>
-            <p className={styles.category_symptoms}> Dry Eyes</p>
-            <p className={styles.category_symptoms}>Red Eyes</p>
-            <p className={styles.category_symptoms}>Other</p>
-            </div>
-            </div></button>
-    </Link>
-    
-    <Link href="symptomsMuscles">
-        <button className={styles.category_button} onclick="">    
-        <div className={styles.category_button_inside}>  
-        <div className={styles.body_icons}> 
-        <Image
-                    src = "/icons/exerciseRunning.svg"
-                    alt =""
-                    width = {60}
-                    height = {60}
-            />
-        </div>
-            <div className={styles.category_button_texts}>
-            <p className={styles.category_head}>Muscles</p>
-            <p className={styles.category_symptoms}> Pain</p>
-            <p className={styles.category_symptoms}>Soreness</p>
-            <p className={styles.category_symptoms}>Other</p>
-            </div>
-            </div></button>
-        </Link>
-
-        <Link href="/NoneAbove">
-        <button className={styles.category_button} onclick="">    
-        <div className={styles.category_other_button_inside}>  
-
-        <div className={styles.other_icons}> 
-            <Image
-                    src = "/icons/otherIcon.svg"
-                    alt =""
-                    width = {46}
-                    height = {46}
-            />
-        </div>
-        <p className={styles.category_other}>Other</p>
-        </div></button>
-        </Link>
+        
         </section>
         </main>
 

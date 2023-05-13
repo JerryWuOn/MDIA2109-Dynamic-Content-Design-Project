@@ -2,8 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/HealthyTips": "pages/HealthyTips.js",
+  "/Quiz": "pages/Quiz.js",
   "/": "pages/index.js",
-  "/Identify": "pages/Identify.js",
-  "/Startpage": "pages/Startpage.js",
   "/References": "pages/References.js"
 }
