@@ -18,9 +18,6 @@ export default function Welcome() {
         <link rel="icon" href="/icons/Icon.svg" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.overlayButton}>
-        <Topbar/>
-        </div>
         <div className={styles.main_image}>
         <Image
         src = "/icons/bearHead.svg"
