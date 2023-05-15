@@ -13,9 +13,18 @@ export default function Access() {
                         <div className={styles.overlayButton}>
                             <Topbar/>
                         </div>
-                            <h1>Head Medication</h1>
+                        <h1 className={styles.enter_header}>Head Medication</h1>
+                            <section className={styles.access_bear_talking}>
+                            <Image
+                                src = "/icons/bearHead.svg"
+                                alt =""
+                                width = {50}
+                                height = {50}
+                            />
+                            <h3>We recommend you take:</h3>
+                            </section>
                                 <div className={styles.content}>
-                                    <h2>We recommend you take:</h2>
+                                    <h2>Primary Recommendation</h2>
                                     <div className={styles.overlayButton}>
                                         <Image
                                             src = "/icons/Ibuprofen.png"
@@ -28,7 +37,7 @@ export default function Access() {
                                         <p>Medicine Name: <b>Ibuprofen</b></p>
                                     </div>
                                     
-                                    <h2>Secondary Options</h2>
+                                    <h2>Secondary Recommendation</h2>
                                     <div className={styles.overlayButton}>
                                         <Image
                                             src="/icons/Acetaminophen.png"

@@ -6,8 +6,14 @@ import Link from 'next/link'
 import PieChart from '../components/pieChart/pieChart'
 import Image from 'next/image'
 import 'chart.js/auto';
+import { useRouter } from 'next/router'
 
 export default function QuizCorrect(){
+    const router = useRouter();
+
+    const handleGoBack = () => {
+        router.back();
+    };
 
     return(
         <>
@@ -24,7 +30,7 @@ export default function QuizCorrect(){
                     <Topbar/>
                 </div>
 
-                <h1>Hello, </h1>
+                <h1 className={styles.enter_header}> That is Correct!! </h1>
                 <section className={styles.intro_bear}>
                     <Image
                         src = "/icons/bearHead.svg"
@@ -47,7 +53,7 @@ export default function QuizCorrect(){
                 </Link>
                 
                 <Link href="/Quiz">
-                    <button className={styles.welcome_page_button} onclick="">Retake Quiz!</button>
+                    <button className={styles.welcome_page_button} onClick={handleGoBack}>Retake Quiz!</button>
                 </Link>
                 </div>
 

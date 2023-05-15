@@ -52,7 +52,7 @@ export const parentInfo = [
             symptomsThree: "Limited Motion",
             symptomsFour: "None of the above",
             image: "/icons/muscleIcon.svg",
-            clickedclicker: "/ResultsMuscle"
+            clickedclicker: "/ResultsMuscles"
         },
         {
             id: 6,

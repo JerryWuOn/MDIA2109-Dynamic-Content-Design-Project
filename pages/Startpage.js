@@ -31,9 +31,7 @@ export default function Startpage() {
     <div className={styles.body_main}>
       <main className={styles.main}>
 
-      <div className={styles.overlayButton}>
-        <Topbar/>
-        </div>
+     
 
         <div className={styles.main_image}>
         <Image

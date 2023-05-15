@@ -31,8 +31,17 @@ const locationClicked = () => {
         <Topbar/>
         </div>
         
+    <h1 className={styles.enter_header}>Access Stores</h1>
+    <section className={styles.Store_bear_talking}>
+        <Image
+        src = "/icons/bearHead.svg"
+        alt =""
+        width = {50}
+        height = {50}
+        />
+        <h3>Access Stores Below!</h3>
+    </section>
 
-    <h1>Hello,</h1>
     <p className={styles.store_page_description}>Your medication can be access through these stores:</p>
     
     <div className={styles.store_page_location}>

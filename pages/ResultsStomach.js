@@ -4,10 +4,14 @@ import styles from '../styles/Results.module.css'
 import Navbar from '../components/navbar/index.js';
 import Link from 'next/link'
 import Topbar from '../components/topbar';
+import { useRouter } from 'next/router';
 
 
 
-export default function Symptoms() {
+export default function ResultsPage() {
+  
+  const router = useRouter();
+  const {greeting} = router.query;
 
   return (
     <>
@@ -22,7 +26,7 @@ export default function Symptoms() {
         <div className={styles.overlayButton}>
         <Topbar/>
         </div>
-       <h1 className={styles.enter_header}>Hello,</h1>
+       <h1 className={styles.enter_header}>{greeting}</h1>
        <h2 className={styles.label}>We recommend you take these over the counter drugs for:</h2>
        <div>
           <div className={styles.title_header}>
