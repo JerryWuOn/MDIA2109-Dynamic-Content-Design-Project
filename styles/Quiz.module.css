@@ -17,10 +17,23 @@
 .overlayButton{
     display: flex;
     justify-content: left;
+    padding-bottom: 1em;
+}
+
+.enter_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: var(--font-24px);
+    font-family: var(--font-style);
+    font-weight: var(--font-weight-700);
+    margin: 0em;
+    padding-bottom: 1em;
 }
 
 .main{
     padding: 0 var(--side-margin);
+    font-family: var(--font-style);
 }
 
 .intro_bear{

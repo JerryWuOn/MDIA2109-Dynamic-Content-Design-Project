@@ -51,7 +51,7 @@ export default function Quiz(){
         <Topbar/>
         </div>
 
-        <h1>Hello , </h1>
+        <h1 className={styles.enter_header}>Quiz!</h1>
 
 
     <section className={styles.intro_bear}>

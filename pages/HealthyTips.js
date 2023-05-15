@@ -4,9 +4,9 @@ import Head from 'next/head'
 import Carousel from '../components/tipPage';
 import Navbar from '../components/navbar/index.js';
 import Topbar from '../components/topbar';
-import Link from 'next/link';
 
 export default function HealthyTips() {
+
     return (
     <>
           <Head>
@@ -19,12 +19,11 @@ export default function HealthyTips() {
 
 <div className={styles.body_main}>
     <main className={styles.main}>
-
     <div className={styles.overlayButton}>
         <Topbar/>
-        </div>
+    </div>
     
-    <h1>Hello, </h1>
+    <h1 className={styles.enter_header}>Welcome to Healthy Tips</h1>
 
 <section className={styles.healthyHabits__bear_talking}>
 <Image

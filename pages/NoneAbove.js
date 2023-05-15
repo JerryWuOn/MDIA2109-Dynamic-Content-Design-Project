@@ -4,10 +4,14 @@ import styles from '../styles/NoneAbove.module.css'
 import Link from 'next/link'
 import Navbar from '../components/navbar'
 import Topbar from '../components/topbar'
+import { useRouter } from 'next/router'
 
 
 
 export default function NoneAbove() {
+
+  const router = useRouter();
+  const { greeting } = router.query;
 
   return (
     <>
