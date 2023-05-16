@@ -64,8 +64,8 @@ export default function ResultsPage() {
               </div>
 
               <div className={styles.input_name} >
-                <p>Serious:  for more serious conditions,  please seek professional meassistance
-                </p>
+              <p>Serious: </p>
+              <h5>For more serious conditions,  please seek professional medical assistance</h5>
               </div>
           </div>
       </div>
