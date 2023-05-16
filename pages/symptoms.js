@@ -3,6 +3,7 @@ import styles from '../styles/Symptoms.module.css';
 import Navbar from '../components/navbar/index.js';
 import Topbar from '../components/topbar';
 import { useRouter } from 'next/router';
+import { useState } from 'react';
 
 export default function SymptomsPage() {
   const router = useRouter();
@@ -16,12 +17,23 @@ export default function SymptomsPage() {
   const decodedName = decodeURIComponent(name);
   const greeting = `Hello, ${decodedName}`;
 
+  const [isChecked, setIsChecked] = useState(false);
+
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    router.push({
-      pathname: `/Results${data.category}`, 
-      query: { greeting },
-    });
+
+    if (!isChecked) {
+      router.push('/NoneAbove');
+    } else {
+      router.push({
+        pathname: `/Results${data.category}`,
+        query: { greeting },
+      });
+    }
+  };
+
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
   };
 
   return (
@@ -47,19 +59,19 @@ export default function SymptomsPage() {
 
             <div className={styles.infoButtons}>
               <div className={styles.input_name}>
-                <input type="checkbox" />
+                <input type="checkbox" onChange={handleCheckboxChange} />
                 <p>{data.symptomsOne}</p>
               </div>
               <div className={styles.input_name}>
-                <input type="checkbox" />
+                <input type="checkbox" onChange={handleCheckboxChange} />
                 <p>{data.symptomsTwo}</p>
               </div>
               <div className={styles.input_name}>
-                <input type="checkbox" />
+                <input type="checkbox" onChange={handleCheckboxChange} />
                 <p>{data.symptomsThree}</p>
               </div>
               <div className={styles.input_name}>
-                <input type="checkbox" />
+                <input type="checkbox" onChange={handleCheckboxChange} />
                 <p>{data.symptomsFour}</p>
               </div>
             </div>

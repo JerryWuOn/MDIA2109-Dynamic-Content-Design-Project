@@ -42,7 +42,7 @@ export default function NoneAbove() {
        <p className={styles.noneAbove_texts}>Visit your health provider!</p>
 
       <div className={styles.noneAbove_page_button_div}>
-       <Link href="/Category">
+       <Link href="/Identify">
         <button className={styles.noneAbove_page_button} onclick="">Retake</button>
        </Link>
        </div>
