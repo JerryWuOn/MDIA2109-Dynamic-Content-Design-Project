@@ -4,7 +4,6 @@ import styles from '../styles/Startpage.module.css'
 import Link from 'next/link'
 import React from 'react';
 import { useState } from 'react';
-import Topbar from '../components/topbar';
 
 
 
@@ -16,8 +15,12 @@ export default function Startpage() {
     setPop(!popup);
   };
 
-  const [buttonClicked, setButtonClicked] = useState(false);
 
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
+  };
   return (
 
     <>
@@ -70,16 +73,26 @@ export default function Startpage() {
                 <li className={styles.popup_alert_lists}>THESE ARE NOT PRESCRIPTIONS. THEY ARE ONLY PRESCREENING RECOMMENDATIONS. CONSULT A DOCTOR FOR PRESCRIPTIONS</li>
                 <li className={styles.popup_alert_lists}>WE ARE NOT LIABLE FOR RISK OR ISSUES ASSOCIATED WITH USING OR ACTING UPON THE INFORMATION ON THIS SITE.</li>
                 <div className={styles.intro_button_container}>
-              <label className={styles.accept_term_checkbox} onClick={() => setButtonClicked(true)}>
-              <input type="checkbox" id="checkboxed" /> <b>I accept Terms of Service</b>
+
+              <label className={styles.accept_term_checkbox}>
+              <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange} /> <b>I accept Terms of Service</b>
               </label>
+              
+              {!isChecked}
+
             <div className={styles.popup_button_container}>
               <Link href="/">
               <button className={styles.intro_button} onclick="">Decline</button>
               </Link>
+
+              {isChecked ? (
               <Link href="/Identify">
-            {buttonClicked && <button className={styles.intro_button}>Start</button>}
-            </Link>
+                <button className={styles.intro_button}>Start</button>
+              </Link>
+                ) : (
+                  <button disabled className={styles.intro_button_fake}></button>
+                ) }
+            
             </div>
               </div>
           </div>
