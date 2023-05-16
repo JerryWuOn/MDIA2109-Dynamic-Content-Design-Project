@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Navbar from '../components/navbar/index'
 import Image from 'next/image'
 import Topbar from '../components/topbar'
+import { Bubble } from 'react-chartjs-2'
 
 export default function Access() {
     return (

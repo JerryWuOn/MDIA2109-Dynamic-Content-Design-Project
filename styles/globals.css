@@ -57,6 +57,7 @@
       --screen-border-radius: 10px;
       /* Hover Colour*/
       --button-hovers: #A1BEDA;
+      --background-jerry: none;
 }
 
 
@@ -64,6 +65,8 @@
   --white-colour: #193558;
   --border-color: black;
   --font-colour: white;
+  --background-jerry: var(--red-colour);
+  
 }
 
 html,body{

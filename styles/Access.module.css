@@ -86,6 +86,7 @@
     font-family: var(--font-style);
     padding-left: 1em;
     gap: 1em;
+    color: black;
 }
 
 .welcome_page_button{
